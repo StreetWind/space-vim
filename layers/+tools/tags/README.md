@@ -1,4 +1,4 @@
-#tags layer
+# tags layer
 ------
 ## tags load
 
@@ -22,13 +22,13 @@ This layer adds support for the painless text alignment.
 To use this configuration layer, add it to your `~/.spacevim`.
 
 ## Dependencies
-    ### Ctags
-        ```sh
-        Ubuntu
+    ## Ctags
+        ```python
+        Ubuntu
             sudo apt-get install ctags
         ```
-    ### Cscope
-        ```sh
+    ## Cscope
+        ```python
         Ubunt
             sudo apt-get install cscope
         ```
