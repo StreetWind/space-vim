@@ -1,6 +1,6 @@
-#tags layer
+# tags layer
 ------
-##tags load
+## tags load
 
 <!-- vim-markdown-toc GFM -->
 * [Description](#description)
@@ -14,24 +14,24 @@
 
 ## Description
 
-This layer adds support for the painless text alignment.
+This layer adds tags navigation.
 
 
 ## Install
 
 To use this configuration layer, add it to your `~/.spacevim`.
 
-##Dependencies
-    ##Ctags
-        ```sh
-        Ubuntu
-            sudo apt-get install ctags
-        ```
-    ##Cscope
-        ```sh
-        Ubunt
-            sudo apt-get install cscope
-        ```
+## Dependencies
+#### Ctags
+   Ubuntu
+```#Bash
+      sudo apt-get install ctags
+```
+#### Cscope
+   Ubunt
+```#Bash   
+   sudo apt-get install cscope
+```
 
 ## Key Bindings
 
