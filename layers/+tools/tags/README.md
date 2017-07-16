@@ -23,12 +23,12 @@ To use this configuration layer, add it to your `~/.spacevim`.
 
 ## Dependencies
     ## Ctags
-        ```python
+        
         Ubuntu
-            sudo apt-get install ctags
-        ```
+            <pre>sudo apt-get install ctags</core>
+        
     ## Cscope
-        ```python
+        ```
         Ubunt
             sudo apt-get install cscope
         ```
