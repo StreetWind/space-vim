@@ -6,10 +6,6 @@ let s:vimprjPath =getcwd().'/'.s:vimtagsname
 let s:indexerFilenName =s:vimprjPath.'/.indexer_files'
 let g:csFileEx = ['*.c','*.h']
 
-if executable('ctags')
-  nnoremap <F8> :TagbarToggle<CR>
-endif
-
 function! s:autotagsconfig()
 if executable('ctags')
   if !isdirectory(s:vimprjPath)
@@ -24,24 +20,7 @@ if executable('ctags')
   endif
   let g:indexer_indexerListFilename  = s:searchworkdir().'/indexer_files'
 endif
-
-
-if executable('cscope')
-  "if !empty(g:csFileEx)
-    " for cfilename in g:csFileEx
-    "  call s:system(printf('find %s -name "%s" >> %s',s:vimworkPath,cfilename,s:vimprjPath.'/cscope.files'))
-   " endfor
-  "endif
-  "call s:system('cscope -Rbkq -i cscope.files',s:vimprjPath)
-  "let g:cscopepath=s:searchworkdir().'/cscope.out'
-  "cscope add .vimprj/cscope.out
-
-
-endif
-
-
 endfunction
-
 
 function! s:shellesc(arg)
   return '"'.escape(a:arg, '"').'"'
@@ -73,9 +52,9 @@ endfunction
 
 function! s:searchworkdir()
   let s:indexerwork=finddir(s:vimtagsname,s:vimworkPath.';',0)
-  if len(s:indexerwork) ==7
+  if len(s:indexerwork) ==len(s:vimtagsname)
     return s:vimworkPath.'/'.s:vimtagsname
-  elseif len(s:indexerwork)>7
+  elseif len(s:indexerwork)>len(s:vimtagsname)
     return s:indexerwork
   else
     return ''
@@ -84,7 +63,6 @@ endfunction
 let tagbar_left=0 
 let g:tagbar_compact=1
 let tagbar_width=25
-nnoremap <F9> :call <SID>s:autotagsconfig()<CR>
 let g:indexer_indexerListFilename  = s:searchworkdir().'/.indexer_files'
 let g:autocscopepath =s:searchworkdir()
 let g:indexer_disableCtagsWarning=1
@@ -107,3 +85,11 @@ if executable('cscope')
   " i: Find files #including this file
   nnoremap  <C-g>g :call CscopeFind('i', expand('<cword>'))<CR>
 endif
+
+nnoremap <F9> :call <SID>s:autotagsconfig()<CR>
+
+if executable('ctags')
+  nnoremap <F8> :TagbarToggle<CR>
+endif
+
+
