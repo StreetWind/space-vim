@@ -14,7 +14,7 @@
 
 ## Description
 
-This layer adds support for the painless text alignment.
+This layer adds tags navigation.
 
 
 ## Install
