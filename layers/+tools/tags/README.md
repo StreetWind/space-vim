@@ -23,12 +23,12 @@ To use this configuration layer, add it to your `~/.spacevim`.
 
 ## Dependencies
     ## Ctags
-        
+        ```C++
         Ubuntu
-            <pre>sudo apt-get install ctags</core>
-        
-    ## Cscope
+            sudo apt-get install ctags
         ```
+    ## Cscope
+        ```C++
         Ubunt
             sudo apt-get install cscope
         ```
