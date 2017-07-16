@@ -22,12 +22,12 @@ This layer adds support for the painless text alignment.
 To use this configuration layer, add it to your `~/.spacevim`.
 
 ##Dependencies
-    ###Ctags
+    ##Ctags
         ```sh
         Ubuntu
             sudo apt-get install ctags
         ```
-    ###Cscope
+    ##Cscope
         ```sh
         Ubunt
             sudo apt-get install cscope
@@ -45,6 +45,6 @@ Key Binding         | Mode           | Description
 <kbd>C-e     </kbd> | Normal, Visual | Find this egrep pattern
 <kbd>C-f    </kbd>  | Normal, Visual | Find this file
 <kbd>C-g g   </kbd> | Normal, Visual | Find files #including this file
-<kbd><F8>    </kbd> | Normal, Visual | Open TagbrToggle
-<kbd><F9>   </kbd>  | Normal, Visual | auto make tags config
+<kbd>F8      </kbd> | Normal, Visual | Open TagbrToggle
+<kbd>F9     </kbd>  | Normal, Visual | auto make tags config
 
