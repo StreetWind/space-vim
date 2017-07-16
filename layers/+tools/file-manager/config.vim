@@ -2,6 +2,8 @@ scriptencoding utf-8
 
 " nerdtree {
   let g:NERDTreeShowHidden=1
+  let g:NERDTreeMinimalUI=1
+  let g:NERDTreeWinSize=25
   let g:NERDTreeAutoDeleteBuffer=1
   let g:NERDTreeDirArrowExpandable = '►'
   let g:NERDTreeDirArrowCollapsible = '▼'
