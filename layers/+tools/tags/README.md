@@ -22,16 +22,16 @@ This layer adds support for the painless text alignment.
 To use this configuration layer, add it to your `~/.spacevim`.
 
 ## Dependencies
-    ## Ctags
-        ```C++
-        Ubuntu
-            sudo apt-get install ctags
-        ```
-    ## Cscope
-        ```C++
-        Ubunt
-            sudo apt-get install cscope
-        ```
+### Ctags
+```C++
+   Ubuntu
+      sudo apt-get install ctags
+```
+### Cscope
+```C++
+   Ubunt
+   sudo apt-get install cscope
+```
 
 ## Key Bindings
 
