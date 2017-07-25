@@ -43,7 +43,7 @@ function! s:system(cmd, ...)
        set shell=sh shellredir=>%s\ 2>&1
     endif
     let cmd = a:0 > 0 ? s:with_cd(a:cmd, a:1) : a:cmd
-    echo cmd
+    "echo cmd
     return system(s:is_win ? '('.cmd.')' : cmd)
   finally
     let [&shell, &shellredir] = [sh, shrd]
@@ -86,7 +86,7 @@ if executable('cscope')
   nnoremap  <C-g>g :call CscopeFind('i', expand('<cword>'))<CR>
 endif
 
-nnoremap <F9> :call <SID>s:autotagsconfig()<CR>
+nnoremap <F9> :call <SID>autotagsconfig()<CR>
 
 if executable('ctags')
   nnoremap <F8> :TagbarToggle<CR>
