@@ -23,6 +23,16 @@ function!  spacevim#auto#AddTitle()
     call append(line('.')+1, 'use warnings;')
     call append(line('.')+2, 'use utf8;')
     call append(line('.')+3, '')
+  elseif &filetype == 'markdown'
+    call setline(1,'---')
+    call append(line('.')+0,'layout: ')
+    call append(line('.')+1,'title: ')
+    call append(line('.')+2,'date: '. strftime("%Y-%m-%d %H:%M:%S"))
+    call append(line('.')+3,'updated: ' . strftime("%Y-%m-%d %H:%M:%S"))
+    call append(line('.')+4,'comments: ')
+    call append(line('.')+5,'tags: ')
+    call append(line('.')+6,'categories: ')
+    call append(line('.')+7,'---')    
   endif
 endfunction
 

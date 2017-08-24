@@ -1,0 +1,5 @@
+let g:BASH_GlobalTemplateFile ='/home/mofeng/work/vimconfig/layers/+lang/bash/Templates'
+let g:BASH_AuthorName   = 'SathiyaMoorthy'
+let g:Email        = 'subscribe@thegeekstuff.com'
+let g:BASH_Company      = 'Open Source Corporation'
+let g:BASH_INTERPRETER= 'bas'

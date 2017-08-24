@@ -1,0 +1,24367 @@
+cscope 15 /media/tool/work/vimconfig               0000127895
+	@/media/tool/work/vimconfig/CHANGELOG.md
+
+1 #Chªg
+Log
+
+
+3 ## [
+uÄ–—£d
+]
+
+8 - 
+chªge
+ 
+the
+ 
+funùiÚs
+ 
+šd’tifyšg
+h
+¶©fÜm
+ 
+to
+ 
+glob®
+ 
+	gv¬ŸbËs
+
+
+9 - 
+mÜe
+ 
+b—utiful
+ 
+¡©u¦še
+ 
+T”mš®
+ 
+vim
+ 
+due
+ 
+to
+ 
+the
+ 
+cœşed
+ 
+	gnumb”s
+
+
+10 - 
+m¬kdown
+ 
+Ïy”
+ 
+´ev›w
+ 
+	g¶ugš
+
+
+13 - 
+suµÜt
+ 
+	gb
+
+
+14 - 
+	$Lay”s
+(è
+š
+ `.
+¥aûvim
+`
+
+15 - 
+s
+:
+	$po¡_u£r_cÚfig
+(è
+vim
+-
+aœlše
+ 
+š
+ `
+cÜe_cÚfig
+.vim`
+
+20 -  
+¡©u¦še
+
+
+26 - 
+LaTeX
+ 
+Ïy”
+
+
+27 - 
+Elixœ
+ 
+Ïy”
+
+
+28 - 
+Lighše
+ 
+Ïy”
+
+
+32 - 
+R•Ïû
+ 
+vim
+-
+m¬kdown
+-
+´ev›w
+ 
+w™h
+ vim-
+Xm¬k
+ 
+to
+ m¬kdowÀ
+Ïy”
+
+
+33 - 
+R•Ïû
+ 
+brÚsÚ
+/
+vim
+-
+Œašg
+-
+wh™e¥aû
+ 
+w™h
+ 
+Á³‹rs
+/vim-
+b‘‹r
+-whitespace
+
+34 - 
+A
+ 
+lÙ
+ 
+of
+ 
+d‘as
+
+
+38 - 
+CŞÜs
+ 
+Ïy”
+
+
+44 - 
+Auto
+-
+com¶‘iÚ
+ 
+Ïy”
+
+
+45 - 
+Commªd
+: `
+Exşude
+`
+
+49 - `
+Plug
+` 
+to
+ `
+MP
+` 
+š
+ 
+·ckages
+.
+vim
+. `MP` 
+m—ns
+ "MyPlugin".
+
+53 - 
+Bug
+ 
+fixes
+.
+
+	@/media/tool/work/vimconfig/README.md
+
+1 <
+p
+ 
+	g®ign
+="left">
+
+2 <
+a
+ 
+h»f
+="h‰ps://g™hub.com/liuch’gxu/¥aû-vim"><
+img
+ 
+¤c
+="h‰ps://¿wg™.com/liuch’gxu/¥aû-vim/ma¡”/as£ts/¥aû-vim-badge.svg" 
+®t
+="badge"></a>
+
+3 <
+a
+ 
+h»f
+="h‰ps://g™hub.com/liuch’gxu/¥aû-vim/blob/ma¡”/LICENSE"><
+img
+ 
+¤c
+="h‰ps://¿wg™.com/liuch’gxu/¥aû-vim/ma¡”/as£ts/liûn£.svg" 
+®t
+="license"></a>
+
+4 <
+a
+ 
+h»f
+="h‰ps://Œavis-ci.Üg/liuch’gxu/¥aû-vim"><
+img
+ 
+¤c
+="h‰ps://Œavis-ci.Üg/liuch’gxu/¥aû-vim.svg" 
+®t
+="Build Status"></a>
+
+5 </
+p
+>
+
+9 <
+p
+ 
+®ign
+="ûÁ”"><
+img
+ 
+¤c
+="h‰ps://g™hub.com/liuch’gxu/¥aû-vim/blob/gh-·ges/docs/img/¥aû-vim.²g?¿wñrue" 
+®t
+="space-vim"/></p>
+
+11 <
+p
+ 
+®ign
+="center">
+
+12 <
+b
+><
+a
+ 
+h»f
+="https://liuchengxu.github.io/space-vim/docs/org/tutorial_cn.html#orgheadline4">å‰è¨€</a></b> |
+
+13 <
+b
+><
+a
+ 
+h»f
+="https://liuchengxu.github.io/space-vim/docs/org/tutorial_cn.html#orgheadline5">è¿è¡Œæˆªå›¾</a></b> |
+
+14 <
+b
+><
+a
+ 
+h»f
+="https://liuchengxu.github.io/space-vim/docs/org/tutorial_cn.html#orgheadline6">é€‚ç”¨äººç¾¤</a></b> |
+
+15 <
+b
+><
+a
+ 
+h»f
+="https://liuchengxu.github.io/space-vim/docs/org/tutorial_cn.html#orgheadline14">å¼€å§‹ä½¿ç”¨</a></b> |
+
+16 <
+b
+><
+a
+ 
+h»f
+="https://liuchengxu.github.io/space-vim/docs/org/tutorial_cn.html#orgheadline15">ä¸ªæ€§åŒ–</a></b> |
+
+17 <
+b
+><
+a
+ 
+h»f
+="https://liuchengxu.github.io/space-vim/docs/org/tutorial_cn.html#orgheadline16">æ›´æ–°</a></b> |
+
+18 <
+b
+><
+a
+ 
+h»f
+="https://liuchengxu.github.io/space-vim/docs/org/tutorial_cn.html#orgheadline19">é»˜è®¤å®‰è£…</a></b> |
+
+19 <
+b
+><
+a
+ 
+h»f
+="https://liuchengxu.github.io/space-vim/docs/org/tutorial_cn.html#orgheadline25">åŸºç¡€é”®ä½</a></b> |
+
+20 <
+b
+><
+a
+ 
+h»f
+="https://liuchengxu.github.io/space-vim/docs/org/tutorial_cn.html#orgheadline28">ä½¿ç”¨å»ºè®®</a></b>
+
+21 </
+p
+>
+
+23 ###TabË 
+of
+ 
+CÚ‹Ás
+
+
+25 <!-- 
+vim
+-
+m¬kdown
+-
+toc
+ 
+GFM
+ -->
+
+26 * [
+IÁroduùiÚ
+](#introduction)
+
+27 * [
+F—tu»s
+](#features)
+
+28 * [
+FÜ
+ 
+whom
+?](#for-whom)
+
+29 * [
+In¡®l
+](#install)
+
+30 * [
+Lšux
+ 
+ªd
+ 
+macOS
+](#lšux-ªd-
+macos
+)
+
+31 * [
+Wšdows
+](#windows)
+
+32 * [
+Mªu®
+ (
+Lšux
+ 
+ªd
+ 
+macOS
+)](#mªu®-
+lšux
+-ªd-
+macos
+)
+
+33 * [
+Cu¡omize
+](#customize)
+
+34 * [
+P»£‰šg
+](#presetting)
+
+35 * [`
+Lay”s
+()`](#layers)
+
+36 * [`
+U£rIn™
+()`](#userinit)
+
+37 * [`
+U£rCÚfig
+()`](#userconfig)
+
+38 * [
+How
+ 
+to
+ 
+u£
+](#how-to-use)
+
+39 * [
+BoÙ¡¿p
+](#bootstrap)
+
+40 * [
+Commªds
+](#commands)
+
+41 * [
+Ts
+](#tips)
+
+42 * [
+EÇbË
+ 
+GUI
+ 
+cŞÜ
+ 
+š
+ 
+‹rmš®
+ 
+vim
+](#’abË-
+gui
+-color-in-terminal-vim)
+
+43 * [
+FÚt
+](#font)
+
+44 * [
+Upd©e
+](#update)
+
+45 * [
+CÚŒibutiÚs
+](#contributions)
+
+46 * [
+AcknowËdgem’ts
+](#acknowledgements)
+
+47 * [
+A¹işes
+](#articles)
+
+49 <!-- 
+vim
+-
+m¬kdown
+-
+toc
+ -->
+
+51 ## 
+IÁroduùiÚ
+
+
+53 
+¥aû
+-
+vim
+ 
+is
+ 
+a
+ vim 
+di¡ributiÚ
+ vim 
+¶ugšs
+ 
+ªd
+ 
+»sourûs
+, 
+com·tibË
+ 
+w™h
+ 
+Vim
+‡nd 
+	gNeoVim
+.
+
+55 
+It
+ 
+is
+ 
+š¥œed
+ 
+	gby
+ [
+¥aûmacs
+](
+	gh‰ps
+:
+
+57 
+EËgªû
+ 
+h”e
+ 
+m—ns
+ 
+¶—sšg
+, 
+g¿ûful
+ 
+as
+ 
+w–l
+‡ 
+	gsim¶e
+. 
+If
+ 
+you
+ 
+¬e
+ 
+unçmŸr
+ 
+w™h
+ 
+	g¥aûmacs
+, you 
+ÿn
+ 
+	gvis™
+ [
+¥aûmacs
+.
+Üg
+](
+	gh‰p
+:
+
+59 
+The
+ 
+di¡ributiÚ
+ 
+is
+ 
+com¶‘–y
+ 
+cu¡omizabË
+ 
+usšg
+ `.
+¥aûvim
+`, 
+which
+ i 
+equiv®’t
+ 
+	gto
+ `.
+	g¥aûmacs
+` 
+š
+ spacemacs.
+
+61 ![
+sü“nshÙ
+](
+	gh‰ps
+:
+
+62 (
+T”mš®
+ 
+vim
+ 
+w™h
+ [
+¥aû
+-vim-
+d¬k
+](
+h‰ps
+:
+
+64 ## 
+F—tu»s
+
+
+66 - **
+B—utiful
+ 
+š‹rçû
+:** 
+I
+ 
+have
+ 
+wr™‹n
+ 
+a
+ 
+vim
+ 
+cŞÜscheme
+ [
+¥aû
+-vim-
+d¬k
+](
+h‰ps
+:
+
+68 ![
+sü“nshÙ
+](
+h‰ps
+:
+
+69 (
+T”mš®
+ 
+vim
+ 
+w™h
+ `
+£t
+ 
+‹rmguicŞÜs
+`)
+
+71 - **
+MÃmÚic
+ 
+key
+ 
+bšdšgs
+:** 
+commªds
+ 
+have
+ 
+mÃmÚic
+ 
+´efixes
+ 
+like
+ <
+kbd
+>
+SPC
+ 
+b
+</kbd> 
+®l
+ 
+the
+ 
+bufãr
+ commands.
+
+73 
+M—nwhe
+, 
+the
+ 
+whŞe
+ 
+key
+ 
+bšdšgs
+ 
+have
+ 
+b“n
+ 
+w–l
+ 
+ad­‹d
+ 
+vim
+ th
+Ïck
+ 
+of
+ 
+g»©
+ 
+¶ugšs
+ 
+sim¬
+ 
+to
+ 
+	gwhich
+-key 
+š
+ 
+	gemacs
+. 
+Mo¡
+ key bšdšg 
+¬e
+ 
+lim™ed
+Ø
+no
+ 
+mÜe
+ 
+thª
+ 
+two
+ 
+key¡rokes
+ 
+w™hout
+ 
+	gcouÁšg
+ `<
+	gL—d”
+>` 
+	gÜ
+ `<
+	gLoÿlL—d”
+>` 
+	gš
+, 
+	ge
+.
+	gg
+. <
+	gkbd
+>
+SPC
+ 
+x
+ 
+	gd
+</kbd>Ø
+d–‘e
+ 
+Œašg
+ 
+	gwh™e¥aûs
+.
+
+75 
+FÜ
+ 
+difã»Á
+ 
+Ïnguage
+ 
+	gÏy”s
+, `<
+	gLoÿlL—d”
+>`, <
+	gkbd
+>,</kbd> 
+as
+  
+š
+ 
+	g¥aû
+-
+	gvim
+, 
+ÿn
+ 
+be
+ 
+£’
+‡ 
+the
+ 
+	gmajÜ
+-
+mode
+ 
+´efix
+ iÀ
+	g¥aûmacs
+.
+
+77 - **
+L—n
+ 
+ªd
+ 
+	gm—n
+:** 
+no
+ 
+nÚ£n£
+ 
+w¿µ”s
+, 
+ä“
+ 
+äom
+ 
+bešg
+ 
+	gblß‹d
+.
+
+79 ## 
+FÜ
+ 
+whom
+?
+
+81 - 
+the
+ **
+noviû
+** 
+vim
+ 
+	gu£rs
+
+
+82 - 
+the
+ 
+vimm”s
+ 
+who
+ 
+pursu™
+ 
+a
+ 
+b—utiful
+ 
+	g­³¬ªû
+
+
+83 - 
+the
+ 
+u£rs
+ **
+usšg
+ 
+bÙh
+ 
+vim
+ 
+ªd
+ 
+¥aûmacs
+**
+
+85 
+If
+ 
+you
+ 
+have
+ 
+b“n
+ 
+a
+ 
+vimm”
+ 
+qu™e
+‡ , 
+ju¡
+ 
+pick
+ 
+out
+ 
+the
+ 
+·¹
+ you 
+¬e
+ 
+š‹»¡ed
+ 
+	gš
+. 
+	g¥aû
+-
+vim
+ 
+is
+ 
+	gw–l
+-
+Ügªized
+ 
+due
+ 
+to
+h
+Ïy”s
+ 
+	gcÚû±
+, you 
+ÿn
+ 
+—sy
+ 
+fšd
+ 
+wh©
+ you 
+	gwªt
+. 
+Sšû
+ 
+some
+ 
+guys
+‡» iÁ”e¡ed 
+š
+h
+¡©u¦še
+…¬ˆ
+of
+ s·û-
+	gvim
+, 
+this
+ 
+£ùiÚ
+ 
+has
+ b“À
+exŒaùed
+ 
+	gas
+ [
+––še
+.vim](
+	gh‰ps
+:
+
+87 ## 
+In¡®l
+
+
+89 
+You
+ 
+have
+ 
+to
+ 
+§tisfy
+ 
+some
+ 
+´”equis™es
+ 
+©
+ 
+fœ¡
+:
+
+91 - 
+vim
+ 
+w™h
+ `+
+pythÚ
+` 
+Ü
+ `+
+pythÚ3
+` 
+ã©u»
+.
+
+93 
+If
+ `:
+echo
+ 
+has
+('pythÚ')` 
+Ü
+ `:echØhas('pythÚ3')` 
+»tuºs
+ `1`, 
+th’
+ 
+you
+ 
+¬e
+ 
+	gdÚe
+. 
+	gWh©
+'s more,he most„ecent vim version is„ecommended.
+
+95 - 
+	gg™
+.
+
+97 :
+exşam©iÚ
+: ~~
+Wh’
+ 
+Ïy”s
+ 
+’abËd
+ 
+©
+ 
+the
+ 
+fœ¡
+ 
+time
+, 
+you
+ 
+Ãed
+ 
+to
+ 
+	grun
+ `:
+PlugIn¡®l
+`Ø
+š¡®l
+ 
+»Ëvªt
+ 
+¶ugšs
+~~.
+
+99 ###Lšux 
+ªd
+ 
+macOS
+
+
+101 - 
+cu¾
+
+
+103 ```
+sh
+
+
+104 
+sh
+ -
+c
+ "$(curl -fsSL https://raw.githubusercontent.com/liuchengxu/space-vim/master/install.sh)"
+
+107 - 
+wg‘
+
+
+109 ```
+sh
+
+
+110 
+sh
+ -
+c
+ "$(wget -qO- https://raw.githubusercontent.com/liuchengxu/space-vim/master/install.sh)"
+
+113 :
+w¬nšg
+: 
+FÜ
+ 
+Ãovim
+, 
+aá”
+ 
+the
+ 
+quick
+ 
+š¡®Ër
+ 
+is
+ 
+	gdÚe
+, 
+you
+ 
+¡l
+ 
+Ãed
+ 
+to
+ 
+ü—‹
+ 
+a
+ 
+	gsymlšk
+:
+
+115 ```
+sh
+
+
+116 
+Ê
+ -
+s
+ ~/.
+¥aû
+-
+vim
+/
+š™
+.vim ~/.
+cÚfig
+/
+nvim
+/init.vim
+
+121 1. [
+DowÆßd
+ 
+g™
+](
+h‰ps
+:
+
+123 2. [
+DowÆßd
+ 
+Vim
+ 
+ªd
+ 
+PythÚ
+](
+h‰ps
+:
+
+125 3. 
+DowÆßd
+ [
+vim
+-
+¶ug
+](
+h‰ps
+:
+
+127 **
+wšdows
+ (
+Pow”Sh–l
+)**
+
+129 ```
+sh
+
+
+130 
+md
+ ~\.
+vim
+\
+autŞßd
+
+
+131 
+$uri
+ = 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+132 (
+New
+-
+Objeù
+ 
+N‘
+.
+WebCl›Á
+).
+DowÆßdFe
+(
+$uri
+, 
+$ExecutiÚCÚ‹xt
+.
+SessiÚS‹
+.
+P©h
+.
+G‘UÄesŞvedProvid”P©hFromPSP©h
+("~\.vim\autoload\plug.vim"))
+
+135 4. 
+EÁ”
+ 
+your
+ 
+home
+ 
+	gdœeùÜy
+, 
+O³n
+ *
+G™
+ 
+Bash
+* 
+by
+ 
+	gright
+-
+şickšg
+ 
+ªd
+ 
+choosšg
+ 
+the
+ 
+	gİtiÚ
+ `G™ Bash 
+	gH”e
+`. 
+Run
+h
+fŞlowšg
+ 
+commªds
+ 
+to
+ 
+dowÆßd
+ 
+	g¥aû
+-
+vim
+‡nd 
+make
+ 
+a
+ 
+	gsymlšk
+.
+
+137 ```
+sh
+
+
+138 
+g™
+ 
+şÚe
+ 
+	gh‰ps
+:
+
+139 
+Ê
+ -
+s
+ ~/.
+¥aû
+-
+vim
+/
+š™
+.vim ~/.
+vimrc
+
+
+142 5. 
+C»©e
+ `.
+¥aûvim
+` 
+š
+ 
+home
+ 
+dœeùÜy
+.
+
+144 ```
+vim
+
+
+145 
+funùiÚ
+! 
+	$Lay”s
+()
+
+146 
+Lay”
+ 'fzf'
+
+147 
+Lay”
+ 'unite'
+
+148 
+Lay”
+ 'better-defaults'
+
+150 
+Lay”
+ 'chinese'
+
+151 
+’dfunùiÚ
+
+
+153 
+funùiÚ
+! 
+	$U£rIn™
+()
+
+154 
+’dfunùiÚ
+
+
+156 
+funùiÚ
+! 
+	$U£rCÚfig
+()
+
+157 
+’dfunùiÚ
+
+
+160 6. 
+O³n
+ 
+vim
+, 
+run
+ `:
+PlugIn¡®l
+`.
+
+162 ###Mªu® (
+Lšux
+ 
+ªd
+ 
+macOS
+)
+
+164 1. 
+ClÚe
+ [
+¥aû
+-
+vim
+](
+h‰ps
+:
+
+166 ```
+sh
+
+
+167 
+g™
+ 
+şÚe
+ 
+h‰ps
+:
+
+170 2. 
+In¡®l
+ [
+vim
+-
+¶ug
+](
+h‰ps
+:
+
+172 3. 
+C»©e
+ 
+a
+ 
+symlšk
+.
+
+174 ```
+sh
+
+
+175 #fÜ 
+vim
+
+
+176 
+Ê
+ -
+s
+ ~/.
+¥aû
+-
+vim
+/
+š™
+.vim ~/.
+vimrc
+
+
+178 #fÜ 
+Ãovim
+
+
+179 
+Ê
+ -
+s
+ ~/.
+¥aû
+-
+vim
+/
+š™
+.vim ~/.
+cÚfig
+/
+nvim
+/init.vim
+
+181 5. 
+O³n
+ 
+vim
+, 
+th’
+ 
+¥aû
+-vim 
+wl
+ 
+autom©iÿÎy
+ 
+š¡®l
+ 
+the
+ 
+missšg
+ 
+¶ugšs
+ 
+š
+ 
+’abËd
+ 
+Ïy”s
+. 
+If
+‡uto-
+š¡®ÏtiÚ
+ 
+çs
+ 
+uÃx³ùly
+, 
+¶—£
+ 
+Œy
+ 
+ruÂšg
+ `:
+PlugIn¡®l
+` 
+mªu®ly
+.
+
+183 ## 
+Cu¡omize
+
+
+185 
+You
+ 
+ÿn
+ 
+u£
+ `.
+¥aûvim
+` 
+š
+ 
+your
+ 
+home
+ 
+dœeùÜy
+ 
+to
+ 
+cu¡omize
+ 
+¥aû
+-
+vim
+, 
+wh”e
+ 
+you
+ cª 
+’abË
+ 
+the
+ 
+exi¡šg
+ 
+Ïy”s
+, 
+add
+ you¸
+exŒa
+ 
+¶ugšs
+ 
+ªd
+ 
+´iv©e
+ 
+cÚfigu¿tiÚs
+.
+
+187 
+If
+ `.
+¥aûvim
+` 
+dÛs
+ 
+nÙ
+ 
+exi¡
+, 
+vªÏ
+ 
+vim
+ 
+wl
+ 
+be
+ 
+lßded
+! 
+Reãr
+ 
+to
+ [.¥aûvim.
+‹m¶©e
+](
+h‰ps
+:
+
+191 ```
+vim
+
+
+193 
+Ët
+ 
+g
+:
+¥aûvim_¶ug_home
+ = '~/.vim/plugged'
+
+196 
+Ët
+ 
+g
+:
+¥aû_vim_d¬k_background
+ = 234
+
+199 ###`
+	`Lay”s
+()`
+
+201 
+PËa£
+ 
+»ãr
+ 
+to
+ [
+LAYERS
+](
+h‰ps
+:
+
+203 ```
+vim
+
+
+209 
+funùiÚ
+! 
+	`Lay”s
+()
+
+212 
+Lay”
+ 'fzf'
+
+213 
+Lay”
+ 'unite'
+
+214 
+Lay”
+ 'better-defaults'
+
+216 
+’dfunùiÚ
+
+
+219 ###`
+	`U£rIn™
+()`
+
+221 ```
+vim
+
+
+223 
+funùiÚ
+! 
+	`U£rIn™
+()
+
+228 "†‘ g:¥aûvim_Ëad” = "
+your
+ 
+Ëad”
+ 
+key
+"
+
+232 
+Plug
+ 'morhetz/gruvbox'
+
+234 
+’dfunùiÚ
+
+
+237 ###`
+	`U£rCÚfig
+()`
+
+239 ```
+vim
+
+
+241 
+funùiÚ
+! 
+	`U£rCÚfig
+()
+
+245 
+’dfunùiÚ
+
+
+248 
+If
+ 
+have
+ 
+a
+ 
+h—vy
+ 
+cu¡omized
+ 
+cÚfigu¿tiÚ
+, 
+you
+ 
+ÿn
+ 
+Ügªize
+ 
+them
+ 
+š
+ *
+´iv©e
+* 
+dœeùÜy
+ 
+w™h
+ `
+·ckages
+.
+vim
+` 
+ªd
+ `
+cÚfig
+.vim` 
+too
+, 
+which
+ 
+wl
+ 
+be
+ 
+lßded
+ 
+Ú
+ 
+¡¬tup
+. 
+The
+ *´iv©e* dœeùÜy cª b
+cÚsid”ed
+ 
+as
+ 
+e™h”
+‡ 
+sšgË
+ 
+Ïy”
+, 
+i
+.
+e
+., iÀwhich you cª 
+put
+…ackages.vim‡nd cÚfig.vim, 
+Ü
+‡ 
+£t
+ 
+of
+ 
+muÉË
+ 
+Ïy”s
+.
+
+250 ## 
+How
+ 
+to
+ 
+u£
+
+
+252 
+Fœ¡
+ 
+of
+ 
+®l
+, 
+I
+ 
+»comm’d
+ 
+you
+ 
+to
+ 
+look
+ 
+through
+ 
+the
+ 
+exi¡šg
+ 
+key
+ 
+bšdšgs
+ 
+vŸ
+ <
+kbd
+>
+SPC
+ ?</kbd>. 
+Wh©
+'s more, you definitely can‚ot miss„eadinghe README of [better-defaults†ayer](https://github.com/liuchengxu/space-vim/blob/master/layers/%2Bdistributions/better-defaults/README.md), which is of great importance for youo get started quickly.
+
+254 
+FÜ
+ 
+d‘aed
+ 
+š¡ruùiÚ
+, 
+¶—£
+ 
+»ãr
+ 
+to
+ 
+the
+ 
+README
+ 
+und”
+h
+û¹aš
+ 
+Ïy”
+ 
+’abËd
+, 
+Ü
+ 
+you
+ 
+ÿn
+ 
+£e
+ 
+cÚfig
+.
+vim
+ 
+ªd
+ 
+·ckages
+.vim 
+dœeùly
+.
+
+256 
+If
+ 
+the
+ 
+README
+ 
+is
+ 
+nÙ
+ 
+–abÜ©e
+, 
+sÜry
+ 
+th©
+, 
+¥aû
+-
+vim
+ 
+now
+ i 
+š
+h
+—¾y
+ 
+¡ages
+ 
+ªd
+ 
+a
+ 
+tÚ
+ 
+of
+ 
+¡uff
+ 
+¬e
+ 
+wa™šg
+ 
+to
+ 
+be
+ 
+dÚe
+.
+
+260 
+The
+ 
+moduÏr
+ 
+design
+ 
+is
+ 
+Üigš®ly
+ 
+äom
+ [
+¥aûmacs
+](
+h‰ps
+:
+
+262 
+If
+ 
+you
+ 
+wªt
+ 
+to
+ 
+know
+ 
+mÜe
+ 
+about
+ 
+the
+ 
+boÙ¡¿p
+ 
+of
+ 
+¥aû
+-
+vim
+, 
+¶—£
+ 
+£e
+ [boÙ¡¿p](
+h‰ps
+:
+
+266 
+Commªd
+ | 
+DesütiÚ
+
+
+268 `
+Lay”Stus
+` | 
+Check
+ 
+the
+ 
+¡©us
+ 
+of
+ 
+Ïy”s
+
+
+269 `
+Lay”Upd©e
+` | 
+Upd©e
+ 
+the
+ 
+¡ruùu»
+ 
+of
+ *
+Ïy”s
+* 
+dœeùÜy
+
+
+273 
+FÜ
+ 
+the
+ 
+§ke
+ 
+of
+ 
+a
+ 
+b‘‹r
+ 
+u£r
+ 
+ex³r›nû
+, 
+some
+ 
+exŒa
+ 
+£‰šgs
+ 
+should
+ 
+be
+ 
+dÚe
+.
+
+275 #### 
+EÇbË
+ 
+GUI
+ 
+cŞÜ
+ 
+š
+ 
+‹rmš®
+ 
+vim
+
+
+277 `
+echo
+ 
+	`has
+('‹rmguicŞÜs')`, `1`, 
+th’
+ 
+you
+ 
+ÿn
+ 
+’abË
+ 
+GUI
+ 
+cŞÜ
+ 
+š
+ 
+‹rmš®
+ 
+vim
+, 
+add
+ 
+this
+ 
+to
+ `
+	`U£rCÚfig
+()`:
+
+279 ```
+vim
+
+
+280 
+£t
+ 
+‹rmguicŞÜs
+
+
+284 
+Ët
+ &
+t_8f
+ = "\<Esc>[38;2;%lu;%lu;%lum"
+
+285 
+Ët
+ &
+t_8b
+ = "\<Esc>[48;2;%lu;%lu;%lum"
+
+288 
+FÜ
+ 
+mÜe
+ 
+d‘as
+ 
+about
+ 
+Œue
+ 
+cŞour
+, 
+¶—£
+ 
+£e
+ 
+the
+ 
+gi¡
+ [
+TrueCŞour
+.
+md
+](
+h‰ps
+:
+
+290 #### 
+FÚt
+
+
+292 
+In¡®l
+ 
+the
+ [
+Sourû
+ 
+Code
+ 
+Pro
+](
+h‰ps
+:
+
+294 
+If
+ 
+you
+ 
+¬e
+ 
+ruÂšg
+ 
+š
+ 
+‹rmš®
+ you'll‚eedo change font settings of yourerminal‡s well.
+
+296 ![
+™”m2_fÚt_£‰šg
+](
+h‰ps
+:
+
+298 ## 
+Upd©e
+
+
+300 
+The
+ 
+sim¶e¡
+ 
+way
+ 
+to
+ 
+upd©e
+ 
+is
+Ø
+»š¡®l
+ 
+™
+ 
+com¶‘–y
+ 
+by
+ 
+»ruÂšg
+ 
+the
+ 
+š¡®Ër
+ 
+above
+. 
+It
+ 
+wl
+ 
+nÚ
+-
+de¡ruùiv–y
+ 
+upg¿de
+Øth
+Ï‹¡
+ 
+v”siÚ
+.
+
+302 
+AÉ”Çtiv–y
+, 
+you
+ 
+ÿn
+ 
+mªu®ly
+ 
+³rfÜm
+ 
+the
+ 
+fŞlowšg
+ 
+¡•s
+. 
+If
+ 
+ªythšg
+ 
+has
+ 
+chªged
+ 
+w™h
+h
+¡ruùu»
+ 
+of
+h
+cÚfigu¿tiÚ
+, you 
+wl
+ 
+have
+ 
+to
+ 
+ü—‹
+h
+­´İrŸ‹
+ 
+symlšks
+.
+
+304 ```
+sh
+
+
+305 
+cd
+ 
+·th
+/
+to
+/
+¥aû
+-
+vim
+/
+
+306 
+g™
+ 
+puÎ
+ 
+Üigš
+ 
+ma¡”
+
+
+308 ## 
+CÚŒibutiÚs
+
+
+310 
+If
+ 
+you
+ 
+’couÁ”
+ 
+ªy
+ 
+´obËm
+ 
+Ü
+ 
+have
+‡ny 
+sugge¡iÚs
+, 
+¶—£
+ [
+İ’
+ 
+ª
+ 
+issue
+](
+h‰ps
+:
+
+312 
+S·û
+-
+vim
+ 
+is
+ 
+¡l
+ 
+š
+ 
+b‘a
+. 
+If
+ 
+you
+ 
+¬e
+ 
+š‹»¡ed
+, 
+cÚŒibutiÚs
+‡» 
+highly
+ 
+w–come
+.
+
+314 ## 
+AcknowËdgem’ts
+
+
+316 
+I
+ 
+would
+ 
+like
+ 
+to
+ 
+thªk
+ 
+the
+ 
+mªy
+ 
+³İË
+ 
+who
+ 
+have
+ 
+h–³d
+ 
+ªd
+ 
+cÚŒibu‹d
+Ø
+this
+ 
+´ojeù
+. 
+Wh©
+'s more, space-vim would‚ever have become what it is‚ow, withouthe help ofhese…rojects!
+
+318 - [
+¥aûmacs
+](
+h‰ps
+:
+
+319 - [
+vim
+-
+¶ug
+](
+h‰ps
+:
+
+320 - [
+¥f13
+-
+vim
+](
+h‰ps
+:
+
+322 ## 
+A¹işes
+
+
+324 - [
+U£
+ 
+Vim
+ 
+as
+ 
+a
+ 
+PythÚ
+ 
+IDE
+](
+h‰p
+:
+
+325 - [
+A
+ 
+Vim
+ 
+CÚfigu¿tiÚ
+ 
+S·ûmacs
+ 
+U£r
+](
+h‰p
+:
+
+326 - [ç”¨ 
+Vim
+ å†™ 
+PythÚ
+ çš„æœ€ä½³å®è·µ](
+h‰ps
+:
+
+327 - [æ‰‹å·¥åˆ¶ä½œä¸€ä¸ªæ¼‚äº®çš„ 
+vim
+ 
+¡©u¦še
+ ](
+h‰ps
+:
+
+	@/media/tool/work/vimconfig/core/autoload/spacevim.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+3 
+Ët
+ 
+	gg
+:
+¥aûvim_Ïy”s_dœ
+ = '/layers'
+
+4 
+Ët
+ 
+g
+:
+¥aûvim_´iv©e_Ïy”s_dœ
+ = '/private'
+
+5 
+Ët
+ 
+g
+:
+¥aûvim_nvim
+ = 
+has
+('nvim'è&& 
+exi¡s
+('*jobwa™'è&& !g:
+WINDOWS
+
+
+6 
+Ët
+ 
+g
+:
+¥aûvim_vim8
+ = 
+has
+('·tch-8.0.0039'è&& 
+exi¡s
+('*job_start')
+
+7 
+Ët
+ 
+g
+:
+¥aûvim_gui
+ = 
+has
+('gui_running')
+
+8 
+Ët
+ 
+g
+:
+¥aûvim_tmux
+ = !
+	$em±y
+(
+$TMUX
+)
+
+10 
+Ët
+ 
+g
+:
+Ïy”s_lßded
+ = []
+
+11 
+Ët
+ 
+g
+:
+¥aûvim_exşuded
+ = []
+
+12 
+Ët
+ 
+g
+:
+¥aûvim_¶ugšs
+ = []
+
+13 
+Ët
+ 
+g
+:
+¶ug_İtiÚs
+ = {
+	}
+}
+
+15 
+Ët
+ 
+s
+:
+dÙ_¥aûvim
+ = 
+$HOME
+.'/.spacevim'
+
+16 
+Ët
+ 
+s
+:
+py_exe
+ = 
+has
+('python') ? 'python' : 'python3'
+
+17 
+Ët
+ 
+s
+:
+TYPE
+ = {
+
+18 \ '¡ršg': 
+ty³
+(''),
+
+19 \ 'li¡': 
+ty³
+([]),
+
+20 \ 'diù': 
+ty³
+({}),
+
+21 \ 'funüef': 
+ty³
+(
+funùiÚ
+('call'))
+
+24 
+funùiÚ
+! 
+¥aûvim
+#begš(è
+abÜt
+
+
+26 
+Ët
+ 
+l
+:
+vim_¶ug_·th
+ = '~/.vim/autoload/plug.vim'
+
+27 
+Ët
+ 
+l
+:
+nvim_¶ug_·th
+ = '~/.local/share/nvim/site/autoload/plug.vim'
+
+30 !
+g
+:
+WINDOWS
+
+
+31 
+g
+:
+¥aûvim_nvim
+
+
+32 
+ÿÎ
+ 
+s
+:
+	$check_vim_¶ug
+(
+l
+:
+nvim_¶ug_·th
+)
+
+34 
+ÿÎ
+ 
+s
+:
+	$check_vim_¶ug
+(
+l
+:
+vim_¶ug_·th
+)
+
+35 
+’dif
+
+
+36 
+’dif
+
+
+38 
+ÿÎ
+ 
+s
+:
+	$defše_commªd
+()
+
+40 
+ÿÎ
+ 
+s
+:
+	$Ïy”s_šfo
+()
+
+42 
+s
+:
+	$check_dÙ_¥aûvim
+()
+
+43 
+Œy
+
+
+44 
+ÿÎ
+ 
+	$Lay”s
+()
+
+45 
+ÿtch
+
+
+46 
+ÿÎ
+ 
+¥aûvim
+#util#err('Layers() does‚otƒxist in .spacevim!')
+
+47 
+’dŒy
+
+
+48 
+’dif
+
+
+50 
+’dfunùiÚ
+
+
+52 
+funùiÚ
+! 
+s
+:
+	$check_vim_¶ug
+(
+¶ug_·th
+)
+
+53 
+	`em±y
+(
+	$glob
+(
+a
+:
+¶ug_·th
+))
+
+54 
+echo
+ '==> Downloading vim-plug ......'
+
+55 
+execu‹
+ '!cu¾ -fLØ' . 
+a
+:
+¶ug_·th
+ . ' --create-dirs ' .
+
+57 
+’dif
+
+
+58 
+’dfunùiÚ
+
+
+60 
+funùiÚ
+! 
+s
+:
+	`defše_commªd
+()
+
+62 
+commªd
+! -
+Çrgs
+=+ -
+b¬
+ 
+MP
+ 
+ÿÎ
+ 
+s
+:
+	`my_¶ugš
+(<
+¬gs
+>)
+
+63 
+commªd
+! -
+Çrgs
+=+ -
+b¬
+ 
+Lay”
+ 
+ÿÎ
+ 
+s
+:
+	`Ïy”
+(<
+¬gs
+>)
+
+64 
+commªd
+! -
+Çrgs
+=0 -
+b¬
+ 
+Lay”Stus
+ 
+ÿÎ
+ 
+¥aûvim
+#layer#status()
+
+65 
+commªd
+! -
+Çrgs
+=0 -
+b¬
+ 
+Lay”Upd©e
+ 
+ÿÎ
+ 
+¥aûvim
+#Ïy”#upd©e(
+s
+:
+py_exe
+)
+
+66 
+’dfunùiÚ
+
+
+68 
+funùiÚ
+! 
+s
+:
+	$check_dÙ_¥aûvim
+()
+
+69 
+	`f”—dabË
+(
+	$ex·nd
+(
+s
+:
+dÙ_¥aûvim
+))
+
+70 
+ÿÎ
+ 
+s
+:
+	$Sourû
+(
+s
+:
+dÙ_¥aûvim
+)
+
+73 
+ÿÎ
+ 
+¥aûvim
+#util#err('.spacevim does‚otƒxist!!!')
+
+75 
+’dif
+
+
+76 
+’dfunùiÚ
+
+
+78 
+funùiÚ
+! 
+s
+:
+	$Ïy”s_šfo
+(è
+abÜt
+
+
+79 
+Ët
+ 
+g
+:
+¥aûvim_šfo_·th
+ = g:
+¥aûvim_dœ
+. '/core/autoload/spacevim/info.vim'
+
+80 
+Ët
+ 
+g
+:
+¥aûvim_šfo_·th
+ = g:
+WINDOWS
+ ? 
+s
+:
+	$·th
+(
+g
+:
+¥aûvim_šfo_·th
+) : g:spacevim_info_path
+
+81 
+	$f”—dabË
+(
+g
+:
+¥aûvim_šfo_·th
+)
+
+82 
+execu‹
+ 'sourû ' . 
+g
+:
+¥aûvim_šfo_·th
+
+
+84 
+ÿÎ
+ 
+¥aûvim
+#Ïy”#upd©e(
+s
+:
+py_exe
+)
+
+85 
+’dif
+
+
+86 
+’dfunùiÚ
+
+
+88 
+funùiÚ
+! 
+s
+:
+	$Ïy”
+(
+Çme
+, ...)
+
+89 
+	`šdex
+(
+g
+:
+Ïy”s_lßded
+, 
+a
+:
+Çme
+) == -1
+
+90 
+ÿÎ
+ 
+	$add
+(
+g
+:
+Ïy”s_lßded
+, 
+a
+:
+Çme
+)
+
+91 
+’dif
+
+
+92 
+a
+:0 > 1
+
+93  
+¥aûvim
+#util#err('Invalid‚umber of‡rguments (1..2)')
+
+94 
+–£if
+ 
+a
+:0 == 1
+
+95 
+ÿÎ
+ 
+s
+:
+	$·r£_İtiÚs
+(
+a
+:1)
+
+96 
+’dif
+
+
+97 
+’dfunùiÚ
+
+
+99 
+funùiÚ
+! 
+s
+:
+	$to_a
+(
+v
+)
+
+100  
+	`ty³
+(
+a
+:
+v
+è=ğ
+s
+:
+TYPE
+.
+li¡
+ ?‡:v : [a:v]
+
+101 
+’dfunùiÚ
+
+
+103 
+funùiÚ
+! 
+s
+:
+	$·r£_İtiÚs
+(
+¬g
+)
+
+104 
+Ët
+ 
+l
+:
+ty³
+ = 
+	$ty³
+(
+a
+:
+¬g
+)
+
+105 
+l
+:
+ty³
+ =ğ
+s
+:
+TYPE
+.
+diù
+
+
+106 
+	`has_key
+(
+a
+:
+¬g
+, 'exclude')
+
+107 
+l
+:
+exş
+ 
+š
+ 
+s
+:
+	`to_a
+(
+a
+:
+¬g
+['exclude'])
+
+108 
+ÿÎ
+ 
+	$add
+(
+g
+:
+¥aûvim_exşuded
+, 
+l
+:
+exş
+)
+
+109 
+’dfÜ
+
+
+111 
+throw
+ 'Invalid option (expected:ƒxclude)'
+
+112 
+’dif
+
+
+114 
+throw
+ 'Invalid‡rgumentype (expected: dictionary)'
+
+115 
+’dif
+
+
+116 
+’dfunùiÚ
+
+
+118 
+funùiÚ
+! 
+s
+:
+	$my_¶ugš
+(
+¶ugš
+, ...)
+
+119 
+ÿÎ
+ 
+	$add
+(
+g
+:
+¥aûvim_¶ugšs
+, 
+a
+:
+¶ugš
+)
+
+120 
+a
+:0 == 1
+
+121 
+Ët
+ 
+g
+:
+¶ug_İtiÚs
+[
+a
+:
+¶ugš
+] =‡:1
+
+122 
+’dif
+
+
+123 
+’dfunùiÚ
+
+
+125 
+funùiÚ
+! 
+s
+:
+	$Sourû
+(
+fe
+)
+
+126 
+Œy
+
+
+127 
+execu‹
+ 'sourû ' . 
+	$âam“sÿ³
+(
+a
+:
+fe
+)
+
+128 
+ÿtch
+
+
+129 
+ÿÎ
+ 
+¥aûvim
+#Ïy”#upd©e(
+s
+:
+py_exe
+)
+
+130 
+’dŒy
+
+
+131 
+’dfunùiÚ
+
+
+133 
+funùiÚ
+! 
+s
+:
+	$·th
+(
+·th
+)
+
+134  
+	`sub¡™u‹
+(
+a
+:
+·th
+, '/', '\', '
+g
+')
+
+135 
+’dfunùiÚ
+
+
+137 
+funùiÚ
+! 
+¥aûvim
+#end()
+
+138 
+ÿÎ
+ 
+s
+:
+	$»gi¡”_¶ugš
+()
+
+140 
+Ët
+ 
+g
+:
+m­Ëad”
+ = 
+	`g‘
+(g:, 'spacevim_leader', "\<Space>")
+
+141 
+Ët
+ 
+g
+:
+m­loÿÎ—d”
+ = 
+	`g‘
+(g:, 'spacevim_localleader', ',')
+
+144 
+s’t
+! 
+ruÁime
+! 
+¶ugš
+/.
+vim
+
+
+146 
+ÿÎ
+ 
+s
+:
+	$cÚfig
+()
+
+147 
+Œy
+
+
+148 
+ÿÎ
+ 
+	$U£rCÚfig
+()
+
+149 
+ÿtch
+
+
+150 
+ÿÎ
+ 
+¥aûvim
+#util#err('Error occurs in UserConfig()!')
+
+151 
+’dŒy
+
+
+152 
+ÿÎ
+ 
+s
+:
+	$po¡_u£r_cÚfig
+()
+
+153 
+’dfunùiÚ
+
+
+155 
+funùiÚ
+! 
+s
+:
+	$»gi¡”_¶ugš
+()
+
+156 !
+	`exi¡s
+('g:spacevim_plug_home')
+
+158 
+Ët
+ 
+g
+:
+¥aûvim_¶ug_home
+ = g:
+¥aûvim_nvim
+ ? '~/.local/share/nvim/plugged' : '~/.vim/plugged/'
+
+159 
+’dif
+
+
+161 
+ÿÎ
+ 
+¶ug
+#begš(
+g
+:
+¥aûvim_¶ug_home
+)
+
+163 
+ÿÎ
+ 
+s
+:
+	$·ckages
+()
+
+165 
+ÿÎ
+ 
+s
+:
+	$f‹r_¶ugšs
+()
+
+166 
+ÿÎ
+ 
+s
+:
+	$švoke_¶ug
+()
+
+168 
+Œy
+
+
+169 
+ÿÎ
+ 
+	$U£rIn™
+()
+
+170 
+ÿtch
+
+
+171 
+ÿÎ
+ 
+¥aûvim
+#util#err('Error occurs in UserInit()!')
+
+172 
+’dŒy
+
+
+174 
+ÿÎ
+ 
+¶ug
+#end()
+
+175 
+’dfunùiÚ
+
+
+177 
+funùiÚ
+! 
+s
+:
+	`·ckages
+()
+
+179 
+l
+:
+Ïy”
+ 
+š
+ 
+g
+:
+Ïy”s_lßded
+
+
+180 
+Œy
+
+
+181 
+Ët
+ 
+l
+:
+Ïy”_·ckages
+ = 
+g
+:
+Ïy”_·th
+[l:
+Ïy”
+] . '/packages.vim'
+
+182 
+ÿtch
+
+
+183 
+ÿÎ
+ 
+¥aûvim
+#Ïy”#upd©e(
+s
+:
+py_exe
+)
+
+184 
+’dŒy
+
+
+185 
+ÿÎ
+ 
+s
+:
+	$Sourû
+(
+l
+:
+Ïy”_·ckages
+)
+
+186 
+’dfÜ
+
+
+189 
+	`exi¡s
+('g:private_layers')
+
+190 
+l
+:
+´iv©e_Ïy”
+ 
+š
+ 
+g
+:
+´iv©e_Ïy”s
+
+
+191 
+Ët
+ 
+l
+:
+´iv©e_Ïy”_·ckages
+ = 
+g
+:
+¥aûvim_dœ
+ . '/´iv©e/' .†:
+´iv©e_Ïy”
+ . '/packages.vim'
+
+192 
+	`f”—dabË
+(
+	$ex·nd
+(
+l
+:
+´iv©e_Ïy”_·ckages
+))
+
+193 
+execu‹
+ 'sourû ' . 
+	$âam“sÿ³
+(
+l
+:
+´iv©e_Ïy”_·ckages
+)
+
+194 
+’dif
+
+
+195 
+’dfÜ
+
+
+196 
+’dif
+
+
+199 
+Ët
+ 
+l
+:
+´iv©e_·ckages
+ = 
+g
+:
+¥aûvim_dœ
+ . '/private/packages.vim'
+
+200 
+	`f”—dabË
+(
+	$ex·nd
+(
+l
+:
+´iv©e_·ckages
+))
+
+201 
+execu‹
+ 'sourû ' . 
+	$âam“sÿ³
+(
+l
+:
+´iv©e_·ckages
+)
+
+202 
+’dif
+
+
+203 
+’dfunùiÚ
+
+
+205 
+funùiÚ
+! 
+s
+:
+	$f‹r_¶ugšs
+()
+
+206 
+l
+:
+exş
+ 
+š
+ 
+g
+:
+¥aûvim_exşuded
+
+
+207 
+Ët
+ 
+l
+:
+idx
+ = 
+	$šdex
+(
+g
+:
+¥aûvim_¶ugšs
+, 
+l
+:
+exş
+)
+
+208 
+l
+:
+idx
+ > -1
+
+209 
+ÿÎ
+ 
+	$»move
+(
+g
+:
+¥aûvim_¶ugšs
+, 
+l
+:
+idx
+)
+
+210 
+’dif
+
+
+211 
+’dfÜ
+
+
+212 
+’dfunùiÚ
+
+
+214 
+funùiÚ
+! 
+s
+:
+	$švoke_¶ug
+()
+
+215 
+l
+:
+¶ugš
+ 
+š
+ 
+g
+:
+¥aûvim_¶ugšs
+
+
+216 
+ÿÎ
+ 
+¶ug
+#(
+l
+:
+¶ugš
+, 
+	`g‘
+(
+g
+:
+¶ug_İtiÚs
+,†:plugin, ''))
+
+217 
+’dfÜ
+
+
+218 
+’dfunùiÚ
+
+
+220 
+funùiÚ
+! 
+s
+:
+	`cÚfig
+()
+
+222 
+l
+:
+Ïy”
+ 
+š
+ 
+g
+:
+Ïy”s_lßded
+
+
+223 
+Œy
+
+
+224 
+Ët
+ 
+l
+:
+Ïy”_cÚfig
+ = 
+g
+:
+Ïy”_·th
+[l:
+Ïy”
+] . '/config.vim'
+
+225 
+ÿtch
+
+
+226 
+ÿÎ
+ 
+¥aûvim
+#Ïy”#upd©e(
+s
+:
+py_exe
+)
+
+227 
+’dŒy
+
+
+228 
+ÿÎ
+ 
+s
+:
+	$Sourû
+(
+l
+:
+Ïy”_cÚfig
+)
+
+229 
+’dfÜ
+
+
+232 
+	`exi¡s
+('g:private_layers')
+
+233 
+l
+:
+´iv©e_Ïy”
+ 
+š
+ 
+g
+:
+´iv©e_Ïy”s
+
+
+234 
+Ët
+ 
+l
+:
+´iv©e_Ïy”_cÚfig
+ = 
+g
+:
+¥aûvim_dœ
+ . '/´iv©e/' .†:
+´iv©e_Ïy”
+ . '/config.vim'
+
+235 
+	`f”—dabË
+(
+	$ex·nd
+(
+l
+:
+´iv©e_Ïy”_cÚfig
+))
+
+236 
+execu‹
+ 'sourû ' . 
+	$âam“sÿ³
+(
+l
+:
+´iv©e_Ïy”_cÚfig
+)
+
+237 
+’dif
+
+
+238 
+’dfÜ
+
+
+239 
+’dif
+
+
+242 
+Ët
+ 
+l
+:
+´iv©e_cÚfig
+ = 
+g
+:
+¥aûvim_dœ
+ . '/private/config.vim'
+
+243 
+	`f”—dabË
+(
+	$ex·nd
+(
+l
+:
+´iv©e_cÚfig
+))
+
+244 
+execu‹
+ 'sourû ' . 
+	$âam“sÿ³
+(
+l
+:
+´iv©e_cÚfig
+)
+
+245 
+’dif
+
+
+246 
+’dfunùiÚ
+
+
+248 
+funùiÚ
+! 
+s
+:
+	$po¡_u£r_cÚfig
+()
+
+250 
+autocmd
+ 
+BufR—d
+,
+BufNewFe
+ *.
+¥aûvim
+ 
+£oÿl
+ 
+f‘y³
+=
+vim
+
+
+251 
+autocmd
+ 
+FeTy³
+ 
+vim
+ 
+£oÿl
+ 
+b¡İ
+=2 
+shiáwidth
+=2 
+soáb¡İ
+=2
+
+254 !
+	`exi¡s
+('g:airline_powerline_fonts')
+
+255 
+Ët
+ 
+g
+:
+aœlše_Ëá_£p
+=''
+
+256 
+Ët
+ 
+g
+:
+aœlše_right_£p
+=''
+
+258 !
+g
+:
+WINDOWS
+
+
+259 
+Ët
+ 
+g
+:
+aœlše_symbŞs
+ = {
+	}
+}
+
+260 
+Ët
+ 
+g
+:
+aœlše_symbŞs
+.
+lš’r
+ = 'âŠ'
+
+261 
+Ët
+ 
+g
+:
+aœlše_symbŞs
+.
+lš’r
+ = 'â¤'
+
+262 
+Ët
+ 
+g
+:
+aœlše_symbŞs
+.
+lš’r
+ = 'Â¶'
+
+263 
+Ët
+ 
+g
+:
+aœlše_symbŞs
+.
+b¿nch
+ = 'â‡'
+
+264 
+Ët
+ 
+g
+:
+aœlše_symbŞs
+.
+·¡e
+ = 'Ã'
+
+265 
+Ët
+ 
+g
+:
+aœlše_symbŞs
+.
+wh™e¥aû
+ = 'Î'
+
+266 
+’dif
+
+
+267 
+’dif
+
+
+271 
+hi
+ 
+Cu¼’tWÜd
+ 
+gui
+=
+und”lše
+ 
+ù”m
+=underline
+
+272 
+hi
+ 
+Cu¼’tWÜdTwšs
+ 
+gui
+=
+und”lše
+ 
+ù”m
+=underline
+
+276 
+augroup
+ 
+checkPlug
+
+
+277 
+autocmd
+!
+
+278 
+autocmd
+ 
+VimEÁ”
+ *
+
+279 \ 
+Ën
+(
+f‹r
+(
+v®ues
+(
+g
+:
+¶ugs
+), '!isdirectory(v:val.dir)'))
+
+280 \| 
+	gechom
+ '[space-vim] Some†ayers‚eedo installhe missing…lugins first!'
+
+281 \| 
+	gPlugIn¡®l
+ --
+	gsync
+ | 
+	gq
+
+
+282 \| 
+’dif
+
+
+283 
+augroup
+ 
+END
+
+
+285 
+	g’dfunùiÚ
+
+
+	@/media/tool/work/vimconfig/core/autoload/spacevim/auto.vim
+
+1 
+	gfunùiÚ
+! 
+	g¥aûvim
+#auto#AddTitle()
+
+2 &
+	gf‘y³
+ == 'sh'
+
+3 
+ÿÎ
+ 
+£še
+(1,'#!/usr/bin/env bash')
+
+4 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.'), '')
+
+5 
+	g–£if
+ &
+	gf‘y³
+ == 'python'
+
+6 
+ÿÎ
+ 
+£še
+(1,'#!/usr/bin/env…ython')
+
+7 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.'), '# -*- coding: utf-8 -*-')
+
+8 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.')+1, '')
+
+9 
+	g–£if
+ &
+	gf‘y³
+ == 'ruby'
+
+10 
+ÿÎ
+ 
+£še
+(1,'#!/usr/bin/env„uby')
+
+11 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.'), '#ƒncoding: utf-8')
+
+12 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.')+1, '')
+
+13 
+	g–£if
+ &
+	gf‘y³
+ == 'cpp'
+
+14 
+ÿÎ
+ 
+£še
+(1, '#include <iostream>')
+
+15 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.'), 'using‚amespace std;')
+
+16 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.')+1, '')
+
+17 
+	g–£if
+ &
+	gf‘y³
+ == 'c'
+
+18 
+ÿÎ
+ 
+£še
+(1, '#include <stdio.h>')
+
+19 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.'), '')
+
+20 
+	g–£if
+ &
+	gf‘y³
+ == 'perl'
+
+21 
+ÿÎ
+ 
+£še
+(1, '#!/usr/bin/perl')
+
+22 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.')+0, 'use strict;')
+
+23 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.')+1, 'use warnings;')
+
+24 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.')+2, 'use utf8;')
+
+25 
+ÿÎ
+ 
+­³nd
+(
+lše
+('.')+3, '')
+
+26 
+’dif
+
+
+27 
+	g’dfunùiÚ
+
+
+32 
+	gfunùiÚ
+! 
+	g¥aûvim
+#auto#BuildGoFiles()
+
+33 
+Ët
+ 
+	gl
+:
+fe
+ = 
+ex·nd
+('%')
+
+34 
+l
+:
+fe
+ =~#'^\
+f
+\+
+_‹¡
+\.
+go$
+'
+
+35 
+ÿÎ
+ 
+go
+#test#Test(0, 1)
+
+36 
+–£if
+ 
+	gl
+:
+fe
+ =~#'^\
+f
+\+\.
+go$
+'
+
+37 
+ÿÎ
+ 
+go
+#cmd#Build(0)
+
+38 
+’dif
+
+
+39 
+’dfunùiÚ
+
+
+	@/media/tool/work/vimconfig/core/autoload/spacevim/funcs.vim
+
+2 
+	gfunùiÚ
+! 
+	g¥aûvim
+#funcs#IsDœ(
+	g¶ugš
+è
+abÜt
+
+
+3  
+isdœeùÜy
+(
+ex·nd
+(
+g
+:
+my_¶ug_home
+.
+a
+:
+¶ugš
+)) ? 1 : 0
+
+4 
+’dfunùiÚ
+
+
+6 
+funùiÚ
+! 
+¥aûvim
+#funcs#Lay”Lßded(
+Ïy”
+è
+abÜt
+
+
+7  
+šdex
+(
+g
+:
+Ïy”s_lßded
+, 
+a
+:
+Ïy”
+) > -1 ? 1 : 0
+
+8 
+’dfunùiÚ
+
+
+	@/media/tool/work/vimconfig/core/autoload/spacevim/gui.vim
+
+1 
+Ët
+ 
+	gs
+:
+lšes
+=&lines
+
+2 
+Ët
+ 
+s
+:
+cŞumns
+=&columns
+
+4 
+funùiÚ
+! 
+s
+:
+	$’‹r_fuÎ_sü“n
+()
+
+5 
+£oÿl
+ 
+lšes
+=999 
+cŞumns
+=999
+
+6 
+£oÿl
+ 
+fuÎsü“n
+
+
+7 
+’dfunùiÚ
+
+
+9 
+funùiÚ
+! 
+s
+:
+	$Ëave_fuÎ_sü“n
+()
+
+10 
+Ët
+ &
+lšes
+=
+s
+:lines
+
+11 
+Ët
+ &
+cŞumns
+=
+s
+:columns
+
+12 
+£oÿl
+ 
+nofuÎsü“n
+
+
+13 
+’dfunùiÚ
+
+
+15 
+funùiÚ
+! 
+¥aûvim
+#gui#ToggleFullScreen()
+
+16 &
+fuÎsü“n
+
+
+17 
+ÿÎ
+ 
+s
+:
+	$Ëave_fuÎ_sü“n
+()
+
+19 
+ÿÎ
+ 
+s
+:
+	$’‹r_fuÎ_sü“n
+()
+
+20 
+’dif
+
+
+21 
+’dfunùiÚ
+
+
+	@/media/tool/work/vimconfig/core/autoload/spacevim/info.vim
+
+1 
+Ët
+ 
+	gg
+:
+Ïy”s_sum
+ = 39
+
+2 
+Ët
+ 
+g
+:
+tİics
+ = ['+checkers', '+completion', '+distributions', '+fun', '+lang', '+misc', '+programming', '+themes', '+tools', '+version-control', '+vim']
+
+3 
+Ët
+ 
+	gg
+:
+tİic2Ïy”s
+ = {'+completion': ['auto-completion', 'unite'], '+tools': ['file-manager', 'fzf', 'tags', 'tmux', 'ycmd'], '+fun': ['emoji', 'goyo'], '+version-control': ['git', 'github'], '+distributions': ['better-defaults', 'spacevim'], '+themes': ['airline', 'lightline'], '+vim': ['better-motion', 'ctrlp', 'text-align'], '+lang': ['c-c++', 'elixir', 'elm', 'erlang', 'go', 'graphviz', 'html', 'java', 'javascript', 'latex', 'markdown', 'python', 'rust', 'scala', 'typescript', 'vue'], '+checkers': ['syntax-checking'], '+programming': ['code-snippets', 'editing', 'programming'], '+misc': ['chinese']}
+
+4 
+Ët
+ 
+g
+:
+Ïy”_·th
+ = {'markdown': '/home/mofeng/work/vimconfig/layers/+lang/markdown', 'chinese': '/home/mofeng/work/vimconfig/layers/+misc/chinese', 'goyo': '/home/mofeng/work/vimconfig/layers/+fun/goyo', 'graphviz': '/home/mofeng/work/vimconfig/layers/+lang/graphviz', 'code-snippets': '/home/mofeng/work/vimconfig/layers/+programming/code-snippets', 'unite': '/home/mofeng/work/vimconfig/layers/+completion/unite', 'go': '/home/mofeng/work/vimconfig/layers/+lang/go', 'c-c++': '/home/mofeng/work/vimconfig/layers/+lang/c-c++', 'emoji': '/home/mofeng/work/vimconfig/layers/+fun/emoji', 'git': '/home/mofeng/work/vimconfig/layers/+version-control/git', 'java': '/home/mofeng/work/vimconfig/layers/+lang/java', 'elm': '/home/mofeng/work/vimconfig/layers/+lang/elm', 'spacevim': '/home/mofeng/work/vimconfig/layers/+distributions/spacevim', 'html': '/home/mofeng/work/vimconfig/layers/+lang/html', 'syntax-checking': '/home/mofeng/work/vimconfig/layers/+checkers/syntax-checking', 'erlang': '/home/mofeng/work/vimconfig/layers/+lang/erlang', 'ctrlp': '/home/mofeng/work/vimconfig/layers/+vim/ctrlp', 'fzf': '/home/mofeng/work/vimconfig/layers/+tools/fzf', 'ycmd': '/home/mofeng/work/vimconfig/layers/+tools/ycmd', 'typescript': '/home/mofeng/work/vimconfig/layers/+lang/typescript', 'tags': '/home/mofeng/work/vimconfig/layers/+tools/tags', 'python': '/home/mofeng/work/vimconfig/layers/+lang/python', 'javascript': '/home/mofeng/work/vimconfig/layers/+lang/javascript', 'scala': '/home/mofeng/work/vimconfig/layers/+lang/scala', 'github': '/home/mofeng/work/vimconfig/layers/+version-control/github', 'tmux': '/home/mofeng/work/vimconfig/layers/+tools/tmux', 'elixir': '/home/mofeng/work/vimconfig/layers/+lang/elixir', 'better-motion': '/home/mofeng/work/vimconfig/layers/+vim/better-motion', 'editing': '/home/mofeng/work/vimconfig/layers/+programming/editing', 'text-align': '/home/mofeng/work/vimconfig/layers/+vim/text-align', 'latex': '/home/mofeng/work/vimconfig/layers/+lang/latex', 'vue': '/home/mofeng/work/vimconfig/layers/+lang/vue', 'auto-completion': '/home/mofeng/work/vimconfig/layers/+completion/auto-completion', 'programming': '/home/mofeng/work/vimconfig/layers/+programming/programming', 'airline': '/home/mofeng/work/vimconfig/layers/+themes/airline', 'better-defaults': '/home/mofeng/work/vimconfig/layers/+distributions/better-defaults', 'lightline': '/home/mofeng/work/vimconfig/layers/+themes/lightline', 'file-manager': '/home/mofeng/work/vimconfig/layers/+tools/file-manager', 'rust': '/home/mofeng/work/vimconfig/layers/+lang/rust'}
+
+	@/media/tool/work/vimconfig/core/autoload/spacevim/layer.vim
+
+1 
+Ët
+ 
+	gs
+:
+¥aûvim_b
+ = 
+g‘
+(
+s
+:, 'spacevim_tab', -1)
+
+2 
+Ët
+ 
+	gs
+:
+¥aûvim_buf
+ = 
+g‘
+(
+s
+:, 'spacevim_buf', -1)
+
+4 
+	gfunùiÚ
+! 
+	gs
+:
+	$Ãw_wšdow
+()
+
+5 
+execu‹
+ 
+	`g‘
+(
+g
+:, 'spacevim_window', 'verticalopleft‚ew')
+
+6 
+’dfunùiÚ
+
+
+8 
+funùiÚ
+! 
+s
+:
+	$¥aûvim_wšdow_exi¡s
+()
+
+9 
+Ët
+ 
+l
+:
+buæi¡
+ = 
+	$b·gebuæi¡
+(
+s
+:
+¥aûvim_b
+)
+
+10  !
+	`em±y
+(
+l
+:
+buæi¡
+è&& 
+	`šdex
+Ö:buæi¡, 
+s
+:
+¥aûvim_buf
+) >= 0
+
+11 
+’dfunùiÚ
+
+
+13 
+funùiÚ
+! 
+s
+:
+	`assign_Çme
+()
+
+15 
+Ët
+ 
+l
+:
+´efix
+ = '[Layers]'
+
+16 
+Ët
+ 
+l
+:
+Çme
+ =†:
+´efix
+
+
+17 
+Ët
+ 
+l
+:
+idx
+ = 2
+
+18 
+	$buãxi¡s
+(
+l
+:
+Çme
+)
+
+19 
+Ët
+ 
+l
+:
+Çme
+ = 
+	`´štf
+('% (%s)',†:
+´efix
+,†:
+idx
+)
+
+20 
+Ët
+ 
+l
+:
+idx
+ =†:idx + 1
+
+21 
+’dwhe
+
+
+22 
+s’t
+! 
+execu‹
+ 'f' 
+	$âam“sÿ³
+(
+l
+:
+Çme
+)
+
+23 
+’dfunùiÚ
+
+
+26 
+funùiÚ
+! 
+¥aûvim
+#layer#status()
+
+27 
+ÿÎ
+ 
+s
+:
+	$Ãw_wšdow
+()
+
+29 
+Ët
+ 
+b
+:
+¥aûvim_´ev›w
+ = -1
+
+30 
+Ët
+ 
+s
+:
+¥aûvim_b
+ = 
+	$b·g’r
+()
+
+31 
+Ët
+ 
+s
+:
+¥aûvim_buf
+ = 
+	$wšbuâr
+(0)
+
+32 
+ÿÎ
+ 
+s
+:
+	$assign_Çme
+()
+
+34 
+Ët
+ [
+l
+:
+út
+,†:
+tÙ®
+] = [0, 
+	`Ën
+(
+g
+:
+Ïy”s_lßded
+)]
+
+36 
+ÿÎ
+ 
+	`­³nd
+(0, ['EÇbËd†ay”s: ' . '(' . 
+	`Ën
+(
+g
+:
+Ïy”s_lßded
+è. '/' . g:
+Ïy”s_sum
+ . ')'])
+
+37 
+ÿÎ
+ 
+	`£še
+(2, '[' . 
+	`»³©
+('=', 
+	`Ën
+(
+g
+:
+Ïy”s_lßded
+)) . ']')
+
+38 
+Ët
+ 
+l
+:
+šx
+ = 3
+
+39 
+l
+:
+Ïy”
+ 
+š
+ 
+g
+:
+Ïy”s_lßded
+
+
+40 
+ÿÎ
+ 
+	`£še
+(
+l
+:
+šx
+, '+ ' .†:
+Ïy”
+)
+
+41 
+Ët
+ 
+l
+:
+šx
+ =†:inx + 1
+
+42 
+’dfÜ
+
+
+43 
+£oÿl
+ 
+buáy³
+=
+nofe
+ 
+bufhidd’
+=
+we
+ 
+nobuæi¡ed
+ 
+nŞi¡
+ 
+nosw­fe
+ 
+now¿p
+ 
+cursÜlše
+ 
+nomodifŸbË
+ 
+no¥–l
+
+
+44 
+£tf
+ 
+¥aûvim
+
+
+45 
+	`exi¡s
+('g:syntax_on')
+
+46 
+ÿÎ
+ 
+s
+:
+	$syÁax
+()
+
+47 
+’dif
+
+
+48 
+ÂÜem­
+ <
+s’t
+> <
+bufãr
+> 
+q
+ :
+bd
+<
+CR
+>
+
+49 
+’dfunùiÚ
+
+
+51 
+funùiÚ
+! 
+s
+:
+	$syÁax
+()
+
+52 
+syÁax
+ 
+ş—r
+
+
+53 
+syÁax
+ 
+»giÚ
+ 
+Lay”1
+ 
+¡¬t
+=/\%1l/ 
+’d
+=/\%2l/ 
+cÚšs
+=
+Lay”Numb”
+
+
+54 
+syÁax
+ 
+»giÚ
+ 
+Lay”2
+ 
+¡¬t
+=/\%2l/ 
+’d
+=/\%3l/ 
+cÚšs
+=
+Lay”B¿ck‘
+,
+Lay”X
+
+
+55 
+syn
+ 
+m©ch
+ 
+Lay”Numb”
+ /[0-9]\+[0-9.]*/ 
+cÚšed
+
+
+56 
+syn
+ 
+m©ch
+ 
+Lay”B¿ck‘
+ /[[\]]/ 
+cÚšed
+
+
+57 
+syn
+ 
+m©ch
+ 
+Lay”X
+ /
+x
+/ 
+cÚšed
+
+
+58 
+syn
+ 
+m©ch
+ 
+Lay”Dash
+ /^-/
+
+59 
+syn
+ 
+m©ch
+ 
+Lay”Plus
+ /^+/
+
+60 
+syn
+ 
+m©ch
+ 
+Lay”Sr
+ /^*/
+
+61 
+syn
+ 
+m©ch
+ 
+Lay”Mes§ge
+ /\(^- \)\@<=.*/
+
+62 
+syn
+ 
+m©ch
+ 
+Lay”Name
+ /\(^- \)\@<=[^ ]*:/
+
+63 
+syn
+ 
+m©ch
+ 
+Lay”In¡®l
+ /\(^+ \)\@<=[^:]*/
+
+64 
+syn
+ 
+m©ch
+ 
+Lay”Upd©e
+ /\(^* \)\@<=[^:]*/
+
+65 
+syn
+ 
+m©ch
+ 
+Lay”NÙLßded
+ /(
+nÙ
+ 
+lßded
+)
+$
+/
+
+66 
+syn
+ 
+m©ch
+ 
+Lay”E¼Ü
+ /^
+x
+.*/
+
+67 
+syn
+ 
+»giÚ
+ 
+Lay”D–‘ed
+ 
+¡¬t
+=/^\~ .*/ 
+’d
+=/^\
+ze
+\
+S
+/
+
+68 
+syn
+ 
+m©ch
+ 
+Lay”H2
+ /^.*:\
+n
+-\+
+$
+/
+
+69 
+syn
+ 
+keywÜd
+ 
+FunùiÚ
+ 
+Lay”In¡®l
+ 
+Lay”Stus
+ 
+Lay”Upd©e
+ 
+Lay”CËª
+
+
+70 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”1
+ 
+T™Ë
+
+
+71 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”2
+ 
+R•—t
+
+
+72 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”H2
+ 
+Ty³
+
+
+73 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”X
+ 
+Exû±iÚ
+
+
+74 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”B¿ck‘
+ 
+SŒuùu»
+
+
+75 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”Numb”
+ 
+Numb”
+
+
+77 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”Dash
+ 
+S³cŸl
+
+
+78 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”Plus
+ 
+CÚ¡ªt
+
+
+79 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”Sr
+ 
+BoŞ—n
+
+
+81 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”Mes§ge
+ 
+FunùiÚ
+
+
+82 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”Name
+ 
+Lab–
+
+
+83 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”In¡®l
+ 
+FunùiÚ
+
+
+84 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”Upd©e
+ 
+Ty³
+
+
+86 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”E¼Ü
+ 
+E¼Ü
+
+
+87 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”D–‘ed
+ 
+IgnÜe
+
+
+89 
+hi
+ 
+def
+ 
+lšk
+ 
+Lay”NÙLßded
+ 
+Comm’t
+
+
+90 
+’dfunùiÚ
+
+
+95 
+funùiÚ
+! 
+¥aûvim
+#Ïy”#upd©e(
+py_exe
+è
+abÜt
+
+
+97 
+execu‹
+ 
+a
+:
+py_exe
+ "<< EOF"
+
+98 
+impÜt
+ 
+os
+
+
+99 
+impÜt
+ 
+vim
+
+
+101 
+¥aûvim_dœ
+ = 
+vim
+.
+	`ev®
+('g:spacevim_dir')
+
+102 
+tİic_ba£
+ = 
+¥aûvim_dœ
+ + 
+vim
+.
+	`ev®
+('g:spacevim_layers_dir')
+
+103 
+´iv©e_ba£
+ = 
+¥aûvim_dœ
+ + 
+vim
+.
+	`ev®
+('g:spacevim_private_layers_dir')
+
+105 
+tİics
+ = [
+f
+ à
+š
+ 
+os
+.
+	$li¡dœ
+(
+tİic_ba£
+è
+os
+.
+·th
+.
+	`isdœ
+(os.·th.
+	`još
+Ñİic_ba£,
+f
+))]
+
+106 
+´iv©e_Ïy”s
+ = [
+f
+ à
+š
+ 
+os
+.
+	$li¡dœ
+(
+´iv©e_ba£
+è
+os
+.
+·th
+.
+	`isdœ
+(os.·th.
+	`još
+Õriv©e_ba£,
+f
+))]
+
+108 
+Ïy”_·th
+ = {
+	}
+}
+
+109 
+tİic2Ïy”s
+ = {}
+
+110 
+Ïy”s_sum
+ = 
+	$Ën
+(
+´iv©e_Ïy”s
+)
+
+112 
+t
+ 
+š
+ 
+tİics
+:
+
+113 
+tİic_·th
+ = 
+tİic_ba£
+ + '/' + 
+t
+
+
+114 
+Ïy”s
+ = [
+f
+ à
+š
+ 
+os
+.
+	$li¡dœ
+(
+tİic_·th
+è
+os
+.
+·th
+.
+	`isdœ
+(os.·th.
+	`još
+Ñİic_·th,
+f
+))]
+
+115 
+Ïy”s_sum
+ +ğ
+	$Ën
+(
+Ïy”s
+)
+
+116 
+tİic2Ïy”s
+[
+t
+] = 
+Ïy”s
+
+
+117 
+l
+ 
+š
+ 
+Ïy”s
+:
+
+118 
+Ïy”_·th
+[
+l
+] = 
+tİic_·th
+ + '/' +†
+
+120 
+vim
+.
+	`commªd
+("Ëˆg:Ïy”s_sum = %d" % 
+Ïy”s_sum
+)
+
+121 
+vim
+.
+	`commªd
+("Ëˆg:tİic ğ%s" % 
+tİics
+)
+
+122 
+vim
+.
+	`commªd
+("Ëˆg:tİic2Ïy” ğ%s" % 
+tİic2Ïy”s
+)
+
+123 
+vim
+.
+	`commªd
+("Ëˆg:Ïy”_·th = %s" % 
+Ïy”_·th
+)
+
+124 
+	$Ën
+(
+´iv©e_Ïy”s
+):
+
+125 
+vim
+.
+	`commªd
+("Ëˆg:´iv©e_Ïy” ğ%s" % 
+´iv©e_Ïy”s
+)
+
+127 
+f
+ = 
+	`İ’
+(
+vim
+.
+	`ev®
+('g:spacevim_info_path'), 'w')
+
+128 
+f
+.
+	`wr™e
+("Ëˆg:Ïy”s_sum = %d\n" % 
+Ïy”s_sum
+)
+
+129 
+f
+.
+	`wr™e
+("Ëˆg:tİic ğ%s\n" % 
+tİics
+)
+
+130 
+f
+.
+	`wr™e
+("Ëˆg:tİic2Ïy” ğ%s\n" % 
+tİic2Ïy”s
+)
+
+131 
+f
+.
+	`wr™e
+("Ëˆg:Ïy”_·th = %s\n" % 
+Ïy”_·th
+)
+
+132 
+	$Ën
+(
+´iv©e_Ïy”s
+):
+
+133 
+f
+.
+	`wr™e
+("Ëˆg:´iv©e_Ïy” ğ%s\n" % 
+´iv©e_Ïy”s
+)
+
+134 
+f
+.
+	$şo£
+()
+
+136 
+EOF
+
+
+138 
+’dfunùiÚ
+
+
+	@/media/tool/work/vimconfig/core/autoload/spacevim/util.vim
+
+1 
+	gfunùiÚ
+! 
+	g¥aûvim
+#ut#”r(
+	gmsg
+)
+
+2 
+echohl
+ 
+E¼ÜMsg
+
+
+3 
+	gechom
+ '[¥aû-vim] '.
+	ga
+:
+msg
+
+
+4 
+echohl
+ 
+NÚe
+
+
+5 
+’dfunùiÚ
+
+
+7 
+funùiÚ
+! 
+¥aûvim
+#ut#w¬n(
+cmd
+, 
+	gmsg
+)
+
+8 
+echohl
+ 
+W¬nšgMsg
+
+
+9 
+	gechom
+ '[¥aû-vim] '.
+	ga
+:
+msg
+
+
+10 
+echohl
+ 
+NÚe
+
+
+11 
+’dfunùiÚ
+
+
+13 
+funùiÚ
+! 
+¥aûvim
+#util#ToggleCursorColumn()
+
+14 &
+cursÜcŞumn
+
+
+15 
+£oÿl
+ 
+nocursÜcŞumn
+
+
+17 
+£oÿl
+ 
+cursÜcŞumn
+
+
+18 
+’dif
+
+
+19 
+’dfunùiÚ
+
+
+21 
+funùiÚ
+! 
+¥aûvim
+#util#ToggleColorColumn()
+
+22 &
+cŞÜcŞumn
+
+
+23 
+£oÿl
+ 
+cŞÜcŞumn
+=
+
+25 
+£oÿl
+ 
+cŞÜcŞumn
+=80
+
+26 
+’dif
+
+
+27 
+’dfunùiÚ
+
+
+29 
+funùiÚ
+! 
+¥aûvim
+#util#CompileAndRun()
+
+30 
+exec
+ 'w'
+
+31 &
+f‘y³
+ == 'c'
+
+32 
+exec
+ "AsyncRun! gcc % -o %<;ime ./%<"
+
+33 
+–£if
+ &
+f‘y³
+ == 'cpp'
+
+34 
+exec
+ "AsyncRun! g++ -std=c++11 % -o %<;ime ./%<"
+
+35 
+–£if
+ &
+f‘y³
+ == 'go'
+
+36 
+exec
+ "! go„un %"
+
+37 
+–£if
+ &
+f‘y³
+ == 'java'
+
+38 
+exec
+ "AsyncRun! javac %;ime java %<"
+
+39 
+–£if
+ &
+f‘y³
+ == 'python'
+
+40 
+exec
+ "AsyncRun!ime…ython %"
+
+41 
+–£if
+ &
+f‘y³
+ == 'ruby'
+
+42 
+exec
+ "AsyncRun!ime„uby %"
+
+43 
+–£if
+ &
+f‘y³
+ == 'rust'
+
+44 
+exec
+ "AsyncRun!„ustc % -o %<;ime ./%<"
+
+45 
+–£if
+ &
+f‘y³
+ == 'sh'
+
+46 
+exec
+ "AsyncRun!ime bash %"
+
+47 
+’dif
+
+
+48 
+’dfunùiÚ
+
+
+50 
+funùiÚ
+! 
+¥aûvim
+#util#Runtimepath()
+
+51 
+·th
+ 
+š
+ 
+¥l™
+(&
+ruÁim•©h
+, ',')
+
+52 
+echo
+ 
+·th
+
+
+53 
+’dfÜ
+
+
+54 
+	g’dfunùiÚ
+
+
+	@/media/tool/work/vimconfig/init.vim
+
+3 " / __| -_ \ / _- |/ __/ _ \____\ \ / / | -_ - _ \
+" \
+	g__
+ \ |
+	g_
+è| (_| | (_| __/
+	g_____
+\ 
+	gV
+ /| | | | | | |
+
+17 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+20 
+Ët
+ 
+	gg
+:
+MAC
+ = 
+has
+('macunix')
+
+21 
+Ët
+ 
+g
+:
+LINUX
+ = 
+has
+('unix') && !has('macunix') && !has('win32unix')
+
+22 
+Ët
+ 
+g
+:
+WINDOWS
+ = 
+has
+('win32') || has('win64')
+
+28 
+g
+:
+WINDOWS
+
+
+29 
+£t
+ 
+ruÁim•©h
+=
+$HOME
+/.
+vim
+,
+	g$VIM
+/
+	gvimfes
+,
+	g$VIMRUNTIME
+,$VIM/vimfes/
+	gaá”
+,
+	g$HOME
+/.
+	gvim
+/
+aá”
+
+
+30 
+	g’dif
+
+
+33 
+Ët
+ 
+	gg
+:
+¥aûvim_dœ
+ = 
+$HOME
+.'/work/vimconfig'
+
+34 
+Ët
+ 
+g
+:
+¥aûvim_cÜe_dœ
+ = '/core'
+
+35 
+Ët
+ 
+g
+:
+¥aûvim_v”siÚ
+ = '0.6.0'
+
+37 
+£t
+ 
+ruÁim•©h
++=
+$HOME
+/
+wÜk
+/
+vimcÚfig
+/
+cÜe
+
+
+39 
+ÿÎ
+ 
+¥aûvim
+#begin()
+
+41 
+Lay”
+ 'spacevim'
+
+43 
+ÿÎ
+ 
+¥aûvim
+#end()
+
+	@/media/tool/work/vimconfig/install.sh
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+bash
+
+
+3 #Thi 
+£tup
+ 
+fe
+ 
+is
+ 
+ba£d
+ 
+Ú
+ 
+¥f13
+-
+vim
+'s bootstrap.sh.
+
+4 #Thªk 
+¥f13
+-
+vim
+.
+
+6 
+	g­p_Çme
+='space-vim'
+
+7 
+dÙ_¥aûvim
+="$HOME/.spacevim"
+
+8 [ -
+z
+ "$APP_PATH" ] && 
+APP_PATH
+="$HOME/.space-vim"
+
+9 [ -
+z
+ "$REPO_URI" ] && 
+REPO_URI
+='https://github.com/StreetWind/space-vim.git'
+
+10 [ -
+z
+ "$REPO_BRANCH" ] && 
+REPO_BRANCH
+='master'
+
+11 
+debug_mode
+='0'
+
+12 [ -
+z
+ "$VIM_PLUG_PATH" ] && 
+VIM_PLUG_PATH
+="$HOME/.vim/autoload"
+
+13 [ -
+z
+ "$VIM_PLUG_URL" ] && 
+VIM_PLUG_URL
+='https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+15 ########## 
+Basic
+ 
+£tup
+ 
+toŞs
+
+
+16 
+	$msg
+() {
+
+17 
+´štf
+ '%b\n' "$1" >&2
+
+18 
+	}
+}
+
+20 
+	$sucûss
+() {
+
+21 [ "$»t" -
+eq
+ '0' ];
+
+22 
+th’
+
+
+23 
+msg
+ "\33[32m[âœ”]\33[0m ${1}${2}"
+
+24 
+fi
+
+
+25 
+	}
+}
+
+27 
+	$”rÜ
+() {
+
+28 
+msg
+ "\33[31m[âœ˜]\33[0m ${1}${2}"
+
+29 
+ex™
+ 1
+
+30 
+	}
+}
+
+32 
+	$debug
+() {
+
+33 [ "$debug_mode" -
+eq
+ '1' ] && [ "$»t" -
+gt
+ '1' ];
+
+34 
+th’
+
+
+35 
+msg
+ "Anƒrror occurred in function \"${FUNCNAME[$i+1]}\" on†ine ${BASH_LINENO[$i+1]}, we're sorry forhat."
+
+36 
+fi
+
+
+37 
+	}
+}
+
+39 
+	$exi¡s
+() {
+
+40 
+commªd
+ -
+v
+ "$1" >/
+dev
+/
+nuÎ
+ 2>&1
+
+41 
+	}
+}
+
+43 
+	$´og¿m_exi¡s
+() {
+
+44 
+loÿl
+ 
+»t
+='0'
+
+45 
+exi¡s
+ "$1" || { 
+loÿl
+ 
+»t
+='1'; }
+
+47 #ç 
+Ú
+ 
+nÚ
+-
+z”o
+  
+v®ue
+
+
+48 [ "$»t" -
+Ã
+ 0 ];
+
+49 
+th’
+
+
+51 
+fi
+
+
+54 
+	}
+}
+
+56 
+	$´og¿m_mu¡_exi¡
+() {
+
+58 #throw 
+”rÜ
+ 
+Ú
+ 
+nÚ
+-
+z”o
+  
+v®ue
+
+
+59 ! 
+´og¿m_exi¡s
+ "$1";
+
+60 
+th’
+
+
+61 
+”rÜ
+ "You must have '$1' installedo continue."
+
+62 
+fi
+
+
+63 
+	}
+}
+
+65 
+	$Êif
+() {
+
+66 [ -
+e
+ "$1" ];
+
+67 
+th’
+
+
+68 
+Ê
+ -
+sf
+ "$1" "$2"
+
+69 
+fi
+
+
+70 
+»t
+="$?"
+
+71 
+debug
+
+
+72 
+	}
+}
+
+74 ########## 
+S‘up
+ 
+funùiÚ
+
+
+75 
+	$backup
+() {
+
+76 [ -
+e
+ "$1" ];
+
+77 
+th’
+
+
+78 
+msg
+ "Attemptingo back up your original vim configuration."
+
+79 
+today
+=
+	`$
+(
+d©e
+ +%
+Y
+%
+m
+%
+d_
+%
+s
+)
+
+80 
+mv
+ -
+v
+ "$1" "$1.$today"
+
+82 
+»t
+="$?"
+
+83 
+sucûss
+ "Your original vim configuration has been backed up."
+
+84 
+debug
+
+
+85 
+fi
+
+
+86 
+	}
+}
+
+88 
+	$sync_»po
+() {
+
+89 
+loÿl
+ 
+»po_·th
+="$1"
+
+90 
+loÿl
+ 
+»po_uri
+="$2"
+
+91 
+loÿl
+ 
+»po_b¿nch
+="$3"
+
+92 
+loÿl
+ 
+»po_Çme
+="$4"
+
+94 [ ! -
+e
+ "$repo_path" ];
+
+95 
+th’
+
+
+96 
+msg
+ "\033[1;34m==>\033[0m Tryingo clone $repo_name"
+
+97 
+mkdœ
+ -
+p
+ "$repo_path"
+
+98 
+g™
+ 
+şÚe
+ -
+b
+ "$»po_b¿nch" "$»po_uri" "$»po_·th" --
+d•th
+=1
+
+99 
+»t
+="$?"
+
+100 
+sucûss
+ "Successfully cloned $repo_name."
+
+102 
+msg
+ "\033[1;34m==>\033[0m Tryingo update $repo_name"
+
+103 
+cd
+ "$»po_·th" && 
+g™
+ 
+puÎ
+ 
+Üigš
+ "$repo_branch"
+
+104 
+»t
+="$?"
+
+105 
+sucûss
+ "Successfully updated $repo_name"
+
+106 
+fi
+
+
+108 
+debug
+
+
+109 
+	}
+}
+
+111 
+	$ü—‹_symlšks
+() {
+
+112 
+loÿl
+ 
+sourû_·th
+="$1"
+
+113 
+loÿl
+ 
+rg‘_·th
+="$2"
+
+115 
+Êif
+ "$source_path/init.vim" "$target_path/.vimrc"
+
+117 
+»t
+="$?"
+
+118 
+sucûss
+ "Setting up vim symlinks."
+
+120 
+debug
+
+
+121 
+	}
+}
+
+123 
+	$sync_vim_¶ug
+() {
+
+124 [ ! -
+f
+ "$VIM_PLUG_PATH/plug.vim" ];
+
+125 
+th’
+
+
+126 
+cu¾
+ -
+fLo
+ "$1/¶ug.vim" --
+ü—‹
+-
+dœs
+ "$2"
+
+127 
+fi
+
+
+129 
+debug
+
+
+130 
+	}
+}
+
+132 
+	$£tup_vim_¶ug
+(){
+
+133 
+loÿl
+ 
+sy¡em_sh–l
+="$SHELL"
+
+134 
+expÜt
+ 
+SHELL
+='/bin/sh'
+
+136 
+vim
+ \
+
+141 
+expÜt
+ 
+SHELL
+="$system_shell"
+
+143 
+sucûss
+ "Now updating/installing…lugins using vim-plug"
+
+145 
+debug
+
+
+146 
+	}
+}
+
+148 
+	$g’”©e_dÙ_¥aûvim
+(){
+
+149 [ ! -
+f
+ "$dot_spacevim" ];
+
+150 
+th’
+
+
+151 
+touch
+ "$dot_spacevim"
+
+153 
+ÿt
+ <<
+DOTSPACEVIM
+
+
+159 
+funùiÚ
+! 
+	`Lay”s
+()
+
+162 
+Lay”
+ 'fzf'
+
+163 
+Lay”
+ 'unite'
+
+164 
+Lay”
+ 'better-defaults'
+
+166 
+’dfunùiÚ
+
+
+169 
+funùiÚ
+! 
+	`U£rIn™
+()
+
+173 "†‘ g:¥aûvim_Ëad” = "<\
+S·û
+>"
+
+179 
+’dfunùiÚ
+
+
+182 
+funùiÚ
+! 
+	`U£rCÚfig
+()
+
+188 
+’dfunùiÚ
+
+
+189 
+DOTSPACEVIM
+
+
+192 
+fi
+
+
+193 
+	}
+}
+
+195 ########## 
+Maš
+()
+
+196 
+	g´og¿m_mu¡_exi¡
+ "vim"
+
+197 
+	g´og¿m_mu¡_exi¡
+ "git"
+
+199 
+	gbackup
+ "$HOME/.vimrc"
+
+201 
+	gsync_»po
+ "$APP_PATH" \
+
+206 
+	gü—‹_symlšks
+ "$APP_PATH" \
+
+209 
+	gsync_vim_¶ug
+ "$VIM_PLUG_PATH" \
+
+212 
+g’”©e_dÙ_¥aûvim
+
+
+214 
+£tup_vim_¶ug
+
+
+216 
+	gmsg
+ "\nThanks for installing \033[1;31m$app_name\033[0m. Enjoy!"
+
+	@/media/tool/work/vimconfig/layers/+checkers/syntax-checking/README.md
+
+1 #SyÁax-
+Checkšg
+ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+D•’d’c›s
+](#dependencies)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+syÁax
+ 
+	gcheckšg
+.
+
+16 ![
+sü“nshÙ
+](
+	gh‰ps
+:
+
+18 ## 
+In¡®l
+
+
+20 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+Ïy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+24 
+To
+ 
+make
+ 
+syÁax
+ 
+checkšg
+ 
+	gwÜk
+, 
+you
+ 
+Ãed
+ 
+to
+ 
+š¡®l
+ 
+some
+ 
+ex‹º®
+ 
+toŞs
+ 
+	gbefÜehªd
+, 
+	ge
+.
+	gg
+., `
+	gæake8
+` 
+the
+ 
+PythÚ
+ 
+	gÏnguage
+.
+
+	@/media/tool/work/vimconfig/layers/+checkers/syntax-checking/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+3 
+	gg
+:
+¥aûvim_vim8
+ || 
+g
+:
+¥aûvim_nvim
+
+
+5 
+Ët
+ 
+g
+:
+®e_’abËd
+ = 0
+
+6 
+Ët
+ 
+g
+:
+®e_lš‹rs
+ = {
+
+14 
+Ët
+ 
+g
+:
+®e_£t_highlights
+ = 0
+
+16 
+Œy
+
+
+17 
+Ët
+ 
+g
+:
+®e_sign_”rÜ
+ = 
+emoji
+#for('boom')
+
+18 
+Ët
+ 
+g
+:
+®e_sign_w¬nšg
+ = 
+emoji
+#for('small_orange_diamond')
+
+19 
+ÿtch
+
+
+21 
+Ët
+ 
+g
+:
+®e_sign_”rÜ
+ = 'â€¢'
+
+22 
+Ët
+ 
+g
+:
+®e_sign_w¬nšg
+ = 'â€¢'
+
+23 
+’dŒy
+
+
+24 
+Ët
+ 
+g
+:
+®e_echo_msg_fÜm©
+ = '[#%linter%#] %s [%severity%]'
+
+25 
+Ët
+ 
+g
+:
+®e_¡©u¦še_fÜm©
+ = ['Eâ€¢%d', 'Wâ€¢%d', 'OK']
+
+28 
+	gfunùiÚ
+! 
+	$ALEG‘E¼Ü
+()
+
+29 
+Ët
+ 
+l
+:
+»s
+ = 
+®e
+#statusline#Status()
+
+30 
+l
+:
+»s
+ ==#'
+OK
+'
+
+33 
+Ët
+ 
+l
+:
+e_w
+ = 
+	$¥l™
+(
+l
+:
+»s
+)
+
+34 
+	`Ën
+(
+l
+:
+e_w
+è=ğ2 || 
+	`m©ch
+(l:e_w, 'E') > -1
+
+35  ' â€¢' . 
+	`m©ch¡r
+(
+l
+:
+e_w
+[0], '\d\+') .' '
+
+36 
+’dif
+
+
+37 
+’dif
+
+
+38 
+’dfunùiÚ
+
+
+40 
+funùiÚ
+! 
+	$ALEG‘W¬nšg
+()
+
+41 
+Ët
+ 
+l
+:
+»s
+ = 
+®e
+#statusline#Status()
+
+42 
+l
+:
+»s
+ ==#'
+OK
+'
+
+45 
+Ët
+ 
+l
+:
+e_w
+ = 
+	$¥l™
+(
+l
+:
+»s
+)
+
+46 
+	`Ën
+(
+l
+:
+e_w
+) == 2
+
+47  ' â€¢' . 
+	`m©ch¡r
+(
+l
+:
+e_w
+[1], '\d\+')
+
+48 
+–£if
+ 
+	`m©ch
+(
+l
+:
+e_w
+, 'W') > -1
+
+49  ' â€¢' . 
+	`m©ch¡r
+(
+l
+:
+e_w
+[0], '\d\+')
+
+50 
+’dif
+
+
+51 
+’dif
+
+
+52 
+’dfunùiÚ
+
+
+54 
+g
+:
+¥aûvim_gui
+
+
+55 
+Ët
+ 
+g
+:
+®e_echo_msg_”rÜ_¡r
+ = 'Error'
+
+56 
+Ët
+ 
+g
+:
+®e_echo_msg_w¬nšg_¡r
+ = 'Warning'
+
+58 
+Ët
+ 
+g
+:
+®e_echo_msg_”rÜ_¡r
+ = 'âœ¹ Error'
+
+59 
+Ët
+ 
+g
+:
+®e_echo_msg_w¬nšg_¡r
+ = 'âš  Warning'
+
+60 
+’dif
+
+
+62 
+nm­
+ <
+L—d”
+>
+’
+ <
+Plug
+>(
+®e_Ãxt
+)
+
+63 
+nm­
+ <
+L—d”
+>
+•
+ <
+Plug
+>(
+®e_´evious
+)
+
+64 
+ÂÜem­
+ <
+L—d”
+>
+ts
+ :
+ALEToggË
+<
+CR
+>
+
+68 
+Ët
+ 
+g
+:
+syÁa¡ic_pythÚ_check”s
+=['pyflakes']
+
+69 
+Ët
+ 
+g
+:
+syÁa¡ic_javasüt_check”s
+=['jsl', 'jshint']
+
+70 
+Ët
+ 
+g
+:
+syÁa¡ic_html_check”s
+=['tidy', 'jshint']
+
+71 
+Ët
+ 
+g
+:
+syÁa¡ic_”rÜ_symbŞ
+='âœ¹'
+
+72 
+Ët
+ 
+g
+:
+syÁa¡ic_w¬nšg_symbŞ
+='âœ´'
+
+73 
+Ët
+ 
+g
+:
+syÁa¡ic_agg»g©e_”rÜs
+=1
+
+75 
+ÂÜem­
+ <
+L—d”
+>
+ts
+ :
+SyÁa¡icToggËMode
+<
+CR
+>
+
+77 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+checkers/syntax-checking/packages.vim
+
+1 
+	gg
+:
+¥aûvim_vim8
+ || 
+g
+:
+¥aûvim_nvim
+
+
+2 
+MP
+ 'w0rp/ale'
+
+4 
+MP
+ 'scrooloose/syntastic', { 'on': 'SyntasticCheck' }
+
+5 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+completion/auto-completion/README.md
+
+1 #Auto-
+Com¶‘iÚ
+ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+basiÿl
+ 
+keywÜd
+ 
+	gcom¶‘iÚ
+.
+
+15 
+If
+ 
+you
+ 
+wªt
+ 
+a
+ 
+mÜe
+ 
+pow”ful
+ 
+com¶‘iÚ
+ 
+	g’gše
+, 
+¶—£
+ 
+’abË
+ 
+ªÙh”
+ 
+	gÏy”
+ `
+	gycmd
+`.
+
+17 ## 
+In¡®l
+
+
+19 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+completion/auto-completion/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+3 
+	gg
+:
+¥aûvim_nvim
+
+
+5 
+Ët
+ 
+g
+:
+aı_’abËAtS¹up
+ = 0
+
+7 
+Ët
+ 
+g
+:
+deİË‹
+#enable_at_startup = 1
+
+9 
+Ët
+ 
+g
+:
+deİË‹
+#enable_smart_case = 1
+
+11 
+Ët
+ 
+g
+:
+deİË‹
+#sources#syntax#min_keyword_length = 3
+
+14 
+Ët
+ 
+g
+:
+deİË‹
+#sources#dictionary#dictionaries = {
+
+16 \ 'vimsh–l' : 
+$HOME
+.'/.vimshell_hist',
+
+17 \ 'scheme' : 
+$HOME
+.'/.gosh_completions'
+
+21 !
+exi¡s
+('g:deoplete#keyword_patterns')
+
+22 
+Ët
+ 
+g
+:
+deİË‹
+#keyword_patterns = {}
+
+23 
+’dif
+
+
+24 
+Ët
+ 
+g
+:
+deİË‹
+#keyword_patterns['default'] = '\h\w*'
+
+27 
+šÜem­
+ <
+ex´
+><
+C
+-
+g
+> 
+deİË‹
+#undo_completion()
+
+28 
+šÜem­
+ <
+ex´
+><
+C
+-
+l
+> 
+deİË‹
+#complete_common_string()
+
+32 
+šÜem­
+ <
+s’t
+> <
+CR
+> <
+C
+-
+r
+>=<
+SID
+>
+my_ü_funùiÚ
+()<CR>
+
+33 
+funùiÚ
+! 
+s
+:
+	$my_ü_funùiÚ
+()
+
+34  (
+	`pumvisibË
+() ? "\<C-y>" : "" ) . "\<CR>"
+
+36 "»tuº…umvisibË(è? "\<
+C
+-
+y
+>" : "\<
+CR
+>"
+
+37 
+’dfunùiÚ
+
+
+39 
+šÜem­
+ <
+ex´
+><
+TAB
+> 
+	`pumvisibË
+() ? "\<C-n>" : "\<TAB>"
+
+41 
+šÜem­
+ <
+ex´
+><
+C
+-
+h
+> 
+deİË‹
+#smart_close_popup()."\<C-h>"
+
+42 
+šÜem­
+ <
+ex´
+><
+BS
+> 
+deİË‹
+#smart_close_popup()."\<C-h>"
+
+44 "šÜem­ <ex´><S·û>…umvisibË(è? "\<
+C
+-
+y
+>" : "\<
+S·û
+>"
+
+47 
+autocmd
+ 
+FeTy³
+ 
+css
+ 
+£oÿl
+ 
+omnifunc
+=
+csscom¶‘e
+#CompleteCSS
+
+48 
+autocmd
+ 
+FeTy³
+ 
+html
+,
+m¬kdown
+ 
+£oÿl
+ 
+omnifunc
+=
+htmlcom¶‘e
+#CompleteTags
+
+49 
+autocmd
+ 
+FeTy³
+ 
+javasüt
+ 
+£oÿl
+ 
+omnifunc
+=
+javasütcom¶‘e
+#CompleteJS
+
+50 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+£oÿl
+ 
+omnifunc
+=
+pythÚcom¶‘e
+#Complete
+
+51 
+autocmd
+ 
+FeTy³
+ 
+xml
+ 
+£oÿl
+ 
+omnifunc
+=
+xmlcom¶‘e
+#CompleteTags
+
+54 !
+	`exi¡s
+('g:deoplete#omni#input_patterns')
+
+55 
+Ët
+ 
+g
+:
+deİË‹
+#omni#šput_·‰”n ğ{
+	}
+}
+
+56 
+’dif
+
+
+60 
+Ët
+ 
+g
+:
+deİË‹
+#omni#šput_·‰”ns.
+³¾
+ = '\h\w*->\h\w*\|\h\w*::'
+
+61 
+Ët
+ 
+g
+:
+deİË‹
+#omni#šput_·‰”ns.
+”Ïng
+ = '[^. *\t]:\w*'
+
+67 
+Ët
+ 
+g
+:
+aı_’abËAtS¹up
+ = 0
+
+69 
+Ët
+ 
+g
+:
+Ãocom¶‘e
+#enable_at_startup = 1
+
+71 
+Ët
+ 
+g
+:
+Ãocom¶‘e
+#enable_smart_case = 1
+
+73 
+Ët
+ 
+g
+:
+Ãocom¶‘e
+#sources#syntax#min_keyword_length = 3
+
+76 
+Ët
+ 
+g
+:
+Ãocom¶‘e
+#sources#dictionary#dictionaries = {
+
+78 \ 'vimsh–l' : 
+$HOME
+.'/.vimshell_hist',
+
+79 \ 'scheme' : 
+$HOME
+.'/.gosh_completions'
+
+83 !
+exi¡s
+('g:neocomplete#keyword_patterns')
+
+84 
+Ët
+ 
+g
+:
+Ãocom¶‘e
+#keyword_patterns = {}
+
+85 
+’dif
+
+
+86 
+Ët
+ 
+g
+:
+Ãocom¶‘e
+#keyword_patterns['default'] = '\h\w*'
+
+89 
+šÜem­
+ <
+ex´
+><
+C
+-
+g
+> 
+Ãocom¶‘e
+#undo_completion()
+
+90 
+šÜem­
+ <
+ex´
+><
+C
+-
+l
+> 
+Ãocom¶‘e
+#complete_common_string()
+
+94 
+šÜem­
+ <
+s’t
+> <
+CR
+> <
+C
+-
+r
+>=<
+SID
+>
+my_ü_funùiÚ
+()<CR>
+
+95 
+funùiÚ
+! 
+s
+:
+	$my_ü_funùiÚ
+()
+
+96  (
+	`pumvisibË
+() ? "\<C-y>" : "" ) . "\<CR>"
+
+98 "»tuº…umvisibË(è? "\<
+C
+-
+y
+>" : "\<
+CR
+>"
+
+99 
+’dfunùiÚ
+
+
+101 
+šÜem­
+ <
+ex´
+><
+TAB
+> 
+	`pumvisibË
+() ? "\<C-n>" : "\<TAB>"
+
+103 
+šÜem­
+ <
+ex´
+><
+C
+-
+h
+> 
+Ãocom¶‘e
+#smart_close_popup()."\<C-h>"
+
+104 
+šÜem­
+ <
+ex´
+><
+BS
+> 
+Ãocom¶‘e
+#smart_close_popup()."\<C-h>"
+
+106 "šÜem­ <ex´><S·û>…umvisibË(è? "\<
+C
+-
+y
+>" : "\<
+S·û
+>"
+
+115 "šÜem­ <ex´><TAB>…umvisibË(è? "\<
+Down
+>" : "\<
+C
+-
+x
+>\<C-
+u
+>"
+
+118 
+autocmd
+ 
+FeTy³
+ 
+css
+ 
+£oÿl
+ 
+omnifunc
+=
+csscom¶‘e
+#CompleteCSS
+
+119 
+autocmd
+ 
+FeTy³
+ 
+html
+,
+m¬kdown
+ 
+£oÿl
+ 
+omnifunc
+=
+htmlcom¶‘e
+#CompleteTags
+
+120 
+autocmd
+ 
+FeTy³
+ 
+javasüt
+ 
+£oÿl
+ 
+omnifunc
+=
+javasütcom¶‘e
+#CompleteJS
+
+121 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+£oÿl
+ 
+omnifunc
+=
+pythÚcom¶‘e
+#Complete
+
+122 
+autocmd
+ 
+FeTy³
+ 
+xml
+ 
+£oÿl
+ 
+omnifunc
+=
+xmlcom¶‘e
+#CompleteTags
+
+125 !
+	`exi¡s
+('g:neocomplete#sources#omni#input_patterns')
+
+126 
+Ët
+ 
+g
+:
+Ãocom¶‘e
+#sourûs#omni#šput_·‰”n ğ{
+	}
+}
+
+127 
+’dif
+
+
+134 
+Ët
+ 
+g
+:
+Ãocom¶‘e
+#sourûs#omni#šput_·‰”ns.
+³¾
+ = '\h\w*->\h\w*\|\h\w*::'
+
+137 
+Ët
+ 
+g
+:
+Ãocom¶‘e
+#sourûs#omni#šput_·‰”ns.
+”Ïng
+ = '[^. *\t]:\w*'
+
+139 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+completion/auto-completion/packages.vim
+
+1 
+	gg
+:
+¥aûvim_nvim
+
+
+2 
+MP
+ 'Shougo/deoplete.nvim'
+
+4 
+MP
+ 'Shougo/neocomplete.vim'
+
+5 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+completion/unite/README.md
+
+1 #Un™
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+u£r
+ 
+	gš‹rçû
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 
+Some
+ 
+commªds
+ 
+u£d
+ 
+š
+ 
+this
+ 
+Ïy”
+ 
+may
+ 
+Ãed
+ 
+the
+ 
+suµÜt
+ 
+of
+ 
+Ùh”
+ 
+	gÏy”s
+.
+
+22 ## 
+Key
+ 
+Bšdšgs
+
+
+24 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+26 <
+kbd
+>, 
+	gm
+</
+	gkbd
+> | 
+	gNÜm®
+ | 
+	gun™e
+.
+vim
+ 
+	gm’u
+
+
+	@/media/tool/work/vimconfig/layers/+completion/unite/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+4 
+Ët
+ 
+	gg
+:
+un™e_sourû_m’u_m’us
+ = {}
+
+7 
+ÂÜem­
+ [
+m’u
+] <
+Nİ
+>
+
+8 
+nm­
+ <
+LoÿlL—d”
+> [
+m’u
+]
+
+10 
+Ët
+ 
+g
+:
+un™e_sourû_hi¡Üy_yªk_’abË
+ = 1
+
+11 
+Ët
+ 
+g
+:
+un™e_’abË_¡¬t_š£¹
+ = 0
+
+12 
+Ët
+ 
+g
+:
+un™e_’abË_shÜt_sourû_mes
+ = 0
+
+13 
+Ët
+ 
+g
+:
+un™e_fÜû_ov”wr™e_¡©u¦še
+ = 0
+
+14 
+Ët
+ 
+g
+:
+un™e_´om±
+ = '>>> '
+
+15 
+Ët
+ 
+g
+:
+un™e_m¬ked_icÚ
+ = 'âœ“'
+
+16 
+Ët
+ 
+g
+:
+un™e_ÿndid©e_icÚ
+ = 'âˆ˜'
+
+17 
+Ët
+ 
+g
+:
+un™e_wšheight
+ = 15
+
+18 
+Ët
+ 
+g
+:
+un™e_upd©e_time
+ = 200
+
+19 
+Ët
+ 
+g
+:
+un™e_¥l™_ruË
+ = 'botright'
+
+20 
+Ët
+ 
+g
+:
+un™e_sourû_bufãr_time_fÜm©
+ = '(%d-%m-%Y %H:%M:%S) '
+
+21 
+Ët
+ 
+g
+:
+un™e_sourû_fe_mru_time_fÜm©
+ = '(%d-%m-%Y %H:%M:%S) '
+
+22 
+Ët
+ 
+g
+:
+un™e_sourû_dœeùÜy_mru_time_fÜm©
+ = '(%d-%m-%Y %H:%M:%S) '
+
+28 
+ÂÜem­
+ <
+s’t
+>[
+m’u
+]
+m
+ :
+Un™e
+ -s’ˆ-
+wšheight
+=40 m’u<
+CR
+>
+
+31 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+x
+ = {
+
+34 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+x
+.
+commªd_ÿndid©es
+ = [
+
+48 
+	gÂÜem­
+ <
+	gs’t
+>[
+m’u
+]
+	gx
+ :
+Un™e
+ -
+s’t
+ -
+wšheight
+=20
+
+49 \ 
+m’u
+:
+x
+<
+CR
+>
+
+53 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+f
+ = {
+
+57 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+f
+.
+commªd_ÿndid©es
+ = [
+
+77 
+	gÂÜem­
+ <
+	gs’t
+>[
+m’u
+]
+	gf
+ :
+Un™e
+ -
+s’t
+ -
+wšheight
+=20
+
+78 \ 
+m’u
+:
+f
+<
+CR
+>
+
+82 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+p
+ = {
+
+85 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+p
+.
+commªd_ÿndid©es
+ = [
+
+99 
+	gÂÜem­
+ <
+	gs’t
+>[
+m’u
+]
+	gp
+ :
+Un™e
+ -
+s’t
+
+
+100 \ 
+m’u
+:
+p
+<
+CR
+>
+
+104 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+t
+ = {
+
+107 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+t
+.
+commªd_ÿndid©es
+ = [
+
+117 
+	gÂÜem­
+ <
+	gs’t
+>[
+m’u
+]
+	gt
+ :
+Un™e
+ -
+s’t
+
+
+118 \ 
+m’u
+:
+t
+<
+CR
+>
+
+122 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+u
+ = {
+
+125 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+u
+.
+commªd_ÿndid©es
+ = [
+
+129 
+	gÂÜem­
+ <
+	gs’t
+>[
+m’u
+]
+	gu
+ :
+Un™e
+ -
+s’t
+
+
+130 \ 
+m’u
+:
+u
+<
+CR
+>
+
+134 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+v
+ = {
+
+137 
+Ët
+ 
+g
+:
+un™e_sourû_m’u_m’us
+.
+v
+.
+commªd_ÿndid©es
+ = [
+
+155 
+	gÂÜem­
+ <
+	gs’t
+>[
+m’u
+]
+	gv
+ :
+Un™e
+ -
+s’t
+
+
+156 \ 
+m’u
+:
+v
+<
+CR
+>
+
+	@/media/tool/work/vimconfig/layers/+completion/unite/packages.vim
+
+4 
+	gMP
+ 'Shougo/unite.vim'
+
+	@/media/tool/work/vimconfig/layers/+distributions/better-defaults/README.md
+
+1 #B‘‹r-
+deçuÉs
+ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+9 * [
+Basic
+](#basic)
+
+10 * [
+Bufãr
+](#buffer)
+
+11 * [
+Wšdow
+](#window)
+
+12 * [
+Oth”s
+](#others)
+
+14 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+16 ## 
+DesütiÚ
+
+
+18 
+This
+ 
+Ïy”
+ 
+has
+ 
+defšed
+ 
+a
+ 
+tÚ
+ 
+of
+ 
+fundam’l
+ 
+key
+ 
+	gbšdšgs
+. 
+You
+ 
+ÿn
+ 
+£e
+ 
+the
+ 
+	gkeybšgs
+.
+vim
+ 
+mÜe
+ 
+šfÜm©iÚ
+ 
+ªd
+ 
+modify
+h
+exi¡šg
+ key 
+m­pšgs
+ 
+	gš
+ `
+U£rCÚfig
+()`.
+
+20 è¿™ä¸ª 
+	gLay”
+ æ¶‰åŠæ¯”è¾ƒå¤šçš„åŸºæœ¬æ“ä½œï¼Œä½†æ˜¯è®°å¿†èµ·æ¥åº”å½“ä¸æ˜¯å¾ˆå¤æ‚ï¼Œå¿«æ·é”®ä¸€èˆ¬æ§åˆ¶åœ¨ä¸¤ä¸ªã€‚å¦‚æœæƒ³è¦ä¿®æ”¹å·²æœ‰çš„é”®ä½ï¼Œå¯åœ¨ `
+U£rCÚfig
+()` ä¸­è¿›è¡Œè°ƒæ•´ã€‚
+
+22 ## 
+In¡®l
+
+
+24 
+This
+ 
+Ïy”
+ 
+has
+ 
+b“n
+ 
+’abËd
+ 
+as
+ 
+the
+  
+	gÏy”
+. å·²é»˜è®¤å¯ç”¨ã€‚
+
+26 ## 
+Key
+ 
+Bšdšgs
+
+
+30 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+32 <
+kbd
+>
+SPC
+ 
+q
+</kbd> | 
+NÜm®
+ | **q**
+u™
+, é€€å‡º
+
+33 <
+	gkbd
+>
+SPC
+ 
+	gQ
+</kbd> | 
+	gNÜm®
+ | 
+qu™
+ 
+w™hout
+ 
+	g§všg
+, ä¸ä¿å­˜å¼ºåˆ¶é€€å‡º
+
+34 <
+	gkbd
+>
+SPC
+ 
+	gd
+</kbd> | 
+	gNÜm®
+ | 
+go
+ **
+d
+**
+own
+ 
+h®f
+ 
+	g·ge
+, å‘ä¸‹ç§»åŠ¨åŠå±
+
+35 <
+	gkbd
+>
+SPC
+ 
+	gu
+</kbd> | 
+	gNÜm®
+ | 
+go
+ **
+u
+**
+p
+ 
+h®f
+ 
+	g·ge
+, å‘ä¸Šç§»åŠ¨åŠå±
+
+36 <
+	gkbd
+>
+	gSPC
+ '</kbd> | Normal | open shell, åœ¨ vim ä¸­æ‰“å¼€ shell
+
+37 <
+	gkbd
+>
+SPC
+ 
+s
+ 
+	gc
+</kbd> | 
+	gNÜm®
+ | **s**
+—rch
+ 
+»suÉ
+ 
+highlight
+ *
+c
+*
+	gouÁ”mªd
+, å–æ¶ˆæœç´¢ç»“æœé«˜äº®
+
+38 <
+	gkbd
+>
+SPC
+ 
+t
+ 
+	gp
+</kbd> | 
+	gNÜm®
+ | **t**
+oggË
+ **
+p
+**
+	ga¡emode
+, ç²˜è´´æ¨¡å¼å¼€å…³
+
+39 <
+	gkbd
+>
+CŒl
+ 
+	gj
+</kbd> | **
+	gIn£¹
+** | j, å‘ä¸‹ç§»åŠ¨
+
+40 <
+	gkbd
+>
+CŒl
+ 
+	gk
+</kbd> | **
+	gIn£¹
+** | k, å‘ä¸Šç§»åŠ¨
+
+41 <
+	gkbd
+>
+CŒl
+ 
+	gh
+</kbd> | **
+	gIn£¹
+** | h, å‘å·¦ç§»åŠ¨
+
+42 <
+	gkbd
+>
+CŒl
+ 
+	gl
+</kbd> | **
+	gIn£¹
+** |†, å‘å³ç§»åŠ¨
+
+43 <
+	gkbd
+>
+	gjj
+</kbd> | **
+	gIn£¹
+** | <kbd>\<
+	gEsc
+></kbd>
+
+44 <
+	gkbd
+>
+	gjk
+</kbd> | **
+	gIn£¹
+** | <kbd>\<
+	gEsc
+></kbd>
+
+45 <
+	gkbd
+>
+	gkk
+</kbd> | **
+	gIn£¹
+** | <kbd>\<
+	gEsc
+></kbd>
+
+46 <
+	gkbd
+>
+	gv
+</kbd> | **
+	gVisu®
+** | <kbd>\<
+	gEsc
+></kbd>
+
+47 <
+	gkbd
+>
+	gU
+</kbd> | 
+	gNÜm®
+ | 
+	g»do
+, é‡åš(å¯¹åº” <kbd>
+	gu
+</kbd> ä¸ºæ’¤é”€ï¼Œ
+	gundo
+)
+
+48 <
+	gkbd
+>
+	gH
+</kbd> | 
+	gNÜm®
+ | 
+begšnšg
+ 
+of
+ 
+	glše
+, å…‰æ ‡è·³è½¬åˆ°è¡Œé¦–
+
+49 <
+	gkbd
+>
+	gL
+</kbd> | 
+	gNÜm®
+ | 
+’d
+ 
+of
+ 
+	glše
+, å…‰æ ‡è·³è½¬åˆ°è¡Œå°¾
+
+50 <
+	gkbd
+>
+	gY
+</kbd> | 
+	gNÜm®
+ | 
+yªk
+ 
+äom
+ 
+cursÜ
+ 
+to
+ 
+’d
+ 
+of
+ 
+	glše
+, ä»å…‰æ ‡å¤„å¤åˆ¶åˆ°è¡Œå°¾
+
+51 <
+	gkbd
+>
+SPC
+ 
+f
+ 
+	gs
+</kbd> | 
+	gNÜm®
+ | **f**
+e
+ **
+s
+**
+	gave
+, ä¿å­˜æ–‡ä»¶
+
+52 <
+	gkbd
+>
+SPC
+ 
+	gf
+ [1-9]</kbd> | 
+	gNÜm®
+ | **
+f
+**
+Şd
+ 
+	gËv–
+, è®¾ç½®æŠ˜å å±‚æ¬¡ï¼Œ`f 0` ç›¸å½“äºå…¨éƒ¨æŠ˜å , `f 9` ç›¸å½“äºå–æ¶ˆæŠ˜å å…¨éƒ¨å±•å¼€
+
+56 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+58 <
+kbd
+>
+SPC
+ 
+b
+ 
+p
+</kbd> | 
+NÜm®
+ | **p**
+»vious
+ **b**
+ufãr
+, ä¸Šä¸€ä¸ªç¼“å†²åŒº
+
+59 <
+	gkbd
+>
+SPC
+ 
+b
+ 
+	gn
+</kbd> | 
+	gNÜm®
+ | **
+n
+**
+ext
+ **b**
+	gufãr
+, ä¸‹ä¸€ä¸ªç¼“å†²åŒº
+
+60 <
+	gkbd
+>\<
+	gTab
+></kbd> | 
+	gNÜm®
+ | 
+	gbufãr
+, 
+equ®
+ 
+	gto
+ <kbd>
+SPC
+ 
+b
+ 
+	gn
+</kbd>, ç­‰åŒäº <kbd>SPC b‚</kbd>
+
+61 <
+	gkbd
+>
+SPC
+ 
+b
+ 
+	gd
+</kbd> | 
+	gNÜm®
+ | **
+d
+**
+–‘e
+ 
+cu¼’t
+ 
+	gbufãr
+, åˆ é™¤å½“å‰ç¼“å†²åŒº
+
+62 <
+	gkbd
+>
+SPC
+ 
+b
+ 
+	gk
+</kbd> | 
+	gNÜm®
+ | **
+k
+**
+l
+ 
+cu¼’t
+ 
+	gbufãr
+, æ€æ‰å½“å‰ç¼“å†²åŒº
+
+66 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+68 <
+kbd
+>
+SPC
+ [1-9]</kbd> | 
+NÜm®
+ | 
+to
+ 
+wšdow
+ 
+w™h
+ 
+numb”
+ [1-9], åˆ‡æ¢è‡³å¯¹åº”ç¼–å·[1-9]å¯¹åº”çš„ 
+	gwšdow
+
+
+69 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gj
+</kbd> | 
+	gNÜm®
+ | 
+	gwšdow
+-
+	gdown
+, ç§»åŠ¨è‡³ä¸‹æ–¹çª—å£
+
+70 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gk
+</kbd> | 
+	gNÜm®
+ | 
+	gwšdow
+-
+	gup
+, ç§»åŠ¨è‡³ä¸Šæ–¹çª—å£
+
+71 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gh
+</kbd> | 
+	gNÜm®
+ | 
+	gwšdow
+-
+	gËá
+, ç§»åŠ¨è‡³å·¦ä¾§çª—å£
+
+72 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gl
+</kbd> | 
+	gNÜm®
+ | 
+	gwšdow
+-
+	gright
+, ç§»åŠ¨è‡³å³ä¾§çª—å£
+
+73 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gJ
+</kbd> | 
+	gNÜm®
+ | å‘ä¸‹æ‰©å¤§å½“å‰çª—å£
+
+74 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gK
+</kbd> | 
+	gNÜm®
+ | å‘ä¸Šæ‰©å¤§å½“å‰çª—å£
+
+75 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gH
+</kbd> | 
+	gNÜm®
+ | å‘å³æ‰©å¤§å½“å‰çª—å£
+
+76 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gL
+</kbd> | 
+	gNÜm®
+ | å‘å·¦æ‰©å¤§å½“å‰çª—å£
+
+77 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gv
+</kbd> | 
+	gNÜm®
+ | 
+	g¥l™
+-
+	gwšdow
+-
+	gright
+, ç«–ç›´åˆ†å‰²çª—å£ï¼Œ ç­‰åŒäº `SPC 
+	gw
+ |`
+
+78 <
+	gkbd
+>
+SPC
+ 
+	gw
+ 2</kbd> | 
+	gNÜm®
+ | 
+	gÏyout
+--
+	gcŞumns
+, å°†çª—å£åˆ†å‰²ä¸ºä¸¤åˆ—ï¼Œç­‰åŒäº`SPC 
+w
+ 
+	gv
+`
+
+79 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gs
+</kbd> | 
+	gNÜm®
+ | 
+	g¥l™
+-
+	gwšdow
+-
+	gb–ow
+, æ°´å¹³åˆ†å‰²çª—å£ï¼Œ ç­‰åŒäº `SPC 
+	gw
+ -`
+
+80 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gd
+</kbd> | 
+	gNÜm®
+ | 
+	gd–‘e
+-
+	gwšdow
+, å…³é—­ (
+	gÿnûl
+, è®° **
+d
+**
+	g–‘e
+) å½“å‰çª—å£
+
+81 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gq
+</kbd> | 
+	gNÜm®
+ | 
+	gqu™
+-
+	gwšdow
+, é€€å‡º (**
+q
+**
+	gu™
+èå½“å‰çª—å£ï¼Œè‹¥æ˜¯æœ€åä¸€ä¸ªçª—å£åˆ™é€€å‡º
+	gvim
+
+
+82 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gw
+</kbd> | 
+	gNÜm®
+ | 
+	gÙh”
+-
+	gwšdow
+, åœ¨æ‰€æœ‰çª—å£ä¸­å¾ªç¯ç§»åŠ¨
+
+83 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gr
+</kbd> | 
+	gNÜm®
+ | 
+	gwšdow
+-
+	g»¶aû
+, å‘å³æˆ–å‘ä¸‹æ–¹äº¤æ¢ (**
+r
+**
+	g•Ïû
+) çª—å£
+
+84 <
+	gkbd
+>
+SPC
+ 
+w
+ 
+	gm
+</kbd> | 
+	gNÜm®
+ | 
+	gGUI
+ ç¯å¢ƒä¸‹ 
+	gvim
+ çª—å£æœ€å¤§åŒ– (**
+m
+**
+	gaximum
+) å¼€å…³
+
+88 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+90 <
+kbd
+>
+SPC
+ 
+x
+ 
+d
+</kbd> | 
+NÜm®
+ | 
+d–‘e
+ 
+Œašg
+ 
+wh™e¥aû
+, å»æ‰è¡Œå°¾å¤šä½™ç©ºæ ¼ (
+‹
+**x**
+t
+ **d**
+	g–‘e
+)
+
+91 <
+	gkbd
+>
+SPC
+ 
+f
+ 
+	gR
+</kbd> | 
+	gNÜm®
+ | 
+	g»lßd
+ .
+	gvimrc
+, é‡æ–°åŠ è½½ .
+vimrc
+ (**f**
+e
+ **
+R
+**
+esourû
+)
+
+92 <
+	gkbd
+>
+SPC
+ 
+b
+ 
+	gh
+</kbd> | 
+	gNÜm®
+ | **b**
+ufãr
+ **
+h
+**
+	gome
+, ä¸» 
+	gbufãr
+
+
+	@/media/tool/work/vimconfig/layers/+distributions/better-defaults/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+4 
+augroup
+ 
+¥aûvimCursÜlše
+
+
+5 
+	gautocmd
+!
+
+6 
+autocmd
+ 
+	gIn£¹L—ve
+,
+WšEÁ”
+ * 
+£t
+ 
+cursÜlše
+
+
+7 
+autocmd
+ 
+	gIn£¹EÁ”
+,
+WšL—ve
+ * 
+£t
+ 
+nocursÜlše
+
+
+8 
+augroup
+ 
+	gEND
+
+
+12 
+	gg
+:
+¥aûvim_gui
+
+
+13 
+commªd
+! 
+Bigg”
+ :
+Ët
+ &
+guifÚt
+ = 
+sub¡™u‹
+(&guifont, '\d\+$', '\=submatch(0)+1', '')
+
+14 
+	gcommªd
+! 
+	gSm®Ër
+ :
+Ët
+ &
+guifÚt
+ = 
+sub¡™u‹
+(&guifont, '\d\+$', '\=submatch(0)-1', '')
+
+15 
+	gnÜem­
+ + :
+Bigg”
+<
+CR
+>
+
+16 
+nÜem­
+ - :
+Sm®Ër
+<
+CR
+>
+
+17 
+’dif
+
+
+20 !
+g
+:
+¥aûvim_nvim
+
+
+22 !
+g
+:
+¥aûvim_gui
+
+
+23 
+m­
+ / <
+Plug
+>(
+šc£¬ch
+-
+fÜw¬d
+)
+
+24 
+m­
+ ? <
+Plug
+>(
+šc£¬ch
+-
+backw¬d
+)
+
+25 
+m­
+ 
+g
+/ <
+Plug
+>(
+šc£¬ch
+-
+¡ay
+)
+
+27 
+m­
+ 
+z
+/ <
+Plug
+>(
+šc£¬ch
+-
+fuzzy¥–l
+-/)
+
+28 
+m­
+ 
+z
+? <
+Plug
+>(
+šc£¬ch
+-
+fuzzy¥–l
+-?)
+
+29 
+m­
+ 
+zg
+/ <
+Plug
+>(
+šc£¬ch
+-
+fuzzy¥–l
+-
+¡ay
+)
+
+30 
+’dif
+
+
+31 
+’dif
+
+
+35 
+Ët
+ 
+g
+:
+¡¬tify_cu¡om_h—d”
+ = [
+
+42 \' [ s·û-vim ' . 
+g
+:
+¥aûvim_v”siÚ
+ . ' ï¼ ' . 
+v
+:
+v”siÚ
+ . ' ]',
+
+45 
+Ët
+ 
+	gg
+:
+¡¬tify_li¡_Üd”
+ = [
+
+58 
+Ët
+ 
+	gg
+:
+¡¬tify_chªge_to_vcs_roÙ
+ = 1
+
+62 
+execu‹
+ 'sourû' 
+âamemodify
+(
+ex·nd
+('<sfile>'), ':h') . '/keybindings.vim'
+
+	@/media/tool/work/vimconfig/layers/+distributions/better-defaults/keybindings.vim
+
+2 
+	gÂÜem­
+ <
+	gL—d”
+>
+	gfR
+ :
+sourû
+ 
+$MYVIMRC
+<
+CR
+>
+
+5 
+ÂÜem­
+ <
+Tab
+> :
+bn
+<
+CR
+>
+
+6 
+ÂÜem­
+ <
+S
+-
+Tab
+> :
+bp
+<
+CR
+>
+
+9 
+m­
+ <
+C
+-
+Tab
+> :
+bÃxt
+<
+CR
+>
+
+10 
+im­
+ <
+C
+-
+Tab
+> <C-
+O
+>:
+bÃxt
+<
+CR
+>
+
+11 
+m­
+ <
+M
+-
+Tab
+> :
+b´ev
+<
+CR
+>
+
+12 
+im­
+ <
+M
+-
+Tab
+> <
+C
+-
+O
+>:
+b´ev
+<
+CR
+>
+
+15 
+s
+:
+i
+ 
+š
+ 
+	$¿nge
+(1, 9)
+
+16 
+execu‹
+ 'ÂÜem­ <L—d”>' . 
+s
+:
+i
+ . ' :' . s:i . 'wincmd w<CR>'
+
+17 
+’dfÜ
+
+
+20 
+s
+:
+i
+ 
+š
+ 
+	$¿nge
+(1, 9)
+
+21 
+execu‹
+ 'ÂÜem­ <L—d”><L—d”>' . 
+s
+:
+i
+ . ' ' . s:i . 'gt'
+
+22 
+’dfÜ
+
+
+25 
+s
+:
+i
+ 
+š
+ 
+	$¿nge
+(1, 9)
+
+26 
+execu‹
+ 'ÂÜem­ <L—d”>b' . 
+s
+:
+i
+ . ' :b' . s:i . '<CR>'
+
+27 
+’dfÜ
+
+
+33 
+ÂÜem­
+ <
+s’t
+><
+L—d”
+>
+bh
+ :
+S¹ify
+<
+CR
+>
+
+36 
+ÂÜem­
+ <
+L—d”
+>
+xd
+ :
+SŒWh™e¥aû
+<
+CR
+>
+
+39 
+nm­
+ <
+L—d”
+>
+ww
+ <
+Plug
+>(
+choo£wš
+)
+
+42 
+ÂÜem­
+ <
+L—d”
+>
+tc
+ :
+ÿÎ
+ 
+¥aûvim
+#ut#ToggËCursÜCŞumn()<
+CR
+>
+
+43 
+ÂÜem­
+ <
+L—d”
+>
+tC
+ :
+ÿÎ
+ 
+¥aûvim
+#ut#ToggËCŞÜCŞumn()<
+CR
+>
+
+45 
+commªd
+! -
+b¬
+ -
+Çrgs
+=0 
+R
+ :
+ÿÎ
+ 
+¥aûvim
+#util#Runtimepath()
+
+47 
+augroup
+ 
+¥aûvimGUI
+
+
+48 
+autocmd
+!
+
+49 
+autocmd
+ 
+GUIEÁ”
+ * 
+ÂÜem­
+ <
+L—d”
+>
+wm
+ :
+ÿÎ
+ 
+¥aûvim
+#gui#ToggËFuÎSü“n()<
+CR
+>
+
+50 
+augroup
+ 
+END
+
+
+	@/media/tool/work/vimconfig/layers/+distributions/better-defaults/packages.vim
+
+5 
+	gMP
+ 'tpope/vim-rsi'
+
+7 
+	gMP
+ 't9md/vim-choosewin'
+
+9 
+	gMP
+ 'mhinz/vim-startify', { 'on': 'Startify' }
+
+10 
+augroup
+ 
+¥aûvimS¹
+
+
+11 
+autocmd
+!
+
+12 
+autocmd
+ 
+VimEÁ”
+ *
+
+13 \ !
+¬gc
+()
+
+14 \| 
+ÿÎ
+ 
+¶ug
+#load('vim-startify')
+
+15 \| 
+S¹ify
+
+
+16 \| 
+’dif
+
+
+17 
+augroup
+ 
+END
+
+
+19 
+MP
+ 'dominikduda/vim_current_word'
+
+25 
+MP
+ 'ntpeters/vim-better-whitespace', { 'on': 'StripWhitespace' }
+
+27 !
+g
+:
+¥aûvim_nvim
+
+
+28 
+MP
+ 'haya14busa/incsearch.vim', { 'on': [
+
+33 
+	gMP
+ 'haya14busa/incsearch-fuzzy.vim', { 'on': [
+
+38 
+	g’dif
+
+
+	@/media/tool/work/vimconfig/layers/+distributions/spacevim/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+5 
+	gs’t
+! 
+cŞÜ
+ 
+	g¥aû
+-
+	gvim
+-
+d¬k
+
+
+7 
+augroup
+ 
+¥aûvimBasic
+
+
+8 
+	gautocmd
+!
+
+10 
+autocmd
+ 
+	gBufEÁ”
+ * :
+syÁax
+ 
+sync
+ 
+maxlšes
+=200
+
+13 
+autocmd
+ 
+BufR—dPo¡
+ *
+
+14 \ 
+lše
+("'\"") > 1 &&†ine("'\"") <=†ine("$") |
+
+15 \ 
+execu‹
+ "normal! g`\"" |
+
+16 \ 
+’dif
+
+
+18 
+autocmd
+ 
+BufR—dP»
+ *
+
+19 \ 
+g‘fsize
+(
+ex·nd
+("%")) > 10000000 |
+
+20 \ 
+syÁax
+ 
+off
+ |
+
+21 \ 
+’dif
+
+
+23 
+autocmd
+ 
+BufR—dPo¡
+ *
+
+24 \ 
+lše
+('$') > 1000 |
+
+25 \ 
+s’t
+! 
+£t
+ 
+nÜ–©iv’umb”
+ |
+
+26 \ 
+’dif
+
+
+28 
+autocmd
+ 
+BufEÁ”
+ * 
+ÿÎ
+ 
+	$MyLa¡Wšdow
+()
+
+29 
+funùiÚ
+! 
+	`MyLa¡Wšdow
+()
+
+31 &
+buáy³
+ ==#'
+quickfix
+' || &buáy³ ==# '
+loÿtiÚli¡
+'
+
+33 
+	`wšbuâr
+(2) == -1
+
+34 
+qu™
+!
+
+35 
+’dif
+
+
+36 
+’dif
+
+
+37 
+’dfunùiÚ
+
+
+39 
+autocmd
+ 
+GUIEÁ”
+ * 
+£t
+ 
+t_vb
+=
+
+40 !
+¥aûvim
+#funcs#LayerLoaded('chinese')
+
+41 
+s’t
+! 
+£t
+ 
+$LANG
+ = 'en_US'
+
+42 
+s’t
+! 
+Ët
+ 
+Ïngm’u
+=
+’_US
+
+
+43 
+sourû
+ 
+$VIMRUNTIME
+/
+d–m’u
+.
+vim
+
+
+44 
+sourû
+ 
+$VIMRUNTIME
+/
+m’u
+.
+vim
+
+
+46 
+g
+:
+WINDOWS
+
+
+47 
+£t
+ 
+guifÚt
+=
+CÚsŞas
+:
+h13
+
+
+48 
+’dif
+
+
+49 
+’dif
+
+
+50 
+augroup
+ 
+END
+
+
+53 
+hi
+ 
+ExŒaWh™e¥aû
+ 
+guifg
+=#FF2626 
+gui
+=
+und”lše
+ 
+ù”mfg
+=124 
+ù”m
+=underline
+
+54 
+m©ch
+ 
+ExŒaWh™e¥aû
+ /\
+s
+\+
+$
+/
+
+57 
+g
+:
+¥aûvim_gui
+
+
+58 
+£t
+ 
+guiİtiÚs
+-=
+e
+
+
+59 
+’dif
+
+
+60 
+funùiÚ
+! 
+	$MyTabLše
+()
+
+61 
+Ët
+ 
+l
+:
+s
+ = ''
+
+62 
+Ët
+ 
+l
+:
+t
+ = 
+	$b·g’r
+()
+
+63 
+Ët
+ 
+l
+:
+i
+ = 1
+
+64 
+l
+:
+i
+ <ğ
+	`b·g’r
+('$')
+
+65 
+Ët
+ 
+l
+:
+buæi¡
+ = 
+	$b·gebuæi¡
+(
+l
+:
+i
+)
+
+66 
+Ët
+ 
+l
+:
+wšÄ
+ = 
+	$b·gewšÄ
+(
+l
+:
+i
+)
+
+67 
+Ët
+ 
+l
+:
+s
+ .ğ'%' .†:
+i
+ . 'T'
+
+68 
+Ët
+ 
+l
+:
+s
+ .ğÖ:
+i
+ =ğl:
+t
+ ? '%1*' : '%2*')
+
+69 
+Ët
+ 
+l
+:
+s
+ .= ' '
+
+73 
+Ët
+ 
+l
+:
+s
+ .ğl:
+i
+
+
+74 
+Ët
+ 
+l
+:
+s
+ .= ' %*'
+
+75 
+Ët
+ 
+l
+:
+s
+ .ğÖ:
+i
+ =ğl:
+t
+ ? '%#TabLineSel#' : '%#TabLine#')
+
+76 
+Ët
+ 
+l
+:
+buâr
+ =†:
+buæi¡
+[l:
+wšÄ
+ - 1]
+
+77 
+Ët
+ 
+l
+:
+fe
+ = 
+	$buâame
+(
+l
+:
+buâr
+)
+
+78 
+Ët
+ 
+l
+:
+buáy³
+ = 
+	`g‘bufv¬
+Ö:
+buâr
+, 'buftype')
+
+79 
+l
+:
+buáy³
+ ==#'
+nofe
+'
+
+80 
+l
+:
+fe
+ =~#'\/.'
+
+81 
+Ët
+ 
+l
+:
+fe
+ = 
+	`sub¡™u‹
+(l:file, '.*\/\ze.', '', '')
+
+82 
+’dif
+
+
+84 
+Ët
+ 
+l
+:
+fe
+ = 
+	`âamemodify
+(l:file, ':p:t')
+
+85 
+’dif
+
+
+86 
+l
+:
+fe
+ ==#''
+
+87 
+Ët
+ 
+l
+:
+fe
+ = '[No Name]'
+
+88 
+’dif
+
+
+89 
+Ët
+ 
+l
+:
+s
+ .ğ' '.l:
+fe
+.' '
+
+90 
+Ët
+ 
+l
+:
+i
+ =†:i + 1
+
+91 
+’dwhe
+
+
+92 
+Ët
+ 
+l
+:
+s
+ .= '%T%#TabLineFill#%='
+
+93 
+Ët
+ 
+l
+:
+s
+ .ğ(
+	`b·g’r
+('$') > 1 ? '%999XX' : 'X')
+
+94  
+l
+:
+s
+
+
+95 
+’dfunùiÚ
+
+
+96 
+s’t
+! 
+£t
+ 
+showblše
+=1
+
+97 
+s’t
+! 
+£t
+ 
+blše
+=%!
+	`MyTabLše
+()
+
+	@/media/tool/work/vimconfig/layers/+distributions/spacevim/packages.vim
+
+1 
+	gMP
+ 'liuchengxu/space-vim-dark'
+
+3 
+	gMP
+ 'liuchengxu/vim-better-default'
+
+5 !
+	g¥aûvim
+#funcs#LayerLoaded('airline') && !spacevim#funcs#LayerLoaded('lightline')
+
+6 
+	gMP
+ 'liuchengxu/eleline.vim'
+
+7 
+	g’dif
+
+
+	@/media/tool/work/vimconfig/layers/+fun/emoji/README.md
+
+1 #Emoj˜
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+U§ge
+](#usage)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+add
+ 
+suµÜt
+ 
+emoji
+‡uto-
+com¶‘iÚ
+ 
+š
+ 
+	gm¬kdown
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+U§ge
+
+
+22 
+	gTy³
+ `:`, 
+th’
+ 
+	g´ess
+ <
+	gkbd
+>
+CŒl
+ 
+	gx
+</kbd> 
+	gªd
+ <kbd>CŒÈ
+	gU
+</kbd> 
+to
+ 
+švoke
+ 
+emoji
+ 
+	gcom¶‘iÚ
+ :
+da
+:.
+
+	@/media/tool/work/vimconfig/layers/+fun/emoji/config.vim
+
+2 
+augroup
+ 
+¥aûvimEmoji
+
+
+3 
+	gautocmd
+!
+
+4 
+autocmd
+ 
+FeTy³
+ 
+m¬kdown
+ 
+£oÿl
+ 
+	gcom¶‘efunc
+=
+emoji
+#complete
+
+5 
+augroup
+ 
+END
+
+
+	@/media/tool/work/vimconfig/layers/+fun/emoji/packages.vim
+
+1 
+	gMP
+ 'junegunn/vim-emoji', { 'for': 'markdown' }
+
+	@/media/tool/work/vimconfig/layers/+fun/goyo/README.md
+
+1 #Emoj˜
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+	gdi¡¿ùiÚ
+-
+ä“
+ 
+wr™šg
+ 
+š
+ 
+	gVim
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+24 <
+kbd
+>
+SPC
+ 
+g
+ 
+y
+</kbd> | 
+NÜm®
+ | 
+goyo
+ 
+toggË
+
+
+25 <
+kbd
+>
+SPC
+ 
+q
+</kbd> | 
+NÜm®
+ | 
+ex™
+ 
+goyo
+
+
+	@/media/tool/work/vimconfig/layers/+fun/goyo/config.vim
+
+2 
+	gÂÜem­
+ <
+	gL—d”
+>
+	ggy
+ :
+Goyo
+<
+CR
+>
+
+	@/media/tool/work/vimconfig/layers/+fun/goyo/packages.vim
+
+1 
+	gMP
+ 'junegunn/goyo.vim', { 'on' : 'Goyo' }
+
+2 
+MP
+ 'junegunn/limelight.vim', { 'on' : 'Limelight' }
+
+	@/media/tool/work/vimconfig/layers/+lang/c-c++/README.md
+
+1 #C-
+C
+++ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+C
+ 
+ªd
+ 
+CPP
+ 
+	gÏnguage
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+24 <
+kbd
+>
+F5
+</kbd> | 
+NÜm®
+ | 
+Execu‹
+ 
+cu¼’t
+ 
+fe
+
+
+25 <
+kbd
+>, 
+	gm
+</
+	gkbd
+> | 
+	gNÜm®
+ | 
+	gmake
+
+
+26 <
+	gkbd
+>, =</
+kbd
+> | 
+NÜm®
+, 
+	gVisu®
+ | 
+code
+ 
+fÜm©
+ (
+»quœe
+ `
+şªg
+-format`)
+
+	@/media/tool/work/vimconfig/layers/+lang/c-c++/config.vim
+
+1 
+augroup
+ 
+¥aûvimC
+
+
+2 
+	gautocmd
+!
+
+4 
+autocmd
+ 
+FeTy³
+ 
+	gc
+,
+ıp
+ 
+	g£oÿl
+
+
+5 \ 
+	gb¡İ
+=2
+
+6 \ 
+shiáwidth
+=2
+
+7 \ 
+soáb¡İ
+=2
+
+9 
+autocmd
+ 
+FeTy³
+ 
+c
+,
+ıp
+ 
+£oÿl
+ 
+cšd’t
+
+
+10 
+autocmd
+ 
+FeTy³
+ 
+	gc
+,
+	gıp
+,
+objc
+ 
+	gÂÜem­
+ <
+	gLoÿlL—d”
+>ğ:
+CÏngFÜm©
+<
+CR
+>
+
+11 
+autocmd
+ 
+FeTy³
+ 
+c
+,
+	gıp
+,
+objc
+ 
+	gvnÜem­
+ <
+	gLoÿlL—d”
+>ğ:<
+C
+-
+u
+>
+CÏngFÜm©
+<
+CR
+>
+
+13 
+¥aûvim
+#funcs#LayerLoaded('programming')
+
+14 
+autocmd
+ 
+FeTy³
+ 
+c
+,
+ıp
+ 
+	gÂÜem­
+ <
+	gbufãr
+> <
+	gLoÿlL—d”
+>
+	gm
+ :
+upd©e
+<
+B¬
+>
+execu‹
+ 'AsyncRun! mak'.
+sh–Ësÿ³
+(@%, 1)<
+	gCR
+>
+
+16 
+autocmd
+ 
+FeTy³
+ 
+	gc
+,
+ıp
+ 
+	gÂÜem­
+ <
+	gbufãr
+> <
+	gLoÿlL—d”
+>
+	gm
+ :
+upd©e
+<
+B¬
+>
+execu‹
+ '! mak'.
+sh–Ësÿ³
+(@%, 1)<
+	gCR
+>
+
+17 
+’dif
+
+
+18 
+augroup
+ 
+	gEND
+
+
+21 
+Ët
+ 
+	gg
+:
+ıp_şass_scİe_highlight
+ = 1
+
+22 
+Ët
+ 
+g
+:
+c_no_cu¾y_”rÜ
+=1
+
+	@/media/tool/work/vimconfig/layers/+lang/c-c++/packages.vim
+
+1 
+	gMP
+ 'rhysd/vim-clang-format', { 'for': [ 'c', 'cpp' ] }
+
+2 
+	gMP
+ 'octol/vim-cpp-enhanced-highlight', { 'for': [ 'c', 'cpp' ] }
+
+	@/media/tool/work/vimconfig/layers/+lang/elixir/README.md
+
+1 #Elixœ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+	gElixœ
+.
+
+15 ## 
+In¡®l
+
+
+17 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+lang/elixir/config.vim
+
+	@/media/tool/work/vimconfig/layers/+lang/elixir/packages.vim
+
+1 
+	gMP
+ 'elixir-lang/vim-elixir'
+
+3 
+	gMP
+ 'slashmili/alchemist.vim'
+
+	@/media/tool/work/vimconfig/layers/+lang/elm/README.md
+
+1 #Elm 
+Lay”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#keybindings)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+–m
+ 
+	gÏnguage
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`. 
+Like
+ 
+	gso
+:
+
+21 
+Lay”
+ 'elm'
+
+24 ## 
+Key
+ 
+Bšdšgs
+
+
+26 
+S“
+ [
+ElmCa¡
+/
+–m
+](
+h‰ps
+:
+
+	@/media/tool/work/vimconfig/layers/+lang/elm/config.vim
+
+2 
+Ët
+ 
+	gg
+:
+–m_fÜm©_auto§ve
+ = 1
+
+	@/media/tool/work/vimconfig/layers/+lang/elm/packages.vim
+
+1 
+	gMP
+ 'ElmCast/elm-vim'
+
+	@/media/tool/work/vimconfig/layers/+lang/erlang/README.md
+
+1 #E¾ªg 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+	gE¾ªg
+.
+
+15 ## 
+In¡®l
+
+
+17 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+lang/erlang/config.vim
+
+2 
+Ët
+ 
+	g”Ïng_show_”rÜs
+ = 0
+
+	@/media/tool/work/vimconfig/layers/+lang/erlang/packages.vim
+
+1 
+	gMP
+ 'vim-erlang/vim-erlang-omnicomplete', { 'for': 'erlang' }
+
+4 
+MP
+ 'vim-erlang/vim-erlang-tags', { 'on': 'ErlangTags' }
+
+7 
+MP
+ 'vim-erlang/vim-erlang-compiler', { 'for': 'erlang' }
+
+13 
+MP
+ 'vim-erlang/vim-erlang-skeletons', { 'for': 'erlang' }
+
+16 
+MP
+ 'vim-erlang/erlang-motions.vim', { 'for': 'erlang' }
+
+	@/media/tool/work/vimconfig/layers/+lang/go/README.md
+
+1 #GØ
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+Go
+ 
+	gÏnguage
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+24 <
+kbd
+>, 
+	gb
+</
+	gkbd
+> | 
+	gNÜm®
+ | 
+Go
+ 
+Bud
+ 
+Ü
+ GØ
+	gTe¡
+
+
+25 <
+	gkbd
+>, 
+	gr
+</kbd> | 
+	gNÜm®
+ | 
+Go
+ 
+	gRun
+
+
+26 <
+	gkbd
+>, 
+	gt
+</kbd> | 
+	gNÜm®
+ | 
+Go
+ 
+	gTe¡
+
+
+	@/media/tool/work/vimconfig/layers/+lang/go/config.vim
+
+1 
+augroup
+ 
+¥aûvimGo
+
+
+2 
+	gautocmd
+!
+
+3 
+autocmd
+ 
+FeTy³
+ 
+go
+ 
+	gnm­
+ <
+	gLoÿlL—d”
+>
+	gb
+ :<
+C
+-
+u
+>
+ÿÎ
+ 
+¥aûvim
+#auto#BudGoFes()<
+CR
+>
+
+4 
+autocmd
+ 
+FeTy³
+ 
+go
+ 
+nm­
+ <
+LoÿlL—d”
+>
+r
+ <
+Plug
+>(go-
+run
+)
+
+5 
+autocmd
+ 
+FeTy³
+ 
+go
+ 
+nm­
+ <
+LoÿlL—d”
+>
+t
+ <
+Plug
+>(go-
+‹¡
+)
+
+6 
+augroup
+ 
+END
+
+
+9 
+Ët
+ 
+g
+:
+go_highlight_ty³s
+ = 1
+
+10 
+Ët
+ 
+g
+:
+go_highlight_f›lds
+ = 1
+
+11 
+Ët
+ 
+g
+:
+go_highlight_m‘hods
+ = 1
+
+12 
+Ët
+ 
+g
+:
+go_highlight_İ”©Üs
+ = 1
+
+13 
+Ët
+ 
+g
+:
+go_highlight_funùiÚs
+ = 1
+
+14 
+Ët
+ 
+g
+:
+go_highlight_bud_cÚ¡¿šts
+ = 1
+
+	@/media/tool/work/vimconfig/layers/+lang/go/packages.vim
+
+1 
+	gMP
+ 'fatih/vim-go', { 'for': 'go', 'do': ':GoInstallBinaries' }
+
+	@/media/tool/work/vimconfig/layers/+lang/graphviz/README.md
+
+1 #G¿phviz 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+dÙ
+ 
+	gÏnguage
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+24 <
+kbd
+>, 
+	gc
+</
+	gkbd
+> | 
+	gNÜm®
+ | 
+	gG¿phvizCompe
+
+
+25 <
+	gkbd
+>, 
+	gs
+</kbd> | 
+	gNÜm®
+ | 
+	gG¿phvizShow
+
+
+26 <
+	gkbd
+>, 
+l
+ 
+	gv
+</kbd> | 
+	gNÜm®
+ | 
+	gG¿phvizShow
+
+
+27 <
+	gkbd
+>, 
+l
+ 
+	gt
+</kbd> | 
+	gNÜm®
+ | 
+	gG¿phvizCompeToLaTeX
+
+
+28 <
+	gkbd
+>, 
+l
+ 
+	gl
+</kbd> | 
+	gNÜm®
+ | 
+	gG¿phvizCompe
+
+
+29 <
+	gkbd
+>, 
+l
+ 
+	gi
+</kbd> | 
+	gNÜm®
+ | 
+	gG¿phvizIÁ”aùive
+
+
+	@/media/tool/work/vimconfig/layers/+lang/graphviz/config.vim
+
+2 
+augroup
+ 
+¥aûvimDÙ
+
+
+3 
+autocmd
+ 
+FeTy³
+ 
+dÙ
+ 
+	gÂÜem­
+ <
+	gLoÿlL—d”
+>
+	gc
+ :
+upd©e
+<
+CR
+>:
+G¿phvizCompe
+<CR><CR>
+
+4 
+autocmd
+ 
+FeTy³
+ 
+dÙ
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>
+s
+ :
+upd©e
+<
+CR
+>:
+G¿phvizShow
+<CR><CR>
+
+5 
+augroup
+ 
+END
+
+
+	@/media/tool/work/vimconfig/layers/+lang/graphviz/packages.vim
+
+1 
+	gMP
+ 'wannesm/wmgraphviz.vim', { 'for': 'dot' }
+
+	@/media/tool/work/vimconfig/layers/+lang/html/README.md
+
+1 #HTML 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 ## 
+In¡®l
+
+
+16 ## 
+Key
+ 
+Bšdšgs
+
+
+	@/media/tool/work/vimconfig/layers/+lang/html/config.vim
+
+1 
+augroup
+ 
+¥aûvimHtml
+
+
+2 
+autocmd
+ 
+FeTy³
+ 
+	ghtml
+,
+	gjs
+,
+	gcss
+,
+vue
+ 
+	g£oÿl
+
+
+3 \ 
+	gb¡İ
+=2
+
+4 \ 
+soáb¡İ
+=2
+
+5 \ 
+shiáwidth
+=2
+
+6 
+augroup
+ 
+END
+
+
+9 
+Ët
+ 
+g
+:
+u£r_emm‘_mode
+ = 'a'
+
+10 
+Ët
+ 
+g
+:
+u£r_emm‘_Ëad”_key
+='<C-E>'
+
+	@/media/tool/work/vimconfig/layers/+lang/html/packages.vim
+
+1 
+	gMP
+ 'othree/html5.vim', { 'for': 'html' }
+
+2 
+MP
+ 'mattn/emmet-vim', { 'for': [ 'html', 'vue', 'css' ] }
+
+	@/media/tool/work/vimconfig/layers/+lang/java/README.md
+
+1 #Jav¨
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+Ïy”
+ 
+adds
+ 
+basic
+ 
+suµÜt
+ 
+	gJava
+.
+
+15 ## 
+In¡®l
+
+
+17 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+lang/java/config.vim
+
+1 
+augroup
+ 
+¥aûvimJava
+
+
+2 
+autocmd
+ 
+FeTy³
+ 
+java
+ 
+£oÿl
+ 
+	gomnifunc
+=
+javacom¶‘e
+#Complete
+
+3 
+augroup
+ 
+END
+
+
+8 
+autocmd
+ 
+FeTy³
+ 
+java
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>
+iA
+ <
+Plug
+>(
+JavaCom¶‘e
+-
+ImpÜts
+-
+AddSm¬t
+)
+
+9 
+autocmd
+ 
+FeTy³
+ 
+java
+ 
+šÜem­
+ <
+LoÿlL—d”
+>
+iA
+ <
+Plug
+>(
+JavaCom¶‘e
+-
+ImpÜts
+-
+AddSm¬t
+)
+
+13 
+autocmd
+ 
+FeTy³
+ 
+java
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>
+Ÿ
+ <
+Plug
+>(
+JavaCom¶‘e
+-
+ImpÜts
+-
+Add
+)
+
+14 
+autocmd
+ 
+FeTy³
+ 
+java
+ 
+šÜem­
+ <
+LoÿlL—d”
+>
+Ÿ
+ <
+Plug
+>(
+JavaCom¶‘e
+-
+ImpÜts
+-
+Add
+)
+
+18 
+autocmd
+ 
+FeTy³
+ 
+java
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>
+im
+ <
+Plug
+>(
+JavaCom¶‘e
+-
+ImpÜts
+-
+AddMissšg
+)
+
+19 
+autocmd
+ 
+FeTy³
+ 
+java
+ 
+šÜem­
+ <
+LoÿlL—d”
+>
+im
+ <
+Plug
+>(
+JavaCom¶‘e
+-
+ImpÜts
+-
+AddMissšg
+)
+
+23 
+autocmd
+ 
+FeTy³
+ 
+java
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>
+œ
+ <
+Plug
+>(
+JavaCom¶‘e
+-
+ImpÜts
+-
+RemoveUnu£d
+)
+
+24 
+autocmd
+ 
+FeTy³
+ 
+java
+ 
+šÜem­
+ <
+LoÿlL—d”
+>
+œ
+ <
+Plug
+>(
+JavaCom¶‘e
+-
+ImpÜts
+-
+RemoveUnu£d
+)
+
+	@/media/tool/work/vimconfig/layers/+lang/java/packages.vim
+
+1 
+	gMP
+ 'artur-shaik/vim-javacomplete2', { 'on': [] }
+
+3 
+MP
+ 'airblade/vim-rooter', { 'for': 'java' }
+
+6 
+funùiÚ
+! 
+s
+:
+	$švoke_javacom¶‘e
+()
+
+7 &
+f‘y³
+ ==#'
+java
+'
+
+8 
+ÿÎ
+ 
+¶ug
+#load('vim-javacomplete2')
+
+9 
+’dif
+
+
+10 
+’dfunùiÚ
+
+
+12 
+augroup
+ 
+lßdJava
+
+
+13 
+autocmd
+!
+
+14 
+autocmd
+ 
+In£¹EÁ”
+ * 
+ÿÎ
+ 
+s
+:
+	$švoke_javacom¶‘e
+()
+
+15 
+augroup
+ 
+END
+
+
+	@/media/tool/work/vimconfig/layers/+lang/javascript/README.md
+
+1 #JavaSüˆ
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+JavaSüt
+ 
+	gÏnguage
+.
+
+15 ## 
+In¡®l
+
+
+17 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+lang/javascript/config.vim
+
+2 
+Ët
+ 
+	gg
+:
+jsx_ext_»quœed
+ = 0
+
+	@/media/tool/work/vimconfig/layers/+lang/javascript/packages.vim
+
+1 
+	gMP
+ 'mxw/vim-jsx', { 'for': 'javascript' }
+
+2 
+MP
+ 'pangloss/vim-javascript', { 'for': 'javascript' }
+
+	@/media/tool/work/vimconfig/layers/+lang/latex/README.md
+
+1 #LaTeX 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 ## 
+In¡®l
+
+
+16 ## 
+Key
+ 
+Bšdšgs
+
+
+	@/media/tool/work/vimconfig/layers/+lang/latex/config.vim
+
+2 
+autocmd
+ 
+F‘y³
+ 
+‹x
+ 
+£oÿl
+ 
+	gupd©‘ime
+=1
+
+4 
+g
+:
+MAC
+
+
+6 
+Ët
+ 
+g
+:
+liv•»v›w_´ev›w”
+ = 'open -aexshop'
+
+7 
+–£if
+ 
+g
+:
+LINUX
+
+
+8 
+Ët
+ 
+g
+:
+liv•»v›w_´ev›w”
+ = 'evince'
+
+9 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+lang/latex/packages.vim
+
+1 
+	gMP
+ 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+
+	@/media/tool/work/vimconfig/layers/+lang/markdown/README.md
+
+1 #M¬kdowÀ
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+m¬kdown
+ 
+	gÏnguage
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+24 <
+kbd
+>, 
+c
+ 
+	gp
+</
+	gkbd
+> | 
+	gNÜm®
+ | 
+m¬kdown
+ 
+´ev›w
+ (
+»quœe
+ 
+chrome
+ 
+š
+ 
+lšux
+ 
+ªd
+ 
+wšdows
+ ,»quœ
+§çri
+ iÀ
+MacOS
+)
+
+25 <
+	gkbd
+>, 
+c
+ 
+	gt
+</kbd> | 
+	gNÜm®
+ | 
+G’”©e
+ 
+	gToc
+
+
+26 <
+	gkbd
+>, 
+c
+ 
+	gs
+</kbd> | 
+	gNÜm®
+ | 
+Show
+ 
+Toc
+ 
+	gsideb¬
+
+
+27 <
+	gkbd
+>, 1</kbd> | 
+	gNÜm®
+ | 
+h—dšg
+ 
+	gËv–
+ 1
+
+28 <
+	gkbd
+>, 2</kbd> | 
+	gNÜm®
+ | 
+h—dšg
+ 
+	gËv–
+ 2
+
+29 <
+	gkbd
+>, 3</kbd> | 
+	gNÜm®
+ | 
+h—dšg
+ 
+	gËv–
+ 3
+
+30 <
+	gkbd
+>, 4</kbd> | 
+	gNÜm®
+ | 
+h—dšg
+ 
+	gËv–
+ 4
+
+31 <
+	gkbd
+>, 5</kbd> | 
+	gNÜm®
+ | 
+h—dšg
+ 
+	gËv–
+ 5
+
+33 
+The
+ 
+´ev›w
+ 
+funùiÚ®™y
+ 
+is
+ 
+suµÜ‹d
+ 
+	gby
+ [
+vim
+-
+Xm¬k
+](
+	gh‰ps
+:
+
+	@/media/tool/work/vimconfig/layers/+lang/markdown/config.vim
+
+1 
+augroup
+ 
+	g¥aûvimM¬kdown
+
+
+3 
+autocmd
+ 
+FeTy³
+ 
+m¬kdown
+ 
+	gÂÜem­
+ <
+	gLoÿlL—d”
+>1 
+	gm
+`
+	gyypVr
+=``
+
+4 
+autocmd
+ 
+FeTy³
+ 
+m¬kdown
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>2 
+m
+`
+yypVr
+-``
+
+5 
+autocmd
+ 
+FeTy³
+ 
+m¬kdown
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>3 
+m
+`^
+i
+###<
+esc
+>``4l
+
+6 
+autocmd
+ 
+FeTy³
+ 
+m¬kdown
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>4 
+m
+`^
+i
+#### <
+esc
+>``5l
+
+7 
+autocmd
+ 
+FeTy³
+ 
+m¬kdown
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>5 
+m
+`^
+i
+#####<
+esc
+>``6l
+
+9 
+autocmd
+ 
+FeTy³
+ 
+m¬kdown
+ 
+£oÿl
+
+
+10 \ 
+w¿p
+
+
+12 
+¥aûvim
+#funcs#LayerLoaded('text-align')
+
+14 
+autocmd
+ 
+FeTy³
+ 
+m¬kdown
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>
+
+ :
+TabuÏrize
+ /<
+B¬
+><
+CR
+>
+
+15 
+’dif
+
+
+16 
+augroup
+ 
+END
+
+
+19 
+Ët
+ 
+g
+:
+vim_m¬kdown_m©h
+=1
+
+20 
+Ët
+ 
+g
+:
+vim_m¬kdown_äÚtm©‹r
+=1
+
+24 
+Ët
+ 
+g
+:
+vmt_auto_upd©e_Ú_§ve
+ = 1
+
+25 
+Ët
+ 
+g
+:
+vmt_dÚt_š£¹_ãnû
+ = 0
+
+26 
+Ët
+ 
+g
+:
+vim_m¬kdown_toc_autof™
+ = 1
+
+30 
+g
+:
+MAC
+
+
+31 
+Ët
+ 
+g
+:
+mkdp_·th_to_chrome
+ = 'open -a safari'
+
+32 
+–£if
+ 
+g
+:
+WINDOWS
+
+
+33 
+Ët
+ 
+g
+:
+mkdp_·th_to_chrome
+ = 'C:\\Program Files (x86)\Google\Chrome\Application\chrome.exe'
+
+35 
+Ët
+ 
+g
+:
+mkdp_·th_to_chrome
+ = 'google-chrome'
+
+36 
+’dif
+
+
+39 
+autocmd
+ 
+¥aûvimM¬kdown
+ 
+FeTy³
+ 
+m¬kdown
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>
+ı
+ :
+M¬kdownP»v›w
+<
+ü
+>
+
+41 
+autocmd
+ 
+¥aûvimM¬kdown
+ 
+FeTy³
+ 
+m¬kdown
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>
+ù
+ :
+s’t
+ 
+G’TocGFM
+<
+ü
+>
+
+43 
+autocmd
+ 
+¥aûvimM¬kdown
+ 
+FeTy³
+ 
+m¬kdown
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>
+cs
+ :
+Toc
+<
+ü
+>
+
+	@/media/tool/work/vimconfig/layers/+lang/markdown/packages.vim
+
+1 
+	gMP
+ 'plasticboy/vim-markdown', { 'for': 'markdown' }
+
+2 
+MP
+ 'mzlogin/vim-markdown-toc', { 'for': 'markdown' }
+
+3 
+MP
+ 'iamcco/markdown-preview.vim', { 'on': 'MarkdownPreview' }
+
+	@/media/tool/work/vimconfig/layers/+lang/python/README.md
+
+1 #PythÚ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Lay”
+](#layer)
+
+9 * [
+D•’d’c›s
+](#dependencies)
+
+10 * [
+Auto
+-
+com¶‘iÚ
+](#auto-
+	gcom¶‘iÚ
+)
+
+11 * [
+SyÁax
+ 
+checkšg
+](#syÁax-
+	gcheckšg
+)
+
+12 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+14 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+16 ## 
+DesütiÚ
+
+
+18 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+PythÚ
+ 
+	gÏnguage
+.
+
+20 ## 
+In¡®l
+
+
+24 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+28 #### 
+Auto
+-
+com¶‘iÚ
+
+
+30 `
+	gycmd
+` 
+Ïy”
+ 
+	g»comm’ded
+.
+
+32 #### 
+SyÁax
+ 
+checkšg
+
+
+34 `
+	gsyÁax
+-
+	gcheckšg
+` 
+Ïy”
+ 
+	gÃeded
+. 
+SyÁax
+ 
+checkšg
+ 
+	gu£s
+ `
+	gæake8
+` 
+	g·ckage
+:
+
+36 ```
+sh
+
+
+37 
+p
+ 
+š¡®l
+ 
+æake8
+
+
+40 ## 
+Key
+ 
+Bšdšgs
+
+
+42 
+Key
+ 
+Bšdšg
+ | 
+Mode
+ | 
+DesütiÚ
+
+
+44 <
+kbd
+>
+F5
+</kbd> | 
+NÜm®
+ | 
+Execu‹
+ 
+cu¼’t
+ 
+fe
+
+
+45 <
+kbd
+>, =</kbd> | 
+NÜm®
+ | 
+RefÜm©
+ 
+the
+ 
+bufãr
+ 
+accÜdšg
+ 
+to
+ 
+PEP8
+ 
+usšg
+ [
+YAPF
+](
+h‰ps
+:
+
+	@/media/tool/work/vimconfig/layers/+lang/python/config.vim
+
+1 
+	gfunùiÚ
+! 
+	gs
+:
+	$hi_ov”_Ëngth
+()
+
+2 
+highlight
+ 
+Ov”L’gth
+ 
+ù”mbg
+=133 
+ù”mfg
+=254 
+ù”m
+=
+bŞd
+ 
+guibg
+=#592929
+
+3 
+m©ch
+ 
+Ov”L’gth
+ /\%81
+v
+.\+/
+
+4 
+’dfunùiÚ
+
+
+6 
+augroup
+ 
+¥aûvimPythÚ
+
+
+7 
+autocmd
+!
+
+9 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+£oÿl
+
+
+10 \ 
+fŞdm‘hod
+=
+šd’t
+
+
+11 \ 
+b¡İ
+=4
+
+12 \ 
+shiáwidth
+=4
+
+13 \ 
+soáb¡İ
+=4
+
+14 \ 
+‹xtwidth
+=79
+
+15 \ 
+ex·ndb
+
+
+16 \ 
+autošd’t
+
+
+17 \ 
+fefÜm©
+=
+unix
+
+
+19 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>
+ho
+ :
+ÿÎ
+ <
+SID
+>
+	`hi_ov”_Ëngth
+()<
+CR
+>
+
+21 
+¥aûvim
+#funcs#LayerLoaded('programming')
+
+22 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+ÂÜem­
+ <
+bufãr
+> <
+F5
+> :
+upd©e
+<
+B¬
+>
+execu‹
+ 'AsyncRun!…ythÚ '.
+	`sh–Ësÿ³
+(@%, 1)<
+CR
+>
+
+23 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+ÂÜem­
+ <
+bufãr
+> <
+LoÿlL—d”
+>
+cc
+ :
+upd©e
+<
+B¬
+>
+execu‹
+ 'AsyncRun!…ythÚ '.
+	`sh–Ësÿ³
+(@%, 1)<
+CR
+>
+
+24 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+ÂÜem­
+ <
+bufãr
+> <
+LoÿlL—d”
+>
+cs
+ :
+upd©e
+<
+B¬
+>
+execu‹
+ 'AsyncStİ!'<
+CR
+>
+
+26 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+ÂÜem­
+ <
+bufãr
+> <
+F5
+> :
+upd©e
+<
+B¬
+>
+execu‹
+ '!…ythÚ '.
+	`sh–Ësÿ³
+(@%, 1)<
+CR
+>
+
+27 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+ÂÜem­
+ <
+bufãr
+> <
+LoÿlL—d”
+>
+cc
+ :
+upd©e
+<
+B¬
+>
+execu‹
+ '!…ythÚ '.
+	`sh–Ësÿ³
+(@%, 1)<
+CR
+>
+
+28 
+’dif
+
+
+30 
+	`execubË
+('yapf')
+
+32 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>ğ:0,
+$
+!
+y­f
+<
+CR
+>
+
+34 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+ÂÜem­
+ <
+LoÿlL—d”
+>ğ:
+ÿÎ
+ 
+¥aûvim
+#ut#”r('y­ài uÇvaabË,…Ëa£ in¡®È™ fœ¡.')<
+CR
+>
+
+35 
+’dif
+
+
+36 
+augroup
+ 
+END
+
+
+39 
+Ët
+ 
+g
+:
+pymode_lšt_check”s
+ = ['pyflakes']
+
+40 
+Ët
+ 
+g
+:
+pymode_Œim_wh™e¥aûs
+ = 0
+
+41 
+Ët
+ 
+g
+:
+pymode_İtiÚs
+ = 0
+
+42 
+Ët
+ 
+g
+:
+pymode_rİe
+ = 0
+
+44 
+Ët
+ 
+g
+:
+pymode_šd’t
+ = 1
+
+45 
+Ët
+ 
+g
+:
+pymode_fŞdšg
+ = 0
+
+46 
+Ët
+ 
+g
+:
+pymode_İtiÚs_cŞÜcŞumn
+ = 1
+
+47 
+Ët
+ 
+g
+:
+pymode_b»akpošt_bšd
+ = '<leader>br'
+
+49 
+¥aûvim
+#funcs#LayerLoaded('syntax-checking')
+
+50 
+Ët
+ 
+g
+:
+pymode_lšt
+ = 0
+
+51 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+lang/python/packages.vim
+
+1 
+	gMP
+ 'tmhedberg/SimpylFold', { 'for': 'python' }
+
+2 
+MP
+ 'python-mode/python-mode', { 'for': 'python' }
+
+	@/media/tool/work/vimconfig/layers/+lang/ruby/README.md
+
+1 #Ruby 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+Ruby
+ 
+	gÏnguage
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+	@/media/tool/work/vimconfig/layers/+lang/ruby/config.vim
+
+	@/media/tool/work/vimconfig/layers/+lang/ruby/packages.vim
+
+1 
+	gMP
+ 'vim-ruby/vim-ruby', { 'for': 'ruby' }
+
+	@/media/tool/work/vimconfig/layers/+lang/rust/README.md
+
+1 #Ru¡ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+Ru¡
+ 
+	gÏnguage
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+	@/media/tool/work/vimconfig/layers/+lang/rust/config.vim
+
+	@/media/tool/work/vimconfig/layers/+lang/rust/packages.vim
+
+1 
+	gMP
+ 'rust-lang/rust.vim'
+
+	@/media/tool/work/vimconfig/layers/+lang/scala/README.md
+
+1 #SÿÏ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+	gsÿÏ
+.
+
+15 ## 
+In¡®l
+
+
+17 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+lang/scala/config.vim
+
+1 
+augroup
+ 
+¥aûvimSÿÏ
+
+
+2 
+	gautocmd
+!
+
+3 
+augroup
+ 
+	gEND
+
+
+6 
+Ët
+ 
+	gg
+:
+sÿÏ_sÿÏdoc_šd’t
+ = 1
+
+	@/media/tool/work/vimconfig/layers/+lang/scala/packages.vim
+
+1 
+	gMP
+ 'derekwyatt/vim-scala', { 'for': 'scala' }
+
+	@/media/tool/work/vimconfig/layers/+lang/typescript/README.md
+
+1 #Ty³Süˆ
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+Ty³Süt
+ 
+	gÏnguage
+.
+
+15 ## 
+In¡®l
+
+
+17 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+lang/typescript/config.vim
+
+	@/media/tool/work/vimconfig/layers/+lang/typescript/packages.vim
+
+1 
+	gMP
+ 'Quramy/tsuquyomi', { 'for': 'typescript' }
+
+2 
+MP
+ 'Shougo/vimproc.vim', { 'for': 'typescript', 'do' : 'make' }
+
+3 
+MP
+ 'leafgarland/typescript-vim', { 'for': 'typescript' }
+
+	@/media/tool/work/vimconfig/layers/+lang/vue/README.md
+
+1 #Vu
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+PİuÏr
+ 
+MVVM
+ 
+äamewÜk
+ 
+	gVue
+.
+
+16 ## 
+In¡®l
+
+
+20 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+22 ## 
+Key
+ 
+Bšdšgs
+
+
+	@/media/tool/work/vimconfig/layers/+lang/vue/config.vim
+
+1 
+augroup
+ 
+¥aûvimVue
+
+
+2 
+autocmd
+ 
+	gBufR—d
+,
+	gBufNewFe
+ *.
+vue
+ 
+	g£oÿl
+
+
+3 \ 
+	gb¡İ
+=2
+
+4 \ 
+soáb¡İ
+=2
+
+5 \ 
+shiáwidth
+=2
+
+6 
+augroup
+ 
+END
+
+
+	@/media/tool/work/vimconfig/layers/+lang/vue/packages.vim
+
+1 
+	gMP
+ 'posva/vim-vue', { 'for': 'vue' }
+
+	@/media/tool/work/vimconfig/layers/+misc/chinese/README.md
+
+1 #Chše£ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+Chše£
+ 
+	gÏy”
+ è§£å†³åœ¨ 
+	gGUI
+ ç¯å¢ƒä¸‹å¯èƒ½ä¼šå‡ºç°çš„ä¸­æ–‡ä¹±ç é—®é¢˜ã€‚
+
+15 ## 
+In¡®l
+
+
+17 åœ¨ `.
+	g¥aûvim
+` ä¸­æ·»åŠ  `
+	gLay”
+ 'chinese'`.
+
+	@/media/tool/work/vimconfig/layers/+misc/chinese/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+3 
+	gg
+:
+¥aûvim_gui
+
+
+6 
+Ët
+ 
+$LANG
+ = 'zh_CN.UTF-8'
+
+7 
+£t
+ 
+Ïngm’u
+=
+zh_CN
+
+
+8 
+sourû
+ 
+$VIMRUNTIME
+/
+d–m’u
+.
+vim
+
+
+9 
+sourû
+ 
+$VIMRUNTIME
+/
+m’u
+.
+vim
+
+
+12 
+g
+:
+WINDOWS
+
+
+14 
+Ïnguage
+ 
+mes§ges
+ 
+zh_CN
+.
+utf
+-8
+
+16 
+£t
+ 
+guifÚt
+=
+CÚsŞas
+:
+h13
+
+
+17 
+£t
+ 
+gu™abÏb–
+=%
+M
+\ %
+t
+
+
+18 
+£t
+ 
+lše¥aû
+=2
+
+19 
+£t
+ 
+noimdi§bË
+
+
+20 
+–£if
+ 
+g
+:
+MAC
+
+
+21 
+£t
+ 
+guifÚt
+=
+Sourû
+\ 
+Code
+\ 
+Pro
+\ \ 
+Pow”lše
+:
+h12
+
+
+22 
+’dif
+
+
+24 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+misc/chinese/packages.vim
+
+	@/media/tool/work/vimconfig/layers/+programming/code-snippets/README.md
+
+1 #code-
+¢³ts
+ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+code
+ 
+	g¢³ts
+.
+
+15 ## 
+In¡®l
+
+
+17 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+programming/code-snippets/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+5 
+Ët
+ 
+	gg
+:
+UÉiSnsSn³tDœeùÜ›s
+=['UltiSnips']
+
+6 
+exe
+ '£ˆ¹p+=' . 
+ex·nd
+(
+g
+:
+¥aûvim_dœ
+ . '/private/UltiSnips')
+
+7 
+Ët
+ 
+g
+:
+UÉiSnsSn³tsDœ
+ = [g:
+¥aûvim_dœ
+.'/´iv©e/UÉiSns', g:
+¥aûvim_¶ug_home
+.'vim-snippets/UltiSnips/']
+
+9 
+Ët
+ 
+g
+:
+UÉiSnsLi¡Sn³ts
+ = '<C-l>'
+
+10 
+Ët
+ 
+g
+:
+UÉiSnsJumpFÜw¬dTrigg”
+ = '<C-j>'
+
+11 
+Ët
+ 
+g
+:
+UÉiSnsJumpBackw¬dTrigg”
+ = '<C-k>'
+
+14 
+Ët
+ 
+g
+:
+UÉiSnsEx·ndTrigg”
+ = '<C-e>'
+
+15 
+Ët
+ 
+g
+:
+uÉi_ex·nd_Ü_jump_»s
+ = 0
+
+16 
+funùiÚ
+! 
+	$Ex·ndSn³tOrC¬rŸgeR‘uº
+()
+
+17 
+Ët
+ 
+l
+:
+¢³t
+ = 
+UÉiSns
+#ExpandSnippetOrJump()
+
+18 
+g
+:
+uÉi_ex·nd_Ü_jump_»s
+ > 0
+
+19  
+l
+:
+¢³t
+
+
+22 
+’dif
+
+
+23 
+’dfunùiÚ
+
+
+24 
+šÜem­
+ <
+ex´
+> <
+CR
+> 
+	`pumvisibË
+() ? "\<C-R>=ExpandSnippetOrCarriageReturn()\<CR>" : "\<CR>"
+
+	@/media/tool/work/vimconfig/layers/+programming/code-snippets/packages.vim
+
+3 
+	gMP
+ 'SœV”/uÉi¢s', { 'Ú': [] } | 
+MP
+ 'honza/vim-snippets', { 'on': [] }
+
+5 
+augroup
+ 
+lßdSns
+
+
+6 
+autocmd
+!
+
+7 
+autocmd
+ 
+In£¹EÁ”
+ * 
+ÿÎ
+ 
+¶ug
+#load('ultisnips', 'vim-snippets')
+
+8 \| 
+	gautocmd
+! 
+lßdSns
+
+
+9 
+augroup
+ 
+	gEND
+
+
+	@/media/tool/work/vimconfig/layers/+programming/editing/README.md
+
+1 #ed™šg 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+mÜe
+ 
+efãùive
+ 
+	ged™šg
+.
+
+15 ## 
+In¡®l
+
+
+17 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+programming/editing/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+4 
+Ët
+ 
+	gg
+:
+NERDS·ûD–ims
+=1
+
+6 
+nm­
+ <
+L—d”
+>;; <
+	gPlug
+>
+NERDComm’‹rToggË
+
+
+7 
+	gom­
+ <
+	gL—d”
+>;; <
+	gPlug
+>
+NERDComm’‹rToggË
+
+
+8 
+	gvm­
+ <
+	gL—d”
+>;; <
+	gPlug
+>
+	gNERDComm’‹rToggË
+
+
+12 
+Ët
+ 
+	gg
+:
+muÉi_cursÜ_Ãxt_key
+='<C-j>'
+
+13 
+Ët
+ 
+g
+:
+muÉi_cursÜ_´ev_key
+='<C-k>'
+
+14 
+Ët
+ 
+g
+:
+muÉi_cursÜ_sk_key
+='<C-x>'
+
+15 
+Ët
+ 
+g
+:
+muÉi_cursÜ_qu™_key
+='<Esc>'
+
+20 
+Ët
+ 
+g
+:
+swoİU£DeçuÉKeyM­
+ = 0
+
+22 
+vm­
+ <
+L—d”
+>
+s
+ :
+ÿÎ
+ 
+SwoİMuÉiS–eùiÚ
+()<
+CR
+>
+
+26 
+ÂÜem­
+ <
+L—d”
+>
+ss
+ :
+ÿÎ
+ 
+Swoİ
+()<
+CR
+>
+
+27 
+ÂÜem­
+ <
+L—d”
+>
+sm
+ :
+ÿÎ
+ 
+SwoİMuÉi
+()<
+CR
+>
+
+	@/media/tool/work/vimconfig/layers/+programming/editing/packages.vim
+
+1 
+	gMP
+ 'tpope/vim-surround'
+
+2 
+	gMP
+ 'jiangmiao/auto-pairs'
+
+3 
+	gMP
+ 'pelodelfuego/vim-swoop'
+
+4 
+	gMP
+ 'terryma/vim-multiple-cursors'
+
+6 
+	gMP
+ 'scrooloose/nerdcommenter', { 'on': '<Plug>NERDCommenterToggle' }
+
+	@/media/tool/work/vimconfig/layers/+programming/programming/README.md
+
+1 #Prog¿mmšg 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+9 * [
+Ts
+](#tips)
+
+11 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+13 ## 
+DesütiÚ
+
+
+15 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+typiÿl
+ 
+ªd
+ 
+basiÿl
+ 
+funùiÚ®™›s
+ 
+	g´og¿mmšg
+.
+
+17 ç¼–ç¨‹å¸¸ç”¨æŠ€èƒ½åŒ…ã€‚æ¯”å¦‚ä½¿ç”¨ 
+	gvim
+ æ–°å»ºæ–‡ä»¶æ—¶è‡ªåŠ¨æ·»åŠ æ–‡ä»¶å¤´ï¼Œå¿«é€Ÿæ³¨é‡Šç­‰ç­‰ã€‚
+
+19 ## 
+In¡®l
+
+
+21 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+23 ## 
+Key
+ 
+Bšdšgs
+
+
+25 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+27 <
+kbd
+>
+SPC
+ ; ;</
+	gkbd
+> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+	gcomm’t
+/
+uncomm’t
+ 
+	gautom©iÿÎy
+, è‡ªåŠ¨æ·»åŠ /å–æ¶ˆæ³¨é‡Š
+
+28 <
+	gkbd
+>
+SPC
+ 
+t
+ 
+	gi
+</kbd> | 
+	gNÜm®
+ | 
+	gtoggË
+-
+	gšd’t
+-
+	gguide
+, æ˜¾ç¤ºç¼©è¿›å¯¹é½
+
+29 <
+	gkbd
+>
+SPC
+ 
+t
+ 
+	gt
+</kbd> / <kbd>
+	gF6
+</kbd> | 
+	gNÜm®
+ | 
+	gtoggË
+-
+	ggb¬
+, æ‰“å¼€ 
+gb¬
+ (ä¹Ÿå¯è®°agb¬ 6ä¸ªå­—ç¬¦, æ•…ä¸º 
+F6
+)
+
+31 ## 
+Ts
+
+
+33 
+	gFÜ
+ <
+	gkbd
+>
+AÉ
+ 
+	gj
+</kbd> 
+	gªd
+ <kbd>AÉ 
+	gk
+</kbd> (
+move
+ 
+	glše
+/
+£ËùiÚ
+ 
+	gdown
+/
+	gup
+)
+suµÜ‹d
+ 
+	gby
+ [
+vim
+-move](
+	gh‰ps
+:
+
+35 - 
+In
+ 
+iT”m
+: 
+Profes
+ -> 
+Keys
+ -> 
+Leá
+ 
+İtiÚ
+ 
+key
+ 
+aùs
+ 
+as
+: `+
+Esc
+`
+
+36 - 
+In
+ 
+T”mš®
+: 
+Profes
+ -> 
+Keybßrd
+ -> `
+U£
+ 
+O±iÚ
+ 
+as
+ 
+M‘a
+ 
+key
+`
+
+	@/media/tool/work/vimconfig/layers/+programming/programming/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+3 
+augroup
+ 
+¥aûvimNewFe
+
+
+4 
+	gautocmd
+!
+
+6 
+autocmd
+ 
+	gBufNewFe
+ *.
+	gpy
+,*.
+	grb
+,*.
+	gıp
+,*.
+	gc
+,*.
+	gsh
+,*.
+	gjava
+,*.
+¶
+ 
+ÿÎ
+ 
+	g¥aûvim
+#auto#AddTitle()
+
+7 
+autocmd
+ 
+BufNewFe
+ * 
+nÜm®
+ 
+GA
+
+
+8 
+augroup
+ 
+	gEND
+
+
+15 
+	g£t
+ <
+	gF20
+>=
+
+16 
+£t
+ <
+F21
+>=
+
+17 
+vm­
+ <
+F20
+> <
+Plug
+>
+MoveBlockDown
+
+
+18 
+vm­
+ <
+F21
+> <
+Plug
+>
+MoveBlockUp
+
+
+19 
+nm­
+ <
+F20
+> <
+Plug
+>
+MoveLšeDown
+
+
+20 
+nm­
+ <
+F21
+> <
+Plug
+>
+MoveLšeUp
+
+
+24 
+Ët
+ 
+g
+:
+¿šbow_aùive
+ = 1
+
+25 
+Ët
+ 
+g
+:
+¿šbow_cÚf
+ = {
+
+50 
+augroup
+ 
+¿šbowLi¥
+
+
+51 
+autocmd
+!
+
+52 
+autocmd
+ 
+FeTy³
+ 
+li¥
+,
+	gşoju»
+,
+scheme
+ 
+RašbowP¬’the£s
+
+
+53 
+augroup
+ 
+	gEND
+
+
+57 
+Ët
+ 
+	gg
+:
+gb¬_autofocus
+ = 1
+
+58 
+ÂÜem­
+ <
+F6
+> :
+Tagb¬ToggË
+<
+CR
+>
+
+59 
+šÜem­
+ <
+F6
+> <
+ESC
+>:
+Tagb¬ToggË
+<
+CR
+>
+
+60 
+ÂÜem­
+ <
+L—d”
+>
+‰
+ :
+Tagb¬ToggË
+<
+CR
+>
+
+61 
+Ët
+ 
+g
+:
+gb¬_sÜt
+ = 0
+
+65 
+ÂÜem­
+ <
+F5
+> :
+ÿÎ
+ 
+¥aûvim
+#ut#CompeAndRun()<
+CR
+>
+
+66 
+augroup
+ 
+¥aûvimAsyncRun
+
+
+67 
+autocmd
+!
+
+68 
+Ët
+ 
+s
+:
+qf_height
+ = 
+æßt2Ä
+(
+round
+(
+wšheight
+('%') * 0.3))
+
+69 
+autocmd
+ 
+U£r
+ 
+AsyncRunS¹
+ 
+ÿÎ
+ 
+asynüun
+#quickfix_toggË(
+s
+:
+qf_height
+, 1)
+
+70 
+augroup
+ 
+	gEND
+
+
+74 
+Ët
+ 
+	gg
+:
+šd’tLše_ch¬
+='Â¦'
+
+75 
+Ët
+ 
+g
+:
+šd’tLše_’abËd
+=1
+
+76 
+Ët
+ 
+g
+:
+šd’tLše_cŞÜ_‹rm
+=239
+
+77 
+Ët
+ 
+g
+:
+šd’tLše_cŞÜ_gui
+ = '#4A9586'
+
+78 
+Ët
+ 
+g
+:
+šd’tLše_cÚû®cursÜ
+='vc' " default 'inc'
+
+79 
+Ët
+ 
+g
+:
+šd’tLše_feTy³Exşude
+ = ['help', 'startify', 'vimfiler']
+
+83 
+Ët
+ 
+	gg
+:
+šd’t_guides_¡¬t_Ëv–
+ = 2
+
+84 
+Ët
+ 
+g
+:
+šd’t_guides_guide_size
+ = 1
+
+85 
+Ët
+ 
+g
+:
+šd’t_guides_’abË_Ú_vim_¡¬tup
+ = 1
+
+86 
+Ët
+ 
+g
+:
+šd’t_guides_auto_cŞÜs
+ = 0
+
+87 
+ÂÜem­
+ <
+L—d”
+>
+ti
+ :
+Ind’tGuidesToggË
+<
+CR
+>
+
+92 
+autocmd
+ 
+BufEÁ”
+ * 
+£t
+ 
+”rÜfÜm©
+&
+
+	@/media/tool/work/vimconfig/layers/+programming/programming/packages.vim
+
+1 
+	gMP
+ 'luochen1990/rainbow'
+
+2 
+	gMP
+ 'editorconfig/editorconfig-vim', { 'on': 'EditorConfigReload' }
+
+4 
+MP
+ 'matze/vim-move', { 'on': [
+
+11 
+	gMP
+ 'junegunn/rainbow_parentheses.vim', { 'for': ['lisp', 'clojure', 'scheme'] }
+
+14 
+	gMP
+ 'majutsushi/tagbar', { 'on': 'TagbarToggle' }
+
+16 
+MP
+ 'Chiel92/vim-autoformat', { 'on': 'Autoformat' }
+
+18 
+MP
+ 'Yggdroot/indentLine', { 'on': 'IndentLinesToggle' }
+
+19 
+MP
+ 'nathanaelkane/vim-indent-guides', { 'on': 'IndentGuidesToggle' }
+
+21 
+MP
+ 'skywind3000/asyncrun.vim', { 'on': ['AsyncRun!', 'AsyncRun'] }
+
+23 
+	gMP
+ 'sheerun/vim-polyglot'
+
+	@/media/tool/work/vimconfig/layers/+themes/airline/README.md
+
+1 #Aœlš
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+a
+ 
+çncy
+ 
+	g¡©u¦še
+.
+
+15 ![
+sü“nshÙ
+](
+	gh‰ps
+:
+
+17 ## 
+In¡®l
+
+
+19 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+Ïy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+themes/airline/config.vim
+
+1 
+	gsü‹ncodšg
+=
+utf
+-8
+
+4 
+Ët
+ 
+g
+:
+aœlše_theme
+='violet'
+
+5 
+Ët
+ 
+g
+:
+Pow”lše_symbŞs
+='fancy'
+
+6 
+Ët
+ 
+g
+:
+aœlše
+#extensions#tabline#enabled=1
+
+7 
+Ët
+ 
+g
+:
+aœlše
+#extensions#tabline#buffer_idx_mode = 1
+
+8 
+Ët
+ 
+g
+:
+aœlše
+#extensions#tabline#buffer_nr_show = 1
+
+9 
+Ët
+ 
+g
+:
+aœlše
+#extensions#tabline#buffer_nr_format = '%s:'
+
+10 
+Ët
+ 
+g
+:
+aœlše
+#extensions#tabline#fnamemod = ':t'
+
+11 
+Ët
+ 
+g
+:
+aœlše
+#extensions#tabline#fnamecollapse = 1
+
+12 
+Ët
+ 
+g
+:
+aœlše
+#extensions#tabline#fnametruncate = 0
+
+13 
+Ët
+ 
+g
+:
+aœlše
+#extensions#tabline#formatter = 'unique_tail_improved'
+
+14 
+Ët
+ 
+g
+:
+aœlše
+#extensions#default#section_truncate_width = {
+
+22 
+Ët
+ 
+g
+:
+aœlše
+#extensions#default#layout = [
+
+26 
+Ët
+ 
+	gg
+:
+aœlše
+#extensions#tagbar#enabled = 0
+
+29 
+Ët
+ 
+g
+:
+aœlše
+#extensions#ale#error_symbol = 'â€¢'
+
+30 
+Ët
+ 
+g
+:
+aœlše
+#extensions#ale#warning_symbol = 'â€¢'
+
+	@/media/tool/work/vimconfig/layers/+themes/airline/packages.vim
+
+1 
+	gMP
+ 'vim-airline/vim-airline-themes'
+
+2 
+	gMP
+ 'vim-airline/vim-airline'
+
+	@/media/tool/work/vimconfig/layers/+themes/lightline/README.md
+
+1 #Lighš
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+9 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+11 ## 
+DesütiÚ
+
+
+13 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+a
+ 
+b—utiful
+ 
+	g¡©u¦še
+.
+
+15 ## 
+In¡®l
+
+
+17 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+	@/media/tool/work/vimconfig/layers/+themes/lightline/config.vim
+
+2 
+Ët
+ 
+	gg
+:
+lighše
+ = {
+
+	@/media/tool/work/vimconfig/layers/+themes/lightline/packages.vim
+
+1 
+	gMP
+ 'itchyny/lightline.vim'
+
+	@/media/tool/work/vimconfig/layers/+tools/file-manager/README.md
+
+1 #fe-
+mªag”
+ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜts
+ 
+cÚv’›Á
+ 
+fe
+ 
+	gmªag”
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+24 <
+kbd
+>
+SPC
+ 
+f
+ 
+t
+</kbd> / <kbd>
+F4
+</kbd> | 
+NÜm®
+ | 
+NERDT»e
+ 
+toggË
+
+
+	@/media/tool/work/vimconfig/layers/+tools/file-manager/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+4 
+Ët
+ 
+	gg
+:
+NERDT»eShowHidd’
+=1
+
+5 
+Ët
+ 
+g
+:
+NERDT»eMšim®UI
+=1
+
+6 
+Ët
+ 
+g
+:
+NERDT»eWšSize
+=25
+
+7 
+Ët
+ 
+g
+:
+NERDT»eAutoD–‘eBufãr
+=1
+
+8 
+Ët
+ 
+g
+:
+NERDT»eDœA¼owEx·ndabË
+ = 'â–º'
+
+9 
+Ët
+ 
+g
+:
+NERDT»eDœA¼owCŞÏpsibË
+ = 'â–¼'
+
+10 
+Ët
+ 
+g
+:
+NERDT»eIgnÜe
+=[
+
+15 
+autocmd
+ 
+buãÁ”
+ * ià(
+wšÄ
+("$"è=ğ1 && 
+exi¡s
+("b:NERDT»e"è&& 
+b
+:
+NERDT»e
+.
+isTabT»e
+()è| 
+q
+ | 
+’dif
+
+
+17 
+ÂÜem­
+ <
+F4
+> :
+NERDT»eToggË
+<
+CR
+>
+
+18 
+šÜem­
+ <
+F4
+> <
+ESC
+>:
+NERDT»eToggË
+<
+CR
+>
+
+19 
+ÂÜem­
+ <
+L—d”
+>
+á
+ :
+NERDT»eToggË
+<
+CR
+>
+
+20 
+ÂÜem­
+ <
+L—d”
+>
+fd
+ :
+NERDT»eFšd
+<
+CR
+>
+
+24 
+Ët
+ 
+g
+:
+NERDT»eIndiÿtÜM­Cu¡om
+ = {
+
+44 
+Ët
+ 
+s
+:
+brown
+ = '905532'
+
+45 
+Ët
+ 
+s
+:
+aqua
+ = '3AFFDB'
+
+46 
+Ët
+ 
+s
+:
+blue
+ = '689FB6'
+
+47 
+Ët
+ 
+s
+:
+d¬kBlue
+ = '44788E'
+
+48 
+Ët
+ 
+s
+:
+pu½Ë
+ = '834F79'
+
+49 
+Ët
+ 
+s
+:
+lightPu½Ë
+ = '834F79'
+
+50 
+Ët
+ 
+s
+:
+»d
+ = 'AE403F'
+
+51 
+Ët
+ 
+s
+:
+beige
+ = 'F5C06F'
+
+52 
+Ët
+ 
+s
+:
+y–low
+ = 'F09F17'
+
+53 
+Ët
+ 
+s
+:
+Üªge
+ = 'D4843E'
+
+54 
+Ët
+ 
+s
+:
+d¬kO¿nge
+ = 'F16529'
+
+55 
+Ët
+ 
+s
+:
+pšk
+ = 'CB6F6F'
+
+56 
+Ët
+ 
+s
+:
+§lmÚ
+ = 'EE6E73'
+
+57 
+Ët
+ 
+s
+:
+g»’
+ = '8FAA54'
+
+58 
+Ët
+ 
+s
+:
+lightG»’
+ = '31B53E'
+
+59 
+Ët
+ 
+s
+:
+wh™e
+ = 'FFFFFF'
+
+60 
+Ët
+ 
+s
+:
+r¥ec_»d
+ = 'FE405F'
+
+61 
+Ët
+ 
+s
+:
+g™_Üªge
+ = 'F54D27'
+
+63 
+Ët
+ 
+g
+:
+NERDT»eEx‹nsiÚHighlightCŞÜ
+ = {} "his†ine is‚eededo‡voidƒrror
+
+64 
+Ët
+ 
+g
+:
+NERDT»eEx‹nsiÚHighlightCŞÜ
+['css'] = 
+s
+:
+blue
+ " setshe color of css fileso blue
+
+65 
+Ët
+ 
+g
+:
+NERDT»eEx‹nsiÚHighlightCŞÜ
+ = {} "his†ine is‚eededo‡voidƒrror
+
+66 
+Ët
+ 
+g
+:
+NERDT»eEx‹nsiÚHighlightCŞÜ
+['pythÚ'] = 
+s
+:
+g»’
+ " setshe color of css fileso blue
+
+67 
+Ët
+ 
+g
+:
+NERDT»eEx‹nsiÚHighlightCŞÜ
+ = {} "his†ine is‚eededo‡voidƒrror
+
+68 
+Ët
+ 
+g
+:
+NERDT»eEx‹nsiÚHighlightCŞÜ
+['Üg'] = 
+s
+:
+pšk
+ " setshe color of css fileso blue
+
+70 
+Ët
+ 
+g
+:
+NERDT»eExaùM©chHighlightCŞÜ
+ = {} "his†ine is‚eededo‡voidƒrror
+
+71 
+Ët
+ 
+g
+:
+NERDT»eExaùM©chHighlightCŞÜ
+['‹x'] = 
+s
+:
+r¥ec_»d
+ " setshe color of css fileso blue
+
+72 
+Ët
+ 
+g
+:
+NERDT»eExaùM©chHighlightCŞÜ
+ = {} "his†ine is‚eededo‡voidƒrror
+
+73 
+Ët
+ 
+g
+:
+NERDT»eExaùM©chHighlightCŞÜ
+['.g™ignÜe'] = 
+s
+:
+g™_Üªge
+ " setshe color for .gitignore files
+
+74 
+Ët
+ 
+g
+:
+NERDT»eExaùM©chHighlightCŞÜ
+ = {} "his†ine is‚eededo‡voidƒrror
+
+75 
+Ët
+ 
+g
+:
+NERDT»eExaùM©chHighlightCŞÜ
+['.ynb'] = 
+s
+:
+lightPu½Ë
+ " setshe color for .ipynb files
+
+76 
+Ët
+ 
+g
+:
+NERDT»eExaùM©chHighlightCŞÜ
+ = {} "his†ine is‚eededo‡voidƒrror
+
+77 
+Ët
+ 
+g
+:
+NERDT»eExaùM©chHighlightCŞÜ
+['.py'] = 
+s
+:
+»d
+ " setshe color for .ipynb files
+
+79 
+Ët
+ 
+g
+:
+NERDT»eP©‹ºM©chHighlightCŞÜ
+ = {} "his†ine is‚eededo‡voidƒrror
+
+80 
+Ët
+ 
+g
+:
+NERDT»eP©‹ºM©chHighlightCŞÜ
+['.*_¥ec\.rb$'] = 
+s
+:
+r¥ec_»d
+ " setshe color for filesƒnding with _spec.rb
+
+81 
+Ët
+ 
+g
+:
+NERDT»eP©‹ºM©chHighlightCŞÜ
+ = {} "his†ine is‚eededo‡voidƒrror
+
+82 
+Ët
+ 
+g
+:
+NERDT»eP©‹ºM©chHighlightCŞÜ
+['*.py$'] = 
+s
+:
+»d
+ " setshe color for filesƒnding with _spec.rb
+
+	@/media/tool/work/vimconfig/layers/+tools/file-manager/packages.vim
+
+1 
+	gMP
+ 'danro/rename.vim', { 'on' : 'Rename' }
+
+4 
+MP
+ 'scrooloose/nerdtree', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
+
+5 
+augroup
+ 
+lßdN”dŒ“
+
+
+6 
+	gautocmd
+!
+
+7 
+autocmd
+ 
+VimEÁ”
+ * 
+	gs’t
+! 
+	gautocmd
+! 
+FeEx¶Ü”
+
+
+8 
+autocmd
+ 
+	gBufEÁ”
+,
+	gBufNew
+ *
+
+9 \ 
+isdœeùÜy
+(
+ex·nd
+('<amatch>'))
+
+10 \| 
+ÿÎ
+ 
+	g¶ug
+#load('nerdtree')
+
+11 \| 
+ÿÎ
+ 
+	gÃrdŒ“
+#checkFÜBrow£(
+ex·nd
+("<amatch>"))
+
+12 \| 
+’dif
+
+
+13 
+augroup
+ 
+END
+
+
+15 
+	gMP
+ 'Xuyuanp/nerdtree-git-plugin', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
+
+16 
+	gMP
+ 'tiagofumo/vim-nerdtree-syntax-highlight', { 'on': ['NERDTreeToggle', 'NERDTreeFind'] }
+
+	@/media/tool/work/vimconfig/layers/+tools/fzf/README.md
+
+1 #fzà
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜts
+ 
+fuzzy
+ 
+fe
+ 
+fšd”
+ 
+as
+ 
+w–l
+‡ 
+much
+ 
+mÜe
+ 
+Ùh”
+ 
+	gfunùiÚ®™›s
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`. *
+It
+ 
+has
+ 
+b“n
+ 
+’abËd
+ 
+as
+ 
+Úe
+ 
+of
+ 
+the
+  
+	gÏy”s
+*.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+24 <
+kbd
+>
+SPC
+ ?</kbd> | 
+NÜm®
+ | 
+show
+ 
+nÜm®
+ 
+mode
+ 
+m­s
+
+
+25 <
+kbd
+>
+SPC
+ 
+b
+ b</kbd> | 
+NÜm®
+ | 
+bufãrs
+ 
+li¡
+
+
+26 <
+kbd
+>
+SPC
+ 
+b
+ ?</kbd> | 
+NÜm®
+ | 
+bufãrs
+ 
+li¡
+
+
+27 <
+kbd
+>
+SPC
+ 
+w
+ ?</kbd> | 
+NÜm®
+ | 
+wšdows
+ 
+li¡
+
+
+28 <
+kbd
+>
+SPC
+ 
+f
+ ?</kbd> | 
+NÜm®
+ | 
+£¬ch
+ 
+fes
+ 
+š
+ 
+cu¼’t
+ 
+dœeùÜy
+
+
+29 <
+kbd
+>
+SPC
+ 
+f
+ f</kbd> | 
+NÜm®
+ | 
+£¬ch
+ 
+fes
+ 
+š
+ 
+home
+ 
+dœeùÜy
+
+
+31 
+´ess
+ <
+kbd
+>\<
+esc
+></kbd>, <
+	gkbd
+>
+CŒl
+ 
+	gc
+</kbd> 
+	gÜ
+ <kbd>
+	gCŒl
+ [</kbd> 
+to
+ 
+ex™
+.
+
+	@/media/tool/work/vimconfig/layers/+tools/fzf/config.vim
+
+1 
+	gg
+:
+¥aûvim_gui
+
+
+3 
+ÂÜem­
+ <
+L—d”
+>
+ff
+ :
+L—d”fFe
+ ~<
+CR
+>
+
+4 
+ÂÜem­
+ <
+L—d”
+>
+f
+? :
+L—d”fFe
+<
+CR
+>
+
+5 
+ÂÜem­
+ <
+L—d”
+>
+ä
+ :
+L—d”fMru
+<
+CR
+>
+
+6 
+ÂÜem­
+ <
+L—d”
+>
+æ
+ :
+L—d”fLše
+<
+CR
+>
+
+7 
+ÂÜem­
+ <
+L—d”
+>
+fL
+ :
+L—d”fLšeAÎ
+<
+CR
+>
+
+11 
+Ët
+ 
+$LANG
+ = 'en_US'
+
+13 
+Ët
+ 
+g
+:
+fzf_cŞÜs
+ = {
+
+27 
+nm­
+ <
+L—d”
+>? <
+¶ug
+>(
+fzf
+-
+m­s
+-
+n
+)
+
+28 
+xm­
+ <
+L—d”
+>? <
+¶ug
+>(
+fzf
+-
+m­s
+-
+x
+)
+
+29 
+om­
+ <
+L—d”
+>? <
+¶ug
+>(
+fzf
+-
+m­s
+-
+o
+)
+
+31 
+ÂÜem­
+ <
+L—d”
+>
+ag
+ :
+Ag
+<
+CR
+>
+
+32 
+ÂÜem­
+ <
+L—d”
+>
+bb
+ :
+Bufãrs
+<
+CR
+>
+
+34 
+ÂÜem­
+ <
+L—d”
+>
+b
+? :
+Bufãrs
+<
+CR
+>
+
+35 
+ÂÜem­
+ <
+L—d”
+>
+w
+? :
+Wšdows
+<
+CR
+>
+
+36 
+ÂÜem­
+ <
+L—d”
+>
+f
+? :
+Fes
+<
+CR
+>
+
+38 
+ÂÜem­
+ <
+L—d”
+>
+ff
+ :
+Fes
+ ~<
+CR
+>
+
+42 
+ÂÜem­
+ <
+L—d”
+>
+´
+ :
+ProjeùMru
+ --
+t›b»ak
+=
+’d
+<
+ü
+>
+
+44 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+tools/fzf/packages.vim
+
+1 
+	gg
+:
+¥aûvim_gui
+
+
+2 
+MP
+ 'Yggdroot/LeaderF'
+
+4 
+MP
+ 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' } | MP 'junegunn/fzf.vim'
+
+5 
+MP
+ 'tweekmonster/fzf-filemru', { 'on': 'ProjectMru' }
+
+6 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+tools/tags/README.md
+
+1 #g 
+Ïy”
+
+
+3 ## 
+gs
+ 
+lßd
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+D•’d’c›s
+](#Dependencies)
+
+9 * [
+Cgs
+](#ctags)
+
+10 * [
+Cscİe
+](#cscope)
+
+11 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+13 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+15 ## 
+DesütiÚ
+
+
+17 
+This
+ 
+Ïy”
+ 
+adds
+ 
+gs
+ 
+	gÇvig©iÚ
+.
+
+20 ## 
+In¡®l
+
+
+22 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+24 ## 
+D•’d’c›s
+
+
+25 #### 
+Cgs
+
+
+26 Â  
+	gUbuÁu
+
+
+28 
+sudo
+ 
+	g­t
+-
+g‘
+ 
+š¡®l
+ 
+	gùags
+
+
+30 #### 
+Cscİe
+
+
+31 
+	gUbuÁ
+
+
+33 
+sudo
+ 
+	g­t
+-
+g‘
+ 
+š¡®l
+ 
+	gcscİe
+
+
+36 ## 
+Key
+ 
+Bšdšgs
+
+
+38 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+40 <
+kbd
+>
+C
+-
+s
+ </kbd> | 
+NÜm®
+, 
+	gVisu®
+ | 
+Fšd
+ 
+this
+ C 
+	gsymbŞ
+
+
+41 <
+	gkbd
+>
+	gC
+-
+	gj
+ </kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+Fšd
+ 
+this
+ 
+	gdefš™iÚ
+
+
+42 <
+	gkbd
+>
+	gC
+-
+	gd
+ </kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+Fšd
+ 
+funùiÚs
+ 
+ÿÎed
+ 
+by
+ 
+this
+ 
+	gfunùiÚ
+
+
+43 <
+	gkbd
+>
+	gC
+-
+	gc
+ </kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+Fšd
+ 
+funùiÚs
+ 
+ÿÎšg
+ 
+this
+ 
+	gfunùiÚ
+
+
+44 <
+	gkbd
+>
+	gC
+-
+	gt
+ </kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+Fšd
+ 
+this
+ 
+‹xt
+ 
+	g¡ršg
+
+
+45 <
+	gkbd
+>
+	gC
+-
+	ge
+ </kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+Fšd
+ 
+this
+ 
+eg»p
+ 
+	g·‰”n
+
+
+46 <
+	gkbd
+>
+	gC
+-
+	gf
+ </kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+Fšd
+ 
+this
+ 
+	gfe
+
+
+47 <
+	gkbd
+>
+	gC
+-
+g
+ 
+	gg
+ </kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+Fšd
+ 
+	gfes
+ #šşudšg 
+this
+ 
+	gfe
+
+
+48 <
+	gkbd
+>
+	gF8
+ </kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+O³n
+ 
+	gTagbrToggË
+
+
+49 <
+	gkbd
+>
+	gF9
+ </kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ |‡utØ
+make
+ 
+gs
+ 
+	gcÚfig
+
+
+	@/media/tool/work/vimconfig/layers/+tools/tags/config.vim
+
+1 
+Ët
+ 
+	gs
+:
+is_wš
+ = 
+has
+('win32') || has('win64')
+
+2 
+Ët
+ 
+s
+:
+vimg¢ame
+ ='.vimtags'
+
+3 
+Ët
+ 
+g
+:
+vim´j_dœNameFÜS—rch
+ = 
+s
+:
+vimg¢ame
+
+
+4 
+Ët
+ 
+s
+:
+vimwÜkP©h
+=
+	$g‘cwd
+()
+
+5 
+Ët
+ 
+s
+:
+vim´jP©h
+ =
+	`g‘cwd
+().'/'.s:
+vimg¢ame
+
+
+6 
+Ët
+ 
+s
+:
+šdex”F’Name
+ =s:
+vim´jP©h
+.'/.indexer_files'
+
+7 
+Ët
+ 
+g
+:
+csFeEx
+ = ['*.c','*.h']
+
+9 
+funùiÚ
+! 
+s
+:
+	$autÙagscÚfig
+()
+
+10 
+	`execubË
+('ctags')
+
+11 !
+	$isdœeùÜy
+(
+s
+:
+vim´jP©h
+)
+
+12 
+ÿÎ
+ 
+s
+:
+	`sy¡em
+((s:
+is_wš
+? 'md ' : 'mkdœ 'è. s:
+	$sh–Ësc
+(
+s
+:
+vim´jP©h
+))
+
+13 
+ÿÎ
+ 
+s
+:
+	`sy¡em
+((s:
+is_wš
+?
+
+14 \
+	`´štf
+('echØ[%s] > % &&ƒchØ$VIMPRJ_PROJECT_ROOT >> %s','%dœ_Çme(..)%',
+s
+:
+vimwÜkP©h
+,s:
+	$sh–Ësc
+(
+s
+:
+šdex”F’Name
+)):
+
+15 \
+	`´štf
+('echØ"[%s]"\\n"%s" > %s','%dœ_Çme(..)%',
+s
+:
+vimwÜkP©h
+,s:
+	$sh–Ësc
+(
+s
+:
+šdex”F’Name
+))))
+
+17 
+ÿÎ
+ 
+s
+:
+	$rm_rf
+(
+s
+:
+vim´jP©h
+)
+
+18 
+ÿÎ
+ 
+s
+:
+	$autÙagscÚfig
+()
+
+20 
+’dif
+
+
+21 
+Ët
+ 
+g
+:
+šdex”_šdex”Li¡F’ame
+ = 
+s
+:
+	`£¬chwÜkdœ
+().'/indexer_files'
+
+22 
+’dif
+
+
+23 
+’dfunùiÚ
+
+
+25 
+funùiÚ
+! 
+s
+:
+	$sh–Ësc
+(
+¬g
+)
+
+26  '"'.
+	`esÿ³
+(
+a
+:
+¬g
+, '"').'"'
+
+27 
+’dfunùiÚ
+
+
+29 
+funùiÚ
+! 
+s
+:
+	$rm_rf
+(
+dœ
+)
+
+30 
+	$isdœeùÜy
+(
+a
+:
+dœ
+)
+
+31 
+ÿÎ
+ 
+s
+:
+	`sy¡em
+((s:
+is_wš
+ ? 'rmdœ /S /Q ' : 'rm -rà'è. s:
+	$sh–Ësc
+(
+a
+:
+dœ
+))
+
+32 
+’dif
+
+
+33 
+’dfunùiÚ
+
+
+35 
+funùiÚ
+! 
+s
+:
+	$w™h_cd
+(
+cmd
+, 
+dœ
+)
+
+36  
+	`´štf
+('cd% % && %s', 
+s
+:
+is_wš
+ ? ' /d' : '', s:
+	`sh–Ësc
+(
+a
+:
+dœ
+),‡:
+cmd
+)
+
+37 
+’dfunùiÚ
+
+
+39 
+funùiÚ
+! 
+s
+:
+	$sy¡em
+(
+cmd
+, ...)
+
+40 
+Œy
+
+
+41 
+Ët
+ [
+sh
+, 
+shrd
+] = [&
+sh–l
+,&
+sh–Ìedœ
+]
+
+42 !
+s
+:
+is_wš
+ && 1
+
+43 
+£t
+ 
+sh–l
+=
+sh
+ 
+sh–Ìedœ
+=>%
+s
+\ 2>&1
+
+44 
+’dif
+
+
+45 
+Ët
+ 
+cmd
+ = 
+a
+:0 > 0 ? 
+s
+:
+	$w™h_cd
+(
+a
+:
+cmd
+,‡:1) :‡:cmd
+
+47  
+	`sy¡em
+(
+s
+:
+is_wš
+ ? '('.
+cmd
+.')' : cmd)
+
+48 
+fš®ly
+
+
+49 
+Ët
+ [&
+sh–l
+, &
+sh–Ìedœ
+] = [
+sh
+, 
+shrd
+]
+
+50 
+’dŒy
+
+
+51 
+’dfunùiÚ
+
+
+53 
+funùiÚ
+! 
+s
+:
+	$£¬chwÜkdœ
+()
+
+54 
+Ët
+ 
+s
+:
+šdex”wÜk
+=
+	`fšddœ
+(s:
+vimg¢ame
+,s:
+vimwÜkP©h
+.';',0)
+
+55 
+	`Ën
+(
+s
+:
+šdex”wÜk
+è==
+	$Ën
+(
+s
+:
+vimg¢ame
+)
+
+56  
+s
+:
+vimwÜkP©h
+.'/'.s:
+vimg¢ame
+
+
+57 
+–£if
+ 
+	`Ën
+(
+s
+:
+šdex”wÜk
+)>
+	$Ën
+(
+s
+:
+vimg¢ame
+)
+
+58  
+s
+:
+šdex”wÜk
+
+
+61 
+’dif
+
+
+62 
+’dfunùiÚ
+
+
+63 
+Ët
+ 
+gb¬_Ëá
+=0
+
+64 
+Ët
+ 
+g
+:
+gb¬_com·ù
+=1
+
+65 
+Ët
+ 
+gb¬_width
+=25
+
+66 
+Ët
+ 
+g
+:
+šdex”_šdex”Li¡F’ame
+ = 
+s
+:
+	`£¬chwÜkdœ
+().'/.indexer_files'
+
+67 
+Ët
+ 
+g
+:
+autocscİ•©h
+ =
+s
+:
+	$£¬chwÜkdœ
+()
+
+68 
+Ët
+ 
+g
+:
+šdex”_di§bËCgsW¬nšg
+=1
+
+69 
+Ët
+ 
+g
+:
+cscİe_İ’_loÿtiÚ
+=0
+
+70 
+	`execubË
+('cscope')
+
+72 
+ÂÜem­
+ <
+C
+-
+s
+> :
+ÿÎ
+ 
+	`CscİeFnd
+('s', 
+	`ex·nd
+('<cwÜd>'))<
+CR
+>
+
+74 
+ÂÜem­
+ <
+C
+-
+j
+> :
+ÿÎ
+ 
+	`CscİeFšd
+('g', 
+	`ex·nd
+('<cwÜd>'))<
+CR
+>
+
+76 
+ÂÜem­
+ <
+C
+-
+d
+> :
+ÿÎ
+ 
+	`CscİeFšd
+('d', 
+	`ex·nd
+('<cwÜd>'))<
+CR
+>
+
+78 
+ÂÜem­
+ <
+C
+-
+c
+> :
+ÿÎ
+ 
+	`CscİeFšd
+('c', 
+	`ex·nd
+('<cwÜd>'))<
+CR
+>
+
+80 
+ÂÜem­
+ <
+C
+-
+t
+> :
+ÿÎ
+ 
+	`CscİeFšd
+('t', 
+	`ex·nd
+('<cwÜd>'))<
+CR
+>
+
+82 
+ÂÜem­
+ <
+C
+-
+e
+> :
+ÿÎ
+ 
+	`CscİeFšd
+('e', 
+	`ex·nd
+('<cwÜd>'))<
+CR
+>
+
+84 
+ÂÜem­
+ <
+C
+-
+f
+> :
+ÿÎ
+ 
+	`CscİeFšd
+('f', 
+	`ex·nd
+('<cwÜd>'))<
+CR
+>
+
+86 
+ÂÜem­
+ <
+C
+-
+g
+>g :
+ÿÎ
+ 
+	`CscİeFšd
+('i', 
+	`ex·nd
+('<cwÜd>'))<
+CR
+>
+
+87 
+’dif
+
+
+89 
+ÂÜem­
+ <
+F9
+> :
+ÿÎ
+ <
+SID
+>
+	`autÙagscÚfig
+()<
+CR
+>
+
+91 
+	`execubË
+('ctags')
+
+92 
+ÂÜem­
+ <
+F8
+> :
+Tagb¬ToggË
+<
+CR
+>
+
+93 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+tools/tags/packages.vim
+
+1 
+execubË
+('ctags')
+
+2 
+	gMP
+ 'majutsushi/tagbar'
+
+3 
+	gMP
+ 'dimonomid/vim-indexer'
+
+4 
+	gMP
+ 'dimonomid/vim-vimprj'
+
+5 
+	gMP
+ 'dimonomid/vim-dfrank-util'
+
+6 
+’dif
+
+
+7 
+execubË
+('cscİe'è&& 
+has
+('cscope')
+
+8 
+	gMP
+ 'StreetWind/vim-auto-cscope'
+
+9 
+	g’dif
+
+
+	@/media/tool/work/vimconfig/layers/+tools/tmux/README.md
+
+1 #tmux 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+9 * [
+tmux
+ 
+cÚfig
+](#tmux-
+	gcÚfig
+)
+
+10 * [
+Add
+ 
+a
+ 
+¢³t
+](#add-
+	ga
+-
+	g¢³t
+)
+
+11 * [
+TPM
+](#tpm)
+
+13 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+15 ## 
+DesütiÚ
+
+
+17 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜts
+ 
+tmux
+ 
+	gİ”©iÚ
+.
+
+19 ## 
+In¡®l
+
+
+21 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+23 ## 
+Key
+ 
+Bšdšgs
+
+
+25 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+27 <
+kbd
+>
+SPC
+ 
+m
+ 
+b
+</kbd> | 
+NÜm®
+ | 
+S’ds
+ 
+ù¾
++
+c
+ 
+to
+ 
+the
+ 
+assocŸ‹d
+ 
+·Ã
+.
+
+28 <
+kbd
+>
+SPC
+ 
+m
+ 
+c
+</kbd> | 
+NÜm®
+ | 
+S’ds
+ 
+ù¾
++
+l
+ 
+to
+ 
+the
+ 
+assocŸ‹d
+ 
+·Ã
+.
+
+29 <
+kbd
+>
+SPC
+ 
+m
+ 
+d
+</kbd> | 
+NÜm®
+ | 
+fuzzy
+ 
+£¬ch
+ 
+tmux
+ 
+commªd
+ 
+ªd
+ 
+execu‹
+ 
+w™hout
+ 
+¬gum’t
+
+
+30 <
+kbd
+>
+SPC
+ 
+m
+ 
+f
+</kbd> | 
+NÜm®
+ | 
+fuzzy
+ 
+£¬ch
+ 
+tmux
+ 
+cİ›d
+ 
+bufãr
+
+
+31 <
+kbd
+>
+SPC
+ 
+m
+ 
+i
+</kbd> | 
+NÜm®
+ | 
+fuzzy
+ 
+£¬ch
+ 
+tmux
+ 
+commªd
+ 
+ªd
+ 
+ask
+ 
+¬gum’t
+
+
+32 <
+kbd
+>
+SPC
+ 
+m
+ 
+k
+</kbd> | 
+NÜm®
+ | 
+Prom±s
+ 
+šput
+ 
+ªd
+ 
+£nds
+ 
+™
+ 
+to
+ 
+the
+ 
+assocŸ‹d
+ 
+·Ã
+ 
+as
+
+
+33 <
+kbd
+>
+SPC
+ 
+m
+ m</kbd> | 
+NÜm®
+ | 
+fuzzy
+ 
+£¬ch
+ 
+tmux
+ 
+£ssiÚs
+
+
+34 <
+kbd
+>
+SPC
+ 
+m
+ 
+n
+</kbd> | 
+NÜm®
+ | 
+ü—‹
+ 
+a
+ 
+Ãw
+ 
+tmux
+ 
+·Ã
+
+
+35 <
+kbd
+>
+SPC
+ 
+m
+ 
+p
+</kbd> | 
+NÜm®
+ | 
+AssocŸ‹
+ 
+ª
+ 
+®»ady
+ 
+exi¡šg
+ 
+·Ã
+ 
+w™h
+ 
+tmuxify
+.
+
+36 <
+kbd
+>
+SPC
+ 
+m
+ 
+q
+</kbd> | 
+NÜm®
+ | 
+Clo£s
+ 
+the
+ 
+assocŸ‹d
+ 
+·Ã
+.
+
+37 <
+kbd
+>
+SPC
+ 
+m
+ 
+r
+</kbd> | 
+NÜm®
+ | 
+Run
+ 
+ex‹º®
+ 
+commªd
+ 
+š
+ 
+a
+ 
+Ãw
+ 
+tmux
+ 
+·Ã
+
+
+38 <
+kbd
+>
+SPC
+ 
+m
+ 
+s
+</kbd> | 
+NÜm®
+ | 
+Prom±s
+ 
+šput
+ 
+ªd
+ 
+£nds
+ 
+™
+ 
+to
+ 
+the
+ 
+assocŸ‹d
+ 
+·Ã
+.
+
+39 <
+kbd
+>
+SPC
+ 
+m
+ 
+t
+</kbd> | 
+NÜm®
+ | 
+Chªge
+ 
+the
+ 
+run
+ 
+commªd
+ th
+cu¼’t
+ 
+f‘y³
+.
+
+40 <
+kbd
+>
+SPC
+ 
+m
+ 
+w
+</kbd> | 
+NÜm®
+ | 
+fuzzy
+ 
+£¬ch
+ 
+tmux
+ 
+wšdows
+
+
+41 <
+kbd
+>
+CŒl
+ 
+h
+</kbd> | 
+NÜm®
+ | 
+TmuxNavig©eRight
+
+
+42 <
+kbd
+>
+CŒl
+ 
+l
+</kbd> | 
+NÜm®
+ | 
+TmuxNavig©eLeá
+
+
+43 <
+kbd
+>
+CŒl
+ 
+j
+</kbd> | 
+NÜm®
+ | 
+TmuxNavig©eDown
+
+
+44 <
+kbd
+>
+CŒl
+ 
+k
+</kbd> | 
+NÜm®
+ | 
+TmuxNavig©eUp
+
+
+47 ## 
+tmux
+ 
+cÚfig
+
+
+49 
+To
+ 
+cÚfigu»
+ 
+the
+ 
+tmux
+ 
+side
+ 
+of
+ 
+this
+ 
+cu¡omiz©iÚ
+ 
+th”e
+ 
+¬e
+ 
+two
+ 
+İtiÚs
+:
+
+51 ###Add 
+a
+ 
+¢³t
+
+
+53 
+Add
+ 
+the
+ 
+fŞlowšg
+ 
+to
+ 
+your
+ `~/.
+tmux
+.
+cÚf
+` 
+fe
+:
+
+55 ``` 
+tmux
+
+
+56 #Sm¬ˆ
+·Ã
+ 
+sw™chšg
+ 
+w™h
+ 
+aw¬’ess
+ 
+of
+ 
+Vim
+ 
+¥l™s
+.
+
+57 #S“: 
+h‰ps
+:
+
+58 
+is_vim
+="ps -o state= -o comm= -t '#{pane_tty}' \
+| grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"
+
+60 
+bšd
+-
+key
+ -
+n
+ 
+C
+-
+h
+ -
+sh–l
+ "$is_vim" "send-keys C-h" "select-pane -L"
+
+61 
+bšd
+-
+key
+ -
+n
+ 
+C
+-
+j
+ -
+sh–l
+ "$is_vim" "send-keys C-j" "select-pane -D"
+
+62 
+bšd
+-
+key
+ -
+n
+ 
+C
+-
+k
+ -
+sh–l
+ "$is_vim" "send-keys C-k" "select-pane -U"
+
+63 
+bšd
+-
+key
+ -
+n
+ 
+C
+-
+l
+ -
+sh–l
+ "$is_vim" "send-keys C-l" "select-pane -R"
+
+64 
+bšd
+-
+key
+ -
+n
+ 
+C
+-\ -
+sh–l
+ "$is_vim" "send-keys C-\\" "select-pane -l"
+
+69 
+If
+ 
+you
+'d…refer, you can usehe Tmux Plugin Manager ([TPM][https://github.com/tmux-plugins/tpm]) instead of
+
+70 
+cİyšg
+ 
+the
+ 
+¢³t
+.
+
+71 
+Wh’
+ 
+usšg
+ 
+TPM
+, 
+add
+ 
+the
+ 
+fŞlowšg
+ 
+lšes
+ 
+to
+ 
+	gyour
+ ~/.
+	gtmux
+.
+	gcÚf
+:
+
+73 ``` 
+tmux
+
+
+74 
+£t
+ -
+g
+ @
+¶ugš
+ 'christoomey/vim-tmux-navigator'
+
+75 
+run
+ '~/.tmux/plugins/tpm/tpm'
+
+78 
+Thªks
+ 
+to
+ 
+Chri¡İh”
+ 
+SextÚ
+ 
+who
+ 
+´ovided
+ 
+the
+ 
+upd©ed
+ 
+tmux
+ 
+cÚfigu¿tiÚ
+ 
+š
+
+
+79 [
+this
+ 
+blog
+ 
+po¡
+][
+h‰p
+:
+
+	@/media/tool/work/vimconfig/layers/+tools/tmux/config.vim
+
+1 
+	gg
+:
+¥aûvim_tmux
+
+
+2 
+¥aûvim
+#funcs#LayerLoaded('unite')
+
+4 
+ÂÜem­
+ <
+L—d”
+>
+mw
+ :
+CŒlPTmux
+ 
+w
+<
+ü
+>
+
+6 
+ÂÜem­
+ <
+L—d”
+>
+mf
+ :
+CŒlPTmux
+ 
+b
+<
+ü
+>
+
+8 
+ÂÜem­
+ <
+L—d”
+>
+mm
+ :
+CŒlPTmux
+<
+ü
+>
+
+10 
+ÂÜem­
+ <
+L—d”
+>
+md
+ :
+CŒlPTmux
+ 
+c
+<
+ü
+>
+
+12 
+ÂÜem­
+ <
+L—d”
+>
+mi
+ :
+CŒlPTmux
+ 
+ci
+<
+ü
+>
+
+13 
+’dif
+
+
+15 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+tools/tmux/packages.vim
+
+1 
+	gMP
+ 'christoomey/vim-tmux-navigator'
+
+2 
+	gg
+:
+¥aûvim_tmux
+
+
+3 
+¥aûvim
+#funcs#LayerLoaded('unite')
+
+4 
+MP
+ 'lucidstack/ctrlp-tmux.vim',{'on': 'CtrlPTmux'}
+
+5 
+’dif
+
+
+6 
+MP
+ 'jebaum/vim-tmuxify'
+
+7 
+’dif
+
+
+	@/media/tool/work/vimconfig/layers/+tools/ycmd/README.md
+
+1 #Ycmd 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+In¡®l
+ 
+NÙifiÿtiÚ
+](#š¡®l-
+	gnÙifiÿtiÚ
+)
+
+9 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+11 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+13 ## 
+DesütiÚ
+
+
+15 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+a
+ 
+code
+ 
+com¶‘iÚ
+ 
+	g’gše
+.
+
+17 ## 
+In¡®l
+
+
+19 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+21 ## 
+In¡®l
+ 
+NÙifiÿtiÚ
+
+
+22 
+Reg¬d
+ 
+of
+ 
+the
+ 
+com¶ex™y
+ oà
+š¡®lšg
+ 
+this
+ 
+	g¶ugš
+,
+you
+ 
+may
+ 
+fšd
+h**
+ycmd
+** 
+	gÿn
+'t work…roperly‡s yourƒxpect,then you‚eedo manually compile it.(Allhese steps have beenested‡nd…assed onhe **ubuntu 16.04**,if you‡re working on other operation system or‚eed more infomation…lease visit [YouCompleteMe](https://github.com/Valloric/YouCompleteMe).)
+
+24 **
+	gS‹p
+ 1.**
+
+25 
+G‘
+ 
+što
+ 
+the
+ 
+fŞd”
+ 
+of
+ *
+	gYouCom¶‘eMe
+*.(
+	gNÙe
+: 
+If
+ 
+you
+ 
+dÚ
+'ˆhavthi fŞd” m—n you hav’'
+t
+ 
+dowÆßded
+h
+¶ugš
+,
+so
+ you 
+should
+ 
+dowÆßd
+ 
+™
+ 
+fœ¡
+ 
+by
+ 
+	gaddšg
+ `
+	gLay”
+ 'ycmd'` 
+	gto
+ `~/.
+	g¥aûvim
+` )
+
+27 ```
+	gsh
+
+
+28 #FÜ 
+vim
+
+
+29 
+	gcd
+ ~/.
+	gvim
+/
+	g¶ugged
+/
+	gYouCom¶‘eMe
+
+
+30 #FÜ 
+Ãovim
+
+
+31 
+	gcd
+ ~/.
+	gloÿl
+/
+	gsh¬e
+/
+	gnvim
+/
+	g¶ugged
+/
+	gYouCom¶‘eMe
+
+
+34 **
+	gS‹p
+ 2.**
+
+35 
+Do
+ 
+the
+ 
+	gadvªûd
+-
+	gš¡®ÏtiÚ
+.
+
+37 ```
+	gsh
+
+
+38 #In¡®È
+dev–İm’t
+ 
+toŞs
+ 
+ªd
+ 
+CMake
+
+
+39 
+sudo
+ 
+	g­t
+-
+g‘
+ 
+š¡®l
+ 
+	gbud
+-
+es£ÁŸl
+ 
+	gcmake
+
+
+40 #Mak
+su»
+ 
+you
+ 
+have
+ 
+PythÚ
+ 
+h—d”s
+ 
+š¡®Ëd
+
+
+41 
+sudo
+ 
+	g­t
+-
+g‘
+ 
+š¡®l
+ 
+	gpythÚ
+-
+dev
+ 
+	gpythÚ3
+-
+	gdev
+
+
+43 **
+	gS‹p
+ 3.**
+
+44 
+Aá”
+ 
+cÚfœmšg
+ 
+th©
+ 
+you
+ 
+have
+ 
+	$excu‹d
+(
+Ü
+ 
+§tisf›d
+ 
+w™h
+ 
+the
+ 
+»quœem’t
+ 
+of
+è
+®l
+h
+¡•s
+ 
+above
+,
+now
+ 
+you
+ 
+ÿn
+ 
+compe
+h
+YouCom¶‘eMe
+ w™h 
+£mªtic
+ 
+suµÜt
+ 
+C
+-
+çmy
+ 
+Ïnguages
+.
+
+46 ```
+sh
+
+
+47 ./
+š¡®l
+.
+py
+ --
+şªg
+-
+com¶‘”
+
+
+50 ## 
+Key
+ 
+Bšdšgs
+
+
+	@/media/tool/work/vimconfig/layers/+tools/ycmd/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+4 
+Ët
+ 
+	gg
+:
+ycm_”rÜ_symbŞ
+='âœ–'
+
+5 
+Ët
+ 
+g
+:
+ycm_w¬nšg_symbŞ
+='âš  '
+
+6 
+Ët
+ 
+g
+:
+ycm_ÿche_omnifunc
+=0
+
+7 
+Ët
+ 
+g
+:
+ycm_com¶‘e_š_¡ršgs
+=1
+
+8 
+Ët
+ 
+g
+:
+ycm_com¶‘e_š_comm’ts
+=1
+
+9 
+Ët
+ 
+g
+:
+ycm_£ed_id’tif›rs_w™h_syÁax
+=1
+
+10 
+Ët
+ 
+g
+:
+ycm_mš_num_of_ch¬s_fÜ_com¶‘iÚ
+=2
+
+12 
+Ët
+ 
+g
+:
+ycm_·th_to_pythÚ_š‹½»‹r
+='python'
+
+13 
+Ët
+ 
+g
+:
+ycm_autoşo£_´ev›w_wšdow_aá”_com¶‘iÚ
+ = 1
+
+14 
+Ët
+ 
+g
+:
+ycm_cŞËù_id’tif›rs_äom_comm’ts_ªd_¡ršgs
+=0
+
+15 
+Ët
+ 
+g
+:
+ycm_glob®_ycm_exŒa_cÚf
+ = 
+âamemodify
+(
+ex·nd
+('<sfile>'), ':h') . '/global_conf.py'
+
+16 
+Ët
+ 
+	gg
+:
+ycm_£mªtic_Œigg”s
+ = {
+
+32 
+Ët
+ 
+g
+:
+ycm_f‘y³_bÏckli¡
+={
+
+43 
+augroup
+ 
+¥aûvimYcm
+
+
+45 
+autocmd
+!
+
+48 
+autocmd
+ 
+FeTy³
+ 
+css
+ 
+£oÿl
+ 
+omnifunc
+=
+csscom¶‘e
+#CompleteCSS
+
+49 
+autocmd
+ 
+FeTy³
+ 
+html
+,
+m¬kdown
+ 
+£oÿl
+ 
+	gomnifunc
+=
+htmlcom¶‘e
+#CompleteTags
+
+50 
+autocmd
+ 
+FeTy³
+ 
+javasüt
+ 
+£oÿl
+ 
+omnifunc
+=
+javasütcom¶‘e
+#CompleteJS
+
+51 
+autocmd
+ 
+FeTy³
+ 
+pythÚ
+ 
+£oÿl
+ 
+omnifunc
+=
+pythÚcom¶‘e
+#Complete
+
+52 
+autocmd
+ 
+FeTy³
+ 
+xml
+ 
+£oÿl
+ 
+omnifunc
+=
+xmlcom¶‘e
+#CompleteTags
+
+53 
+autocmd
+ 
+FeTy³
+ 
+ruby
+ 
+£oÿl
+ 
+omnifunc
+=
+rubycom¶‘e
+#Complete
+
+54 
+autocmd
+ 
+FeTy³
+ 
+hask–l
+ 
+£oÿl
+ 
+omnifunc
+=
+Ãcoghc
+#omnifunc
+
+57 
+autocmd
+ 
+FeTy³
+ 
+c
+,
+	gıp
+,
+	gpythÚ
+,
+	ggo
+,
+	gjavasüt
+,
+	gru¡
+
+
+58 \ 
+	gÂÜem­
+ <
+	gLoÿlL—d”
+>
+	ggd
+ :
+YcmCom¶‘”
+ 
+GoTo
+<
+CR
+>
+
+59 
+autocmd
+ 
+FeTy³
+ 
+c
+,
+	gıp
+,
+	gpythÚ
+,
+	gru¡
+,
+	gjavasüt
+,
+	gty³süt
+
+
+60 \ 
+	gÂÜem­
+ <
+	gLoÿlL—d”
+>
+	ggD
+ :
+YcmCom¶‘”
+ 
+G‘Doc
+<
+CR
+>
+
+61 
+autocmd
+ 
+FeTy³
+ 
+c
+,
+	gıp
+
+
+62 \ 
+	gÂÜem­
+ <
+	gLoÿlL—d”
+>
+	ggi
+ :
+YcmCom¶‘”
+ 
+GoToInşude
+<
+CR
+>
+
+63 
+autocmd
+ 
+FeTy³
+ 
+javasüt
+,
+	gpythÚ
+,
+	gty³süt
+
+
+64 \ 
+	gÂÜem­
+ <
+	gLoÿlL—d”
+>
+	ggr
+ :
+YcmCom¶‘”
+ 
+GoToReã»nûs
+<
+CR
+>
+
+65 
+autocmd
+ 
+FeTy³
+ 
+c
+,
+	gıp
+,
+	gjavasüt
+,
+	gty³süt
+
+
+66 \ 
+	gÂÜem­
+ <
+	gLoÿlL—d”
+>
+	ggt
+ :
+YcmCom¶‘”
+ 
+G‘Ty³
+<
+CR
+>
+
+67 
+autocmd
+ 
+FeTy³
+ 
+c
+,
+	gıp
+
+
+68 \ 
+	gÂÜem­
+ <
+	gLoÿlL—d”
+>
+	ggp
+ :
+YcmCom¶‘”
+ 
+G‘P¬’t
+<
+CR
+>
+
+69 
+augroup
+ 
+END
+
+
+	@/media/tool/work/vimconfig/layers/+tools/ycmd/global_conf.py
+
+1 #Thi 
+fe
+ 
+is
+ 
+NOT
+ 
+liûn£d
+ 
+und”
+ 
+the
+ 
+GPLv3
+, 
+which
+ i th
+liûn£
+ th
+»¡
+
+
+2 #oà
+YouCom¶‘eMe
+.
+
+5 #
+#Thi 
+is
+ 
+ä“
+ 
+ªd
+ 
+uÃncumb”ed
+ 
+soáw¬e
+ 
+»Ëa£d
+ 
+što
+ 
+the
+ 
+public
+ 
+domaš
+.
+
+7 #
+#AnyÚ
+is
+ 
+ä“
+ 
+to
+ 
+cİy
+, 
+modify
+, 
+publish
+, 
+u£
+, 
+compe
+, 
+£Î
+, 
+Ü
+
+
+9 #di¡ribu‹ 
+this
+ 
+soáw¬e
+, 
+e™h”
+ 
+š
+ 
+sourû
+ 
+code
+ 
+fÜm
+ 
+Ü
+ 
+as
+ 
+a
+ 
+comped
+
+
+10 #bš¬y, 
+ªy
+ 
+pu½o£
+, 
+comm”cŸl
+ 
+Ü
+ 
+nÚ
+-comm”cŸl, 
+ªd
+ 
+by
+‡ny
+
+12 #
+#IÀ
+jurisdiùiÚs
+ 
+th©
+ 
+»cognize
+ 
+cİyright
+ 
+Ïws
+, 
+the
+ 
+authÜ
+ 
+Ü
+ 
+authÜs
+
+
+14 #oà
+this
+ 
+soáw¬e
+ 
+dediÿ‹
+ 
+ªy
+ 
+ªd
+ 
+®l
+ 
+cİyright
+ 
+š‹»¡
+ 
+š
+ 
+the
+
+
+15 #soáw¬
+to
+ 
+the
+ 
+public
+ 
+domaš
+. 
+We
+ 
+make
+ 
+this
+ 
+dediÿtiÚ
+ th
+b’ef™
+
+
+16 #oà
+the
+ 
+public
+ 
+©
+ 
+Ïrge
+ 
+ªd
+ 
+to
+h
+d‘rim’t
+ 
+of
+ 
+our
+ 
+heœs
+‡nd
+
+17 #sucûssÜs. 
+We
+ 
+š‹nd
+ 
+this
+ 
+dediÿtiÚ
+ 
+to
+ 
+be
+ 
+ª
+ 
+ov”t
+ 
+aù
+ 
+of
+
+
+18 #»lšquishm’ˆ
+š
+ 
+³½‘u™y
+ 
+of
+ 
+®l
+ 
+´e£Á
+ 
+ªd
+ 
+futu»
+ 
+rights
+ 
+to
+ 
+this
+
+
+19 #soáw¬
+und”
+ 
+cİyright
+ 
+Ïw
+.
+
+20 #
+#THE 
+SOFTWARE
+ 
+IS
+ 
+PROVIDED
+ "AS IS", 
+WITHOUT
+ 
+WARRANTY
+ 
+OF
+ 
+ANY
+ 
+KIND
+,
+
+22 #EXPRESS 
+OR
+ 
+IMPLIED
+, 
+INCLUDING
+ 
+BUT
+ 
+NOT
+ 
+LIMITED
+ 
+TO
+ 
+THE
+ 
+WARRANTIES
+ 
+OF
+
+
+23 #MERCHANTABILITY, 
+FITNESS
+ 
+FOR
+ 
+A
+ 
+PARTICULAR
+ 
+PURPOSE
+ 
+AND
+ 
+NONINFRINGEMENT
+.
+
+24 #IN 
+NO
+ 
+EVENT
+ 
+SHALL
+ 
+THE
+ 
+AUTHORS
+ 
+BE
+ 
+LIABLE
+ 
+FOR
+ 
+ANY
+ 
+CLAIM
+, 
+DAMAGES
+ 
+OR
+
+
+25 #OTHER 
+LIABILITY
+, 
+WHETHER
+ 
+IN
+ 
+AN
+ 
+ACTION
+ 
+OF
+ 
+CONTRACT
+, 
+TORT
+ 
+OR
+ 
+OTHERWISE
+,
+
+26 #ARISING 
+FROM
+, 
+OUT
+ 
+OF
+ 
+OR
+ 
+IN
+ 
+CONNECTION
+ 
+WITH
+ 
+THE
+ 
+SOFTWARE
+ OR THE 
+USE
+ OR
+
+27 #OTHER 
+DEALINGS
+ 
+IN
+ 
+THE
+ 
+SOFTWARE
+.
+
+28 #
+#FÜ 
+mÜe
+ 
+šfÜm©iÚ
+, 
+¶—£
+ 
+»ãr
+ 
+to
+ <
+h‰p
+:
+
+31 
+impÜt
+ 
+os
+
+
+32 
+impÜt
+ 
+	gycm_cÜe
+
+
+34 #The£ 
+¬e
+ 
+the
+ 
+comp©iÚ
+ 
+æags
+ 
+th©
+ 
+wl
+ 
+be
+ 
+u£d
+ 
+š
+ 
+th”e
+'s‚o
+
+35 #comp©iÚ 
+d©aba£
+ 
+£t
+ (
+by
+ , 
+Úe
+ 
+is
+ 
+nÙ
+ set).
+
+36 #CHANGE 
+THIS
+ 
+LIST
+ 
+OF
+ 
+FLAGS
+. 
+YES
+, THIS 
+IS
+ 
+THE
+ 
+DROID
+ 
+YOU
+ 
+HAVE
+ 
+BEEN
+ 
+LOOKING
+ 
+FOR
+.
+
+37 
+	gæags
+ = [
+
+41 #'-
+Wc
+++98-
+com·t
+',
+
+47 #You 100% dØ
+NOT
+ 
+Ãed
+ -
+DUSE_CLANG_COMPLETER
+ 
+š
+ 
+your
+ 
+æags
+; 
+Úly
+ 
+the
+ 
+YCM
+
+
+48 #sourû 
+code
+ 
+Ãeds
+ 
+™
+.
+
+50 #THIS 
+IS
+ 
+IMPORTANT
+! 
+W™hout
+ 
+a
+ "-¡d=<som‘hšg>" 
+æag
+, 
+şªg
+ 
+wÚ
+'t know which
+
+51 #Ïnguag
+to
+ 
+u£
+ 
+wh’
+ 
+compšg
+ 
+h—d”s
+. 
+So
+ 
+™
+ 
+wl
+ 
+guess
+. 
+Badly
+. SØ
+C
+++
+
+52 #h—d” 
+wl
+ 
+be
+ 
+comped
+ 
+as
+ 
+C
+ 
+h—d”s
+. 
+You
+ 
+dÚ
+'t wanthat so ALWAYS specify
+
+54 #FÜ 
+a
+ 
+C
+ 
+´ojeù
+, 
+you
+ 
+would
+ 
+£t
+ 
+this
+ 
+to
+ 
+som‘hšg
+ 
+like
+ 'c99' 
+š¡—d
+ 
+of
+
+
+55 #'
+c
+++11'.
+
+57 #...
+ªd
+ 
+the
+ 
+§me
+ 
+thšg
+ 
+gÛs
+ th
+magic
+ -
+x
+ 
+İtiÚ
+ 
+which
+ 
+¥ecif›s
+he
+
+58 #Ïnguag
+th©
+ 
+the
+ 
+fes
+ 
+to
+ 
+be
+ 
+comped
+ 
+¬e
+ 
+wr™‹n
+ 
+š
+. 
+This
+ 
+is
+ 
+mo¡ly
+
+
+59 #»Ëvªˆ
+c
+++ 
+h—d”s
+.
+
+60 #FÜ 
+a
+ 
+C
+ 
+´ojeù
+, 
+you
+ 
+would
+ 
+£t
+ 
+this
+ 
+to
+ 'c' 
+š¡—d
+ 
+of
+ 'c++'.
+
+66 #Thi 
+·th
+ 
+wl
+ 
+Úly
+ 
+wÜk
+ 
+Ú
+ 
+OS
+ 
+X
+, 
+but
+ 
+exŒa
+ 
+·ths
+ 
+th©
+ 
+dÚ
+'tƒxist‡re‚ot
+
+88 #S‘ 
+this
+ 
+to
+ 
+the
+ 
+absŞu‹
+ 
+·th
+Øth
+fŞd”
+ (
+NOT
+h
+fe
+!è
+cÚššg
+he
+
+89 #compe_commªds.
+jsÚ
+ 
+fe
+ 
+to
+ 
+u£
+ 
+th©
+ 
+š¡—d
+ 
+of
+ 'æags'. 
+S“
+ 
+h”e
+ 
+
+90 #mÜ
+d‘as
+: 
+h‰p
+:
+
+91 #
+#You 
+ÿn
+ 
+g‘
+ 
+CMake
+ 
+to
+ 
+g’”©e
+ 
+this
+ 
+fe
+ 
+you
+ 
+by
+ 
+addšg
+:
+
+93 #£tĞ
+CMAKE_EXPORT_COMPILE_COMMANDS
+ 1 )
+
+94 #tØ
+your
+ 
+CMakeLi¡s
+.
+txt
+ 
+fe
+.
+
+95 #
+#Mo¡ 
+´ojeùs
+ 
+wl
+ 
+NOT
+ 
+Ãed
+ 
+to
+ 
+£t
+ 
+this
+Ø
+ªythšg
+; 
+you
+ 
+ÿn
+ 
+ju¡
+ 
+chªge
+ 
+the
+
+
+97 #'
+æags
+'†ist of compilation flags. Noticehat YCM itself useshat‡pproach.
+
+98 
+	gcomp©iÚ_d©aba£_fŞd”
+ = ''
+
+100 
+os
+.
+·th
+.
+	$exi¡s
+Ğ
+comp©iÚ_d©aba£_fŞd”
+ ):
+
+101 
+d©aba£
+ = 
+ycm_cÜe
+.
+	$Comp©iÚD©aba£
+Ğ
+comp©iÚ_d©aba£_fŞd”
+ )
+
+103 
+d©aba£
+ = 
+NÚe
+
+
+105 
+SOURCE_EXTENSIONS
+ = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]
+
+107 
+def
+ 
+	$DœeùÜyOfThisSüt
+():
+
+108  
+os
+.
+·th
+.
+	`dœÇme
+Ğos.·th.
+	$ab¥©h
+Ğ
+__fe__
+ ) )
+
+111 
+def
+ 
+	$MakeR–©iveP©hsInFÏgsAbsŞu‹
+Ğ
+æags
+, 
+wÜkšg_dœeùÜy
+ ):
+
+112 
+nÙ
+ 
+wÜkšg_dœeùÜy
+:
+
+113  
+	$li¡
+Ğ
+æags
+ )
+
+114 
+Ãw_æags
+ = []
+
+115 
+make_Ãxt_absŞu‹
+ = 
+F®£
+
+
+116 
+·th_æags
+ = [ '-isystem', '-I', '-iquote', '--sysroot=' ]
+
+117 
+æag
+ 
+š
+ 
+æags
+:
+
+118 
+Ãw_æag
+ = 
+æag
+
+
+120 
+make_Ãxt_absŞu‹
+:
+
+121 
+make_Ãxt_absŞu‹
+ = 
+F®£
+
+
+122 
+nÙ
+ 
+æag
+.
+	`¡¬tsw™h
+( '/' ):
+
+123 
+Ãw_æag
+ = 
+os
+.
+·th
+.
+	$još
+Ğ
+wÜkšg_dœeùÜy
+, 
+æag
+ )
+
+125 
+·th_æag
+ 
+š
+ 
+·th_æags
+:
+
+126 
+æag
+ =ğ
+·th_æag
+:
+
+127 
+make_Ãxt_absŞu‹
+ = 
+True
+
+
+130 
+æag
+.
+	$¡¬tsw™h
+Ğ
+·th_æag
+ ):
+
+131 
+·th
+ = 
+æag
+[ 
+	$Ën
+Ğ
+·th_æag
+ ): ]
+
+132 
+Ãw_æag
+ = 
+·th_æag
+ + 
+os
+.
+·th
+.
+	$još
+Ğ
+wÜkšg_dœeùÜy
+, 
+·th
+ )
+
+135 
+Ãw_æag
+:
+
+136 
+Ãw_æags
+.
+	$­³nd
+Ğ
+Ãw_æag
+ )
+
+137  
+Ãw_æags
+
+
+140 
+def
+ 
+	$IsH—d”Fe
+Ğ
+f’ame
+ ):
+
+141 
+ex‹nsiÚ
+ = 
+os
+.
+·th
+.
+	`¥l™ext
+Ğ
+f’ame
+ )[ 1 ]
+
+142  
+ex‹nsiÚ
+ 
+š
+ [ '.h', '.hxx', '.hpp', '.hh' ]
+
+145 
+def
+ 
+	$G‘Comp©iÚInfoFÜFe
+Ğ
+f’ame
+ ):
+
+146 #Th
+comp©iÚ_commªds
+.
+jsÚ
+ 
+fe
+ 
+g’”©ed
+ 
+by
+ 
+CMake
+ 
+dÛs
+ 
+nÙ
+ 
+have
+ 
+’Œ›s
+
+
+147 #fÜ 
+h—d”
+ 
+fes
+. 
+So
+ 
+we
+ dØ
+our
+ 
+be¡
+ 
+by
+ 
+askšg
+ 
+the
+ 
+db
+ 
+æags
+ 
+a
+
+
+148 #cÜ»¥Údšg 
+sourû
+ 
+fe
+, 
+ªy
+. 
+If
+ 
+Úe
+ 
+exi¡s
+, 
+the
+ 
+æags
+ 
+th©
+ file
+
+149 #should 
+be
+ 
+good
+ 
+’ough
+.
+
+150 
+	$IsH—d”Fe
+Ğ
+f’ame
+ ):
+
+151 
+ba£Çme
+ = 
+os
+.
+·th
+.
+	`¥l™ext
+Ğ
+f’ame
+ )[ 0 ]
+
+152 
+ex‹nsiÚ
+ 
+š
+ 
+SOURCE_EXTENSIONS
+:
+
+153 
+»¶aûm’t_fe
+ = 
+ba£Çme
+ + 
+ex‹nsiÚ
+
+
+154 
+os
+.
+·th
+.
+	$exi¡s
+Ğ
+»¶aûm’t_fe
+ ):
+
+155 
+comp©iÚ_šfo
+ = 
+d©aba£
+.
+	$G‘Comp©iÚInfoFÜFe
+(
+
+156 
+»¶aûm’t_fe
+ )
+
+157 
+comp©iÚ_šfo
+.
+comp”_æags_
+:
+
+158  
+comp©iÚ_šfo
+
+
+159  
+NÚe
+
+
+160  
+d©aba£
+.
+	$G‘Comp©iÚInfoFÜFe
+Ğ
+f’ame
+ )
+
+163 
+def
+ 
+	$FÏgsFÜFe
+Ğ
+f’ame
+, **
+kw¬gs
+ ):
+
+164 
+d©aba£
+:
+
+165 #B—¸
+š
+ 
+mšd
+ 
+th©
+ 
+comp©iÚ_šfo
+.
+comp”_æags_
+ 
+dÛs
+ 
+NOT
+  
+a
+
+
+166 #pythÚ 
+li¡
+, 
+but
+ 
+a
+ "li¡-like" 
+SŒšgVec
+ 
+objeù
+
+
+167 
+comp©iÚ_šfo
+ = 
+	$G‘Comp©iÚInfoFÜFe
+Ğ
+f’ame
+ )
+
+168 
+nÙ
+ 
+comp©iÚ_šfo
+:
+
+169  
+NÚe
+
+
+171 
+fš®_æags
+ = 
+	$MakeR–©iveP©hsInFÏgsAbsŞu‹
+(
+
+172 
+comp©iÚ_šfo
+.
+comp”_æags_
+,
+
+173 
+comp©iÚ_šfo
+.
+comp”_wÜkšg_dœ_
+ )
+
+175 #NOTE: 
+This
+ 
+is
+ 
+ju¡
+ 
+YouCom¶‘eMe
+; 
+™
+'s highly†ikelyhat your…roject
+
+176 #dÛ 
+NOT
+ 
+Ãed
+ 
+to
+ 
+»move
+ 
+the
+ 
+¡dlib
+ 
+æag
+. 
+DO
+ NOT 
+USE
+ 
+THIS
+ 
+IN
+ 
+YOUR
+
+
+177 #ycm_exŒa_cÚà
+IF
+ 
+YOU
+'RE NOT 100% SURE YOU NEED IT.
+
+178 
+Œy
+:
+
+179 
+fš®_æags
+.
+	`»move
+( '-stdlib=libc++' )
+
+180 
+exû±
+ 
+V®ueE¼Ü
+:
+
+181 
+·ss
+
+
+183 
+»Ïtive_to
+ = 
+	$DœeùÜyOfThisSüt
+()
+
+184 
+fš®_æags
+ = 
+	$MakeR–©iveP©hsInFÏgsAbsŞu‹
+Ğ
+æags
+, 
+»Ïtive_to
+ )
+
+187 'æags': 
+fš®_æags
+,
+
+188 'do_ÿche': 
+True
+
+
+189 
+	}
+}
+
+	@/media/tool/work/vimconfig/layers/+tools/ycmd/packages.vim
+
+2 
+	gMP
+ 'rdnetto/YCM-Generator', { 'on': ['YcmGenerateConfig', 'CCGenerateConfig'], 'branch': 'stable' }
+
+4 
+funùiÚ
+! 
+BudYCM
+(
+šfo
+)
+
+9 
+a
+:
+šfo
+.
+¡©us
+ ==#'
+š¡®Ëd
+' ||‡:info.force
+
+10 !./
+š¡®l
+.
+py
+ --
+şªg
+-
+com¶‘”
+
+
+11 
+’dif
+
+
+12 
+’dfunùiÚ
+
+
+14 
+MP
+ 'V®lÜic/YouCom¶‘eMe', { 'do': 
+funùiÚ
+('BuildYCM'), 'on': [] }
+
+17 
+funùiÚ
+! 
+s
+:
+	$švoke_ycm
+()
+
+18 
+Ët
+ 
+l
+:
+suµÜ‹d
+ = ['c', 'cpp', 'python', 'vim', 'javascript', 'go', 'sh', 'rust']
+
+19 
+Ët
+ 
+l
+:
+cur_á
+ = &
+f‘y³
+
+
+20 
+	`šdex
+(
+l
+:
+suµÜ‹d
+,†:
+cur_á
+) > -1
+
+21 
+ÿÎ
+ 
+¶ug
+#load('YouCompleteMe')
+
+22 
+’dif
+
+
+23 
+’dfunùiÚ
+
+
+25 
+augroup
+ 
+lßdYcm
+
+
+26 
+autocmd
+!
+
+27 
+autocmd
+ 
+In£¹EÁ”
+ * 
+ÿÎ
+ 
+s
+:
+	`švoke_ycm
+(è|‡utocmd! 
+lßdYcm
+
+
+28 
+augroup
+ 
+END
+
+
+	@/media/tool/work/vimconfig/layers/+version-control/git/README.md
+
+1 #G™ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 ## 
+In¡®l
+
+
+16 ## 
+Key
+ 
+Bšdšgs
+
+
+	@/media/tool/work/vimconfig/layers/+version-control/git/config.vim
+
+1 
+sü‹ncodšg
+ 
+	gutf
+-8
+
+4 
+	gÂÜem­
+ <
+	gs’t
+> <
+	gL—d”
+>
+	ggs
+ :
+G¡©us
+<
+CR
+>
+
+5 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+gd
+ :
+Gdiff
+<
+CR
+>
+
+6 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+gc
+ :
+Gcomm™
+<
+CR
+>
+
+7 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+gb
+ :
+GbÏme
+<
+CR
+>
+
+8 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+gl
+ :
+Glog
+<
+CR
+>
+
+9 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+gp
+ :
+G™
+ 
+push
+<
+CR
+>
+
+10 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+gr
+ :
+G»ad
+<
+CR
+>
+
+11 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+gw
+ :
+Gwr™e
+<
+CR
+>
+
+12 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+ge
+ :
+Ged™
+<
+CR
+>
+
+14 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+gi
+ :
+G™
+ 
+add
+ -
+p
+ %<
+CR
+>
+
+15 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+gg
+ :
+SignifyToggË
+<
+CR
+>
+
+20 
+Ët
+ 
+g
+:
+g™gu‰”_sign_added
+ = '+'
+
+21 
+Ët
+ 
+g
+:
+g™gu‰”_sign_modif›d
+ = '~'
+
+22 
+Ët
+ 
+g
+:
+g™gu‰”_sign_»moved
+ = '-'
+
+24 
+Ët
+ 
+g
+:
+g™gu‰”_sign_»moved_fœ¡_lše
+ = '^^'
+
+25 
+Ët
+ 
+g
+:
+g™gu‰”_sign_modif›d_»moved
+ = 'ww'
+
+26 
+Ët
+ 
+g
+:
+g™gu‰”_ov”ride_sign_cŞumn_highlight
+ = 0
+
+28 
+ÂÜem­
+ <
+s’t
+> <
+L—d”
+>
+tg
+ :
+G™Gu‰”ToggË
+<
+CR
+>
+
+	@/media/tool/work/vimconfig/layers/+version-control/git/packages.vim
+
+1 
+	gMP
+ 'tpope/vim-fugitive'
+
+2 
+	gMP
+ 'junegunn/gv.vim', { 'on': ['GV', 'GV!'] }
+
+3 
+	gMP
+ 'airblade/vim-gitgutter'
+
+	@/media/tool/work/vimconfig/layers/+version-control/github/README.md
+
+1 #G™Hub 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 ## 
+In¡®l
+
+
+16 ## 
+Key
+ 
+Bšdšgs
+
+
+	@/media/tool/work/vimconfig/layers/+version-control/github/config.vim
+
+	@/media/tool/work/vimconfig/layers/+version-control/github/packages.vim
+
+1 
+	gMP
+ 'junegunn/vim-github-dashboard', { 'on': ['GHDashboard', 'GHActivity'] }
+
+2 
+	gMP
+ 'mattn/gist-vim', { 'on': 'Gist' }
+
+	@/media/tool/work/vimconfig/layers/+vim/better-motion/README.md
+
+1 #B‘‹r-
+mÙiÚ
+ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+effic›Á
+ 
+	gmÙiÚ
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+24 <
+kbd
+>
+SPC
+ 
+j
+ 
+w
+ | 
+NÜm®
+ | å•è¯è·³è½¬ (
+jump
+ 
+to
+ 
+wÜd
+)
+
+25 <
+kbd
+>
+SPC
+ 
+j
+ 
+l
+ | 
+NÜm®
+ | è¡Œé—´è·³è½¬ (
+jump
+ 
+to
+ 
+lše
+)
+
+26 <
+kbd
+>
+SPC
+ 
+j
+ j | 
+NÜm®
+ | -, å•ä¸ªå­—ç¬¦æœç´¢, ç­‰åŒäº<
+	gkbd
+>SPC SPC 
+	gs
+</kbd>
+
+27 <
+	gkbd
+>
+SPC
+ 
+j
+ 
+	gJ
+ | 
+	gNÜm®
+ | --2, ä¸¤ä¸ªå­—ç¬¦æœç´¢
+
+28 <
+	gkbd
+>
+SPC
+ SPC 
+	gw
+</kbd> | 
+	gNÜm®
+ | å¿«é€Ÿè¯é—´ç§»åŠ¨(å‘å‰)
+
+29 <
+	gkbd
+>
+SPC
+ SPC 
+	gb
+</kbd> | 
+	gNÜm®
+ | å¿«é€Ÿè¯é—´ç§»åŠ¨ (å‘å)
+
+30 <
+	gkbd
+>
+SPC
+ SPC 
+	gs
+</kbd> | 
+	gNÜm®
+ | å¿«é€Ÿå­—ç¬¦æœç´¢ (åŒå‘)
+
+31 <
+	gkbd
+>
+SPC
+ SPC 
+	gf
+</kbd> | 
+	gNÜm®
+ | å¿«é€Ÿå­—ç¬¦æœç´¢ (å‘å‰)
+
+32 <
+	gkbd
+>
+SPC
+ SPC 
+	gj
+</kbd> | 
+	gNÜm®
+ | å¿«é€Ÿè¡Œé—´ç§»åŠ¨ (å‘ä¸‹)
+
+33 <
+	gkbd
+>
+SPC
+ SPC 
+	gk
+</kbd> | 
+	gNÜm®
+ | å¿«é€Ÿè¡Œé—´ç§»åŠ¨ (å‘ä¸Š)
+
+	@/media/tool/work/vimconfig/layers/+vim/better-motion/config.vim
+
+10 
+	gm­
+ <
+	gL—d”
+><L—d”> <
+	gPlug
+>(
+	g—symÙiÚ
+-
+	g´efix
+)
+
+14 
+	gm­
+ <
+	gL—d”
+>
+	gjj
+ <
+	gPlug
+>(
+	g—symÙiÚ
+-
+	gbd
+-
+	gf
+)
+
+15 
+	gnm­
+ <
+	gL—d”
+>
+	gjj
+ <
+	gPlug
+>(
+	g—symÙiÚ
+-
+	gov”wš
+-
+	gf
+)
+
+18 
+	gnm­
+ <
+	gL—d”
+>
+	gjJ
+ <
+	gPlug
+>(
+	g—symÙiÚ
+-
+	gov”wš
+-
+	gf2
+)
+
+21 
+	gm­
+ <
+	gL—d”
+>
+	gjl
+ <
+	gPlug
+>(
+	g—symÙiÚ
+-
+	gbd
+-
+	gjk
+)
+
+22 
+	gnm­
+ <
+	gL—d”
+>
+	gjl
+ <
+	gPlug
+>(
+	g—symÙiÚ
+-
+	gov”wš
+-
+	glše
+)
+
+25 
+	gm­
+ <
+	gL—d”
+>
+	gjw
+ <
+	gPlug
+>(
+	g—symÙiÚ
+-
+	gbd
+-
+	gw
+)
+
+26 
+	gnm­
+ <
+	gL—d”
+>
+	gjw
+ <
+	gPlug
+>(
+	g—symÙiÚ
+-
+	gov”wš
+-
+	gw
+)
+
+	@/media/tool/work/vimconfig/layers/+vim/better-motion/packages.vim
+
+1 
+	gMP
+ 'justinmk/vim-sneak'
+
+3 
+	gMP
+ 'easymotion/vim-easymotion'
+
+5 
+	gMP
+ 'haya14busa/incsearch-easymotion.vim', { 'on': [
+
+	@/media/tool/work/vimconfig/layers/+vim/ctrlp/README.md
+
+1 #CŒÍ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+fuzzy
+ 
+	gfe
+, 
+	gbufãr
+, 
+	gmru
+, 
+	gg
+, ... 
+	gfšd”
+.
+
+16 ## 
+In¡®l
+
+
+18 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+	gÏy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+20 ## 
+Key
+ 
+Bšdšgs
+
+
+22 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+24 <
+kbd
+>
+CŒl
+ 
+p
+</kbd> | 
+NÜm®
+ | 
+fuzzy
+ 
+fšd”
+ 
+toggË
+
+
+25 <
+kbd
+>
+SPC
+ 
+f
+ 
+r
+</kbd> | 
+NÜm®
+ | 
+fes
+ 
+mo¡
+ 
+»ûÁly
+ 
+u£d
+
+
+	@/media/tool/work/vimconfig/layers/+vim/ctrlp/config.vim
+
+2 
+Ët
+ 
+	gg
+:
+ù¾p_wÜkšg_·th_mode
+ = 'ra' " search for‚earest‡ncestor†ike .git, .hg,‡ndhe directory ofhe current file
+
+3 
+Ët
+ 
+g
+:
+ù¾p_m©ch_wšdow_bÙtom
+ = 0 " showhe match window‡theop ofhe screen
+
+4 
+Ët
+ 
+g
+:
+ù¾p_by_f’ame
+ = 1
+
+5 
+Ët
+ 
+g
+:
+ù¾p_max_height
+ = 10 " maxiumum height of match window
+
+6 
+Ët
+ 
+g
+:
+ù¾p_sw™ch_bufãr
+ = 'et' " jumpo‡ file if it's open‡lready
+
+7 
+Ët
+ 
+g
+:
+ù¾p_»gexp
+ = 1
+
+8 
+Ët
+ 
+g
+:
+ù¾p_u£_ÿchšg
+ = 1 "ƒnable caching
+
+9 
+Ët
+ 
+g
+:
+ù¾p_ş—r_ÿche_Ú_ex™
+=0 " speed up by‚ot„emoving clearing cacheƒvertime
+
+10 
+Ët
+ 
+g
+:
+ù¾p_mruf_max
+ = 250 "‚umber of„ecently opened files
+
+11 
+Ët
+ 
+g
+:
+ù¾p_m­
+ = '<c-p>'
+
+12 
+Ët
+ 
+g
+:
+ù¾p_cmd
+ = 'CtrlP'
+
+13 
+Ët
+ 
+g
+:
+ù¾p_fŞlow_symlšks
+=1
+
+14 
+Ët
+ 
+g
+:
+ù¾p_mruf_»Ïtive
+ = 1
+
+15 
+Ët
+ 
+g
+:
+ù¾p_mruf_exşude
+ = '/tmp/.*\|/temp/.*'
+
+16 
+Ët
+ 
+g
+:
+ù¾p_cu¡om_ignÜe
+ = {
+
+23 
+execubË
+('ag')
+
+25 
+£t
+ 
+g»µrg
+=
+ag
+\ --
+nogroup
+\ --
+nocŞÜ
+
+
+27 
+Ët
+ 
+g
+:
+ù¾p_u£r_commªd
+ = 'ag %s -l --nocolor -g ""'
+
+29 
+Ët
+ 
+g
+:
+ù¾p_u£_ÿchšg
+ = 0
+
+31 
+Ët
+ 
+g
+:
+ù¾p_u£r_commªd
+ = ['.git/', 'git --git-dir=%s/.git†s-files -oc --exclude-standard']
+
+32 
+’dif
+
+
+34 
+Ët
+ 
+	gg
+:
+ù¾p_m©ch_func
+ = { 'match': 'pymatcher#PyMatch' }
+
+35 
+ÂÜem­
+ <
+L—d”
+>
+ä
+ :
+CŒlPMRU
+<
+CR
+>
+
+36 
+ÂÜem­
+ <
+C
+-
+p
+> :
+CŒlP
+<
+CR
+>
+
+	@/media/tool/work/vimconfig/layers/+vim/ctrlp/packages.vim
+
+1 
+	g¥aûvim
+#funcs#LayerLoaded('tmux')
+
+2 
+	gMP
+ 'ctrlpvim/ctrlp.vim'
+
+3 
+	gMP
+ 'FelikZ/ctrlp-py-matcher'
+
+5 
+	gMP
+ 'ctrlpvim/ctrlp.vim', { 'on': ['CtrlP', 'CtrlPMRU'] }
+
+6 
+	gMP
+ 'FelikZ/ctrlp-py-matcher', { 'on': ['CtrlP', 'CtrlPMRU'] }
+
+7 
+	g’dif
+
+
+	@/media/tool/work/vimconfig/layers/+vim/text-align/README.md
+
+1 #Text-
+Align
+ 
+Ïy”
+
+
+3 ## 
+TabË
+ 
+of
+ 
+CÚ‹Ás
+
+
+5 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+toc
+ 
+	gGFM
+ -->
+
+6 * [
+DesütiÚ
+](#description)
+
+7 * [
+In¡®l
+](#install)
+
+8 * [
+Key
+ 
+Bšdšgs
+](#key-
+	gbšdšgs
+)
+
+10 <!-- 
+	gvim
+-
+	gm¬kdown
+-
+	gtoc
+ -->
+
+12 ## 
+DesütiÚ
+
+
+14 
+This
+ 
+Ïy”
+ 
+adds
+ 
+suµÜt
+ 
+the
+ 
+·šËss
+ 
+‹xt
+ 
+	g®ignm’t
+.
+
+16 ![
+vim
+-
+—sy
+-
+®ign
+](
+	gh‰ps
+:
+
+18 ## 
+In¡®l
+
+
+20 
+To
+ 
+u£
+ 
+this
+ 
+cÚfigu¿tiÚ
+ 
+Ïy”
+, 
+add
+ 
+™
+ 
+to
+ 
+	gyour
+ `~/.
+	g¥aûvim
+`.
+
+22 ## 
+Key
+ 
+Bšdšgs
+
+
+24 
+Key
+ 
+	gBšdšg
+ | 
+	gMode
+ | 
+	gDesütiÚ
+
+
+26 <
+kbd
+>
+SPC
+ 
+a
+ &</kbd> | 
+NÜm®
+, 
+	gVisu®
+ | 
+	g®ign
+-
+	g»³©
+-
+	gam³r§nd
+
+
+27 <
+	gkbd
+>
+SPC
+ 
+	ga
+ =</
+kbd
+> | 
+NÜm®
+, 
+	gVisu®
+ | 
+	g®ign
+-
+	g»³©
+-
+	gequ®
+
+
+28 <
+	gkbd
+>
+SPC
+ 
+	ga
+ =></
+kbd
+> | 
+NÜm®
+, 
+	gVisu®
+ | 
+	g®ign
+-
+	g»³©
+--
+	g¬row
+
+
+29 <
+	gkbd
+>
+SPC
+ 
+	ga
+ :</
+kbd
+> | 
+NÜm®
+, 
+	gVisu®
+ | 
+	g®ign
+-
+	g»³©
+-
+	gcŞÚ
+
+
+30 <
+	gkbd
+>
+SPC
+ 
+	ga
+ :</
+kbd
+> | 
+NÜm®
+, 
+	gVisu®
+ | 
+	g®ign
+-
+	g»³©
+-
+	gcŞÚ
+
+
+31 <
+	gkbd
+>
+SPC
+ 
+	ga
+ ::</
+kbd
+> | 
+NÜm®
+, 
+	gVisu®
+ | 
+	g®ign
+-
+	g»³©
+--
+	gcŞÚ
+
+
+32 <
+	gkbd
+>
+SPC
+ 
+	ga
+ ,</kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+	g®ign
+-
+	g»³©
+-
+	gcomma
+
+
+33 <
+	gkbd
+>
+SPC
+ 
+	ga
+ ,,</kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+	g®ign
+-
+	g»³©
+--
+	gcomma
+
+
+34 <
+	gkbd
+>
+SPC
+ 
+	ga
+ \|</kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+	g®ign
+-
+	g»³©
+-
+	gb¬
+
+
+35 <
+	gkbd
+>
+SPC
+ 
+x
+ 
+	ga
+</kbd> | 
+	gNÜm®
+, 
+	gVisu®
+ | 
+	gšvoke
+-
+	gvim
+-
+	g—sy
+-
+	g®ign
+
+
+	@/media/tool/work/vimconfig/layers/+vim/text-align/config.vim
+
+2 
+	gnm­
+ <
+	gL—d”
+>
+	ga
+& :
+TabuÏrize
+ /&<
+CR
+>
+
+3 
+vm­
+ <
+L—d”
+>
+a
+& :
+TabuÏrize
+ /&<
+CR
+>
+
+4 
+nm­
+ <
+L—d”
+>
+a
+ğ:
+TabuÏrize
+ /^[^=]*\
+zs
+=<
+CR
+>
+
+5 
+vm­
+ <
+L—d”
+>
+a
+ğ:
+TabuÏrize
+ /^[^=]*\
+zs
+=<
+CR
+>
+
+6 
+nm­
+ <
+L—d”
+>
+a
+=> :
+TabuÏrize
+ /=><
+CR
+>
+
+7 
+vm­
+ <
+L—d”
+>
+a
+=> :
+TabuÏrize
+ /=><
+CR
+>
+
+8 
+nm­
+ <
+L—d”
+>
+a
+: :
+TabuÏrize
+ /:<
+CR
+>
+
+9 
+vm­
+ <
+L—d”
+>
+a
+: :
+TabuÏrize
+ /:<
+CR
+>
+
+10 
+nm­
+ <
+L—d”
+>
+a
+:: :
+TabuÏrize
+ /:\
+zs
+<
+CR
+>
+
+11 
+vm­
+ <
+L—d”
+>
+a
+:: :
+TabuÏrize
+ /:\
+zs
+<
+CR
+>
+
+12 
+nm­
+ <
+L—d”
+>
+a
+, :
+TabuÏrize
+ /,<
+	gCR
+>
+
+13 
+	gvm­
+ <
+	gL—d”
+>
+	ga
+, :
+TabuÏrize
+ /,<
+	gCR
+>
+
+14 
+	gnm­
+ <
+	gL—d”
+>
+	ga
+,, :
+TabuÏrize
+ /,\
+	gzs
+<
+	gCR
+>
+
+15 
+	gvm­
+ <
+	gL—d”
+>
+	ga
+,, :
+TabuÏrize
+ /,\
+	gzs
+<
+	gCR
+>
+
+16 
+	gnm­
+ <
+	gL—d”
+>
+	ga
+<
+	gB¬
+> :
+TabuÏrize
+ /<
+B¬
+><
+CR
+>
+
+17 
+vm­
+ <
+L—d”
+>
+a
+<
+B¬
+> :
+TabuÏrize
+ /<B¬><
+CR
+>
+
+22 
+xm­
+ <
+L—d”
+>
+xa
+ <
+Plug
+>(
+EasyAlign
+)
+
+25 
+nm­
+ <
+L—d”
+>
+xa
+ <
+Plug
+>(
+EasyAlign
+)
+
+	@/media/tool/work/vimconfig/layers/+vim/text-align/packages.vim
+
+1 
+	gMP
+ 'godlygeek/tabular', { 'on': 'Tabularize' }
+
+2 
+MP
+ 'junegunn/vim-easy-align', { 'on': [ '<Plug>(EasyAlign)', 'EasyAlign' ] }
+
+	@/media/tool/work/vimconfig/layers/LAYERS.md
+
+1 
+Lay”
+ 
+	gMªiã¡
+
+
+4 
+tİic
+ | 
+Ïy”
+
+
+6 +
+check”s
+ | [
+syÁax
+-
+checkšg
+](
+h‰ps
+:
+
+7 +
+com¶‘iÚ
+ | [auto-com¶‘iÚ](
+h‰ps
+:
+
+8 +
+com¶‘iÚ
+ | [
+un™e
+](
+h‰ps
+:
+
+9 +
+di¡ributiÚs
+ | [
+b‘‹r
+-
+deçuÉs
+](
+h‰ps
+:
+
+10 +
+di¡ributiÚs
+ | [
+¥aûvim
+](
+h‰ps
+:
+
+11 +
+fun
+ | [
+emoji
+](
+h‰ps
+:
+
+12 +
+fun
+ | [
+goyo
+](
+h‰ps
+:
+
+13 +
+Ïng
+ | [
+c
+-c++](
+h‰ps
+:
+
+14 +
+Ïng
+ | [
+–ixœ
+](
+h‰ps
+:
+
+15 +
+Ïng
+ | [
+–m
+](
+h‰ps
+:
+
+16 +
+Ïng
+ | [
+”Ïng
+](
+h‰ps
+:
+
+17 +
+Ïng
+ | [
+go
+](
+h‰ps
+:
+
+18 +
+Ïng
+ | [
+g¿phviz
+](
+h‰ps
+:
+
+19 +
+Ïng
+ | [
+html
+](
+h‰ps
+:
+
+20 +
+Ïng
+ | [
+java
+](
+h‰ps
+:
+
+21 +
+Ïng
+ | [
+javasüt
+](
+h‰ps
+:
+
+22 +
+Ïng
+ | [
+Ï‹x
+](
+h‰ps
+:
+
+23 +
+Ïng
+ | [
+m¬kdown
+](
+h‰ps
+:
+
+24 +
+Ïng
+ | [
+pythÚ
+](
+h‰ps
+:
+
+25 +
+Ïng
+ | [
+ruby
+](
+h‰ps
+:
+
+26 +
+Ïng
+ | [
+sÿÏ
+](
+h‰ps
+:
+
+27 +
+Ïng
+ | [
+ty³süt
+](
+h‰ps
+:
+
+28 +
+Ïng
+ | [
+vue
+](
+h‰ps
+:
+
+29 +
+misc
+ | [
+chše£
+](
+h‰ps
+:
+
+30 +
+´og¿mmšg
+ | [
+code
+-
+¢³ts
+](
+h‰ps
+:
+
+31 +
+´og¿mmšg
+ | [
+ed™šg
+](
+h‰ps
+:
+
+32 +
+´og¿mmšg
+ | [´og¿mmšg](
+h‰ps
+:
+
+33 +
+themes
+ | [
+aœlše
+](
+h‰ps
+:
+
+34 +
+themes
+ | [
+lighše
+](
+h‰ps
+:
+
+35 +
+toŞs
+ | [
+fe
+-
+mªag”
+](
+h‰ps
+:
+
+36 +
+toŞs
+ | [
+fzf
+](
+h‰ps
+:
+
+37 +
+toŞs
+ | [
+tmux
+](
+h‰ps
+:
+
+38 +
+toŞs
+ | [
+ycmd
+](
+h‰ps
+:
+
+39 +
+v”siÚ
+-
+cÚŒŞ
+ | [
+g™
+](
+h‰ps
+:
+
+40 +
+v”siÚ
+-
+cÚŒŞ
+ | [
+g™hub
+](
+h‰ps
+:
+
+41 +
+vim
+ | [
+b‘‹r
+-
+mÙiÚ
+](
+h‰ps
+:
+
+42 +
+vim
+ | [
+ù¾p
+](
+h‰ps
+:
+
+43 +
+vim
+ | [
+‹xt
+-
+®ign
+](
+h‰ps
+:
+
+	@/media/tool/work/vimconfig/layers/generate_layers.py
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+pythÚ
+
+
+2 #-*- 
+codšg
+: 
+utf
+-8 -*-
+
+4 
+impÜt
+ 
+os
+
+
+6 
+	gtİic_ba£
+ = 
+os
+.
+·th
+.
+ex·ndu£r
+('./')
+
+7 
+tİics
+ = [
+
+8 
+f
+ à
+š
+ 
+os
+.
+	$li¡dœ
+(
+tİic_ba£
+)
+
+9 
+os
+.
+·th
+.
+	`isdœ
+(os.·th.
+	`još
+(
+tİic_ba£
+, 
+f
+))
+
+12 
+f
+ = 
+	`İ’
+(
+os
+.
+·th
+.
+	`ex·ndv¬s
+('./LAYERS.md'), 'w')
+
+13 
+f
+.
+	`wr™e
+('Layer Manifest\n')
+
+14 
+f
+.
+	`wr™e
+('==============\n\n')
+
+15 
+f
+.
+	`wr™e
+("%-20s | %s\n" % ('topic', 'layer'))
+
+16 
+f
+.
+	`wr™e
+("%-20s | %s\n" % (':---:', ':---:'))
+
+18 
+u¾_´efix
+ = 'https://github.com/liuchengxu/space-vim/tree/master/layers'
+
+20 
+t
+ 
+š
+ 
+tİics
+:
+
+21 
+tİic_·th
+ = 
+tİic_ba£
+ + '/' + 
+t
+
+
+22 
+Ïy”s
+ = [
+
+23 
+f
+ à
+š
+ 
+os
+.
+	$li¡dœ
+(
+tİic_·th
+)
+
+24 
+os
+.
+·th
+.
+	`isdœ
+(os.·th.
+	`još
+(
+tİic_·th
+, 
+f
+))
+
+26 
+l
+ 
+š
+ 
+Ïy”s
+:
+
+27 
+f
+.
+	`wr™e
+("%-20 | [%s](%s/%s/%s)\n" % (
+t
+, 
+l
+, 
+u¾_´efix
+,,†))
+
+29 
+f
+.
+	$şo£
+()
+
+31 
+	`´št
+('LAYERS.md has been updated (created) successfully.')
+
+	@/media/tool/work/vimconfig/private/README.md
+
+1 :
+us
+: 
+English
+
+
+3 `
+´iv©e
+` 
+ÿn
+ 
+®so
+ 
+be
+ 
+cÚsid”ed
+ 
+as
+ 
+a
+ 
+Lay”
+. 
+If
+ 
+you
+ 
+have
+‡ 
+h—vy
+ 
+cu¡omized
+ 
+cÚfigu¿tiÚ
+, 
+™
+ 
+is
+ 
+niû
+ 
+to
+ 
+Ügªize
+ 
+them
+ 
+	gh”e
+.
+
+5 
+You
+ 
+could
+ 
+put
+ 
+exŒa
+ 
+cÚfigu¿tiÚ
+ 
+	gš
+ `
+	gcÚfig
+.
+	gvim
+` 
+ªd
+ 
+¶ugšs
+ 
+	g¥aû
+-
+vim
+ 
+have
+ 
+nÙ
+ 
+ofã»d
+ iÀ`
+	g·ckages
+.vim`, 
+which
+ 
+wl
+ 
+be
+ 
+lßded
+ 
+Ú
+ 
+	g¡¬tup
+.
+
+7 :
+ú
+: ä¸­æ–‡
+
+9 `
+´iv©e
+` ä¹Ÿå¯è§†ä½œä¸€ä¸ª 
+Lay”
+, å¦‚æœæ‚¨çš„ä¸ªæ€§åŒ–é…ç½®ä¿¡æ¯æ¯”è¾ƒå¤šï¼Œå¯ä»¥è€ƒè™‘æ”¾åœ¨è¿™é‡Œï¼Œå¦‚æœ `
+	g´iv©e
+` ä¸ä¸ºç©ºï¼Œå…¶ä¸­çš„é…ç½®æ–‡ä»¶åœ¨å¯åŠ¨æ—¶ä¹Ÿä¼šè¢«åŠ è½½ã€‚
+
+11 ä¾æ—§éµå¾ª 
+	gLay”
+ çš„ â€œç»“æ„â€ å¯ä»¥æœ‰ä¸¤ä¸ªæ–‡ä»¶:
+
+13 - 
+·ckages
+.
+vim
+: æ‰€è¦å®‰è£…çš„æ’ä»¶åˆ—è¡¨ï¼Œæ¯”å¦‚:
+
+15 ```
+vim
+
+
+17 
+Plug
+ 'extr0py/oni'
+
+20 - 
+cÚfig
+.
+vim
+: ä¸ªäººé…ç½®ä¿¡æ¯, æ¯”å¦‚:
+
+22 ```
+vim
+
+
+23 
+cŞÜ
+ 
+mŞokai
+
+
+	@/media/tool/work/vimconfig/uninstall.sh
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+bash
+
+
+3 
+	grm
+ -
+	gf
+ "${HOME}/.vimrc"
+
+4 
+	grm
+ -
+	grf
+ "${HOME}/.space-vim"
+
+	@
+1
+.
+1
+/usr/include
+136
+8173
+/media/tool/work/vimconfig/CHANGELOG.md
+/media/tool/work/vimconfig/README.md
+/media/tool/work/vimconfig/core/autoload/spacevim.vim
+/media/tool/work/vimconfig/core/autoload/spacevim/auto.vim
+/media/tool/work/vimconfig/core/autoload/spacevim/funcs.vim
+/media/tool/work/vimconfig/core/autoload/spacevim/gui.vim
+/media/tool/work/vimconfig/core/autoload/spacevim/info.vim
+/media/tool/work/vimconfig/core/autoload/spacevim/layer.vim
+/media/tool/work/vimconfig/core/autoload/spacevim/util.vim
+/media/tool/work/vimconfig/init.vim
+/media/tool/work/vimconfig/install.sh
+/media/tool/work/vimconfig/layers/+checkers/syntax-checking/README.md
+/media/tool/work/vimconfig/layers/+checkers/syntax-checking/config.vim
+/media/tool/work/vimconfig/layers/+checkers/syntax-checking/packages.vim
+/media/tool/work/vimconfig/layers/+completion/auto-completion/README.md
+/media/tool/work/vimconfig/layers/+completion/auto-completion/config.vim
+/media/tool/work/vimconfig/layers/+completion/auto-completion/packages.vim
+/media/tool/work/vimconfig/layers/+completion/unite/README.md
+/media/tool/work/vimconfig/layers/+completion/unite/config.vim
+/media/tool/work/vimconfig/layers/+completion/unite/packages.vim
+/media/tool/work/vimconfig/layers/+distributions/better-defaults/README.md
+/media/tool/work/vimconfig/layers/+distributions/better-defaults/config.vim
+/media/tool/work/vimconfig/layers/+distributions/better-defaults/keybindings.vim
+/media/tool/work/vimconfig/layers/+distributions/better-defaults/packages.vim
+/media/tool/work/vimconfig/layers/+distributions/spacevim/config.vim
+/media/tool/work/vimconfig/layers/+distributions/spacevim/packages.vim
+/media/tool/work/vimconfig/layers/+fun/emoji/README.md
+/media/tool/work/vimconfig/layers/+fun/emoji/config.vim
+/media/tool/work/vimconfig/layers/+fun/emoji/packages.vim
+/media/tool/work/vimconfig/layers/+fun/goyo/README.md
+/media/tool/work/vimconfig/layers/+fun/goyo/config.vim
+/media/tool/work/vimconfig/layers/+fun/goyo/packages.vim
+/media/tool/work/vimconfig/layers/+lang/c-c++/README.md
+/media/tool/work/vimconfig/layers/+lang/c-c++/config.vim
+/media/tool/work/vimconfig/layers/+lang/c-c++/packages.vim
+/media/tool/work/vimconfig/layers/+lang/elixir/README.md
+/media/tool/work/vimconfig/layers/+lang/elixir/config.vim
+/media/tool/work/vimconfig/layers/+lang/elixir/packages.vim
+/media/tool/work/vimconfig/layers/+lang/elm/README.md
+/media/tool/work/vimconfig/layers/+lang/elm/config.vim
+/media/tool/work/vimconfig/layers/+lang/elm/packages.vim
+/media/tool/work/vimconfig/layers/+lang/erlang/README.md
+/media/tool/work/vimconfig/layers/+lang/erlang/config.vim
+/media/tool/work/vimconfig/layers/+lang/erlang/packages.vim
+/media/tool/work/vimconfig/layers/+lang/go/README.md
+/media/tool/work/vimconfig/layers/+lang/go/config.vim
+/media/tool/work/vimconfig/layers/+lang/go/packages.vim
+/media/tool/work/vimconfig/layers/+lang/graphviz/README.md
+/media/tool/work/vimconfig/layers/+lang/graphviz/config.vim
+/media/tool/work/vimconfig/layers/+lang/graphviz/packages.vim
+/media/tool/work/vimconfig/layers/+lang/html/README.md
+/media/tool/work/vimconfig/layers/+lang/html/config.vim
+/media/tool/work/vimconfig/layers/+lang/html/packages.vim
+/media/tool/work/vimconfig/layers/+lang/java/README.md
+/media/tool/work/vimconfig/layers/+lang/java/config.vim
+/media/tool/work/vimconfig/layers/+lang/java/packages.vim
+/media/tool/work/vimconfig/layers/+lang/javascript/README.md
+/media/tool/work/vimconfig/layers/+lang/javascript/config.vim
+/media/tool/work/vimconfig/layers/+lang/javascript/packages.vim
+/media/tool/work/vimconfig/layers/+lang/latex/README.md
+/media/tool/work/vimconfig/layers/+lang/latex/config.vim
+/media/tool/work/vimconfig/layers/+lang/latex/packages.vim
+/media/tool/work/vimconfig/layers/+lang/markdown/README.md
+/media/tool/work/vimconfig/layers/+lang/markdown/config.vim
+/media/tool/work/vimconfig/layers/+lang/markdown/packages.vim
+/media/tool/work/vimconfig/layers/+lang/python/README.md
+/media/tool/work/vimconfig/layers/+lang/python/config.vim
+/media/tool/work/vimconfig/layers/+lang/python/packages.vim
+/media/tool/work/vimconfig/layers/+lang/ruby/README.md
+/media/tool/work/vimconfig/layers/+lang/ruby/config.vim
+/media/tool/work/vimconfig/layers/+lang/ruby/packages.vim
+/media/tool/work/vimconfig/layers/+lang/rust/README.md
+/media/tool/work/vimconfig/layers/+lang/rust/config.vim
+/media/tool/work/vimconfig/layers/+lang/rust/packages.vim
+/media/tool/work/vimconfig/layers/+lang/scala/README.md
+/media/tool/work/vimconfig/layers/+lang/scala/config.vim
+/media/tool/work/vimconfig/layers/+lang/scala/packages.vim
+/media/tool/work/vimconfig/layers/+lang/typescript/README.md
+/media/tool/work/vimconfig/layers/+lang/typescript/config.vim
+/media/tool/work/vimconfig/layers/+lang/typescript/packages.vim
+/media/tool/work/vimconfig/layers/+lang/vue/README.md
+/media/tool/work/vimconfig/layers/+lang/vue/config.vim
+/media/tool/work/vimconfig/layers/+lang/vue/packages.vim
+/media/tool/work/vimconfig/layers/+misc/chinese/README.md
+/media/tool/work/vimconfig/layers/+misc/chinese/config.vim
+/media/tool/work/vimconfig/layers/+misc/chinese/packages.vim
+/media/tool/work/vimconfig/layers/+programming/code-snippets/README.md
+/media/tool/work/vimconfig/layers/+programming/code-snippets/config.vim
+/media/tool/work/vimconfig/layers/+programming/code-snippets/packages.vim
+/media/tool/work/vimconfig/layers/+programming/editing/README.md
+/media/tool/work/vimconfig/layers/+programming/editing/config.vim
+/media/tool/work/vimconfig/layers/+programming/editing/packages.vim
+/media/tool/work/vimconfig/layers/+programming/programming/README.md
+/media/tool/work/vimconfig/layers/+programming/programming/config.vim
+/media/tool/work/vimconfig/layers/+programming/programming/packages.vim
+/media/tool/work/vimconfig/layers/+themes/airline/README.md
+/media/tool/work/vimconfig/layers/+themes/airline/config.vim
+/media/tool/work/vimconfig/layers/+themes/airline/packages.vim
+/media/tool/work/vimconfig/layers/+themes/lightline/README.md
+/media/tool/work/vimconfig/layers/+themes/lightline/config.vim
+/media/tool/work/vimconfig/layers/+themes/lightline/packages.vim
+/media/tool/work/vimconfig/layers/+tools/file-manager/README.md
+/media/tool/work/vimconfig/layers/+tools/file-manager/config.vim
+/media/tool/work/vimconfig/layers/+tools/file-manager/packages.vim
+/media/tool/work/vimconfig/layers/+tools/fzf/README.md
+/media/tool/work/vimconfig/layers/+tools/fzf/config.vim
+/media/tool/work/vimconfig/layers/+tools/fzf/packages.vim
+/media/tool/work/vimconfig/layers/+tools/tags/README.md
+/media/tool/work/vimconfig/layers/+tools/tags/config.vim
+/media/tool/work/vimconfig/layers/+tools/tags/packages.vim
+/media/tool/work/vimconfig/layers/+tools/tmux/README.md
+/media/tool/work/vimconfig/layers/+tools/tmux/config.vim
+/media/tool/work/vimconfig/layers/+tools/tmux/packages.vim
+/media/tool/work/vimconfig/layers/+tools/ycmd/README.md
+/media/tool/work/vimconfig/layers/+tools/ycmd/config.vim
+/media/tool/work/vimconfig/layers/+tools/ycmd/global_conf.py
+/media/tool/work/vimconfig/layers/+tools/ycmd/packages.vim
+/media/tool/work/vimconfig/layers/+version-control/git/README.md
+/media/tool/work/vimconfig/layers/+version-control/git/config.vim
+/media/tool/work/vimconfig/layers/+version-control/git/packages.vim
+/media/tool/work/vimconfig/layers/+version-control/github/README.md
+/media/tool/work/vimconfig/layers/+version-control/github/config.vim
+/media/tool/work/vimconfig/layers/+version-control/github/packages.vim
+/media/tool/work/vimconfig/layers/+vim/better-motion/README.md
+/media/tool/work/vimconfig/layers/+vim/better-motion/config.vim
+/media/tool/work/vimconfig/layers/+vim/better-motion/packages.vim
+/media/tool/work/vimconfig/layers/+vim/ctrlp/README.md
+/media/tool/work/vimconfig/layers/+vim/ctrlp/config.vim
+/media/tool/work/vimconfig/layers/+vim/ctrlp/packages.vim
+/media/tool/work/vimconfig/layers/+vim/text-align/README.md
+/media/tool/work/vimconfig/layers/+vim/text-align/config.vim
+/media/tool/work/vimconfig/layers/+vim/text-align/packages.vim
+/media/tool/work/vimconfig/layers/LAYERS.md
+/media/tool/work/vimconfig/layers/generate_layers.py
+/media/tool/work/vimconfig/private/README.md
+/media/tool/work/vimconfig/uninstall.sh

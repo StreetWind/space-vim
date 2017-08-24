@@ -30,11 +30,11 @@ if g:WINDOWS
 endif
 " }
 
-let g:spacevim_dir = $HOME.'/.space-vim'
+let g:spacevim_dir = $HOME.'/work/vimconfig'
 let g:spacevim_core_dir = '/core'
 let g:spacevim_version = '0.6.0'
 
-set runtimepath+=$HOME/.space-vim/core
+set runtimepath+=$HOME/work/vimconfig/core
 
 call spacevim#begin()
 

@@ -32,7 +32,7 @@ augroup END
   elseif g:WINDOWS
     let g:mkdp_path_to_chrome = 'C:\\Program Files (x86)\Google\Chrome\Application\chrome.exe'
   else
-    let g:mkdp_path_to_chrome = 'google-chrome'
+    let g:mkdp_path_to_chrome = 'google-chrome-stable'
   endif
 
   " Markdown preview in browser

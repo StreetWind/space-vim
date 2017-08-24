@@ -1,4 +1,5 @@
 scriptencoding utf-8
+au BufNewFile,BufRead *.ejs set filetype=html
 
 if g:spacevim_vim8 || g:spacevim_nvim
   " ale {
