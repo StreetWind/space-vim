@@ -6,29 +6,30 @@ silent! color space-vim-dark
 
 augroup spacevimBasic
   autocmd!
-  " http://vim.wikia.com/wiki/Speed_up_Syntax_Highlighting
-  autocmd BufEnter * :syntax sync maxlines=200
+  autocmd BufReadPre *
+        \ if getfsize(expand("%")) > 10000000
+        \|  syntax off
+        \|endif
 
   " Restore cursor position when opening file
   autocmd BufReadPost *
-              \ if line("'\"") > 1 && line("'\"") <= line("$") |
-              \   execute "normal! g`\"" |
-              \ endif
-
-  autocmd BufReadPre *
-              \ if getfsize(expand("%")) > 10000000 |
-              \   syntax off |
-              \ endif
+        \ if line("'\"") > 1 && line("'\"") <= line("$")
+        \|  execute "normal! g`\""
+        \|endif
 
   autocmd BufReadPost *
-        \ if line('$') > 1000 |
-        \   silent! set norelativenumber |
-        \ endif
+        \ if line('$') > 1000
+        \|  silent! set norelativenumber
+        \|endif
+
+  " http://vim.wikia.com/wiki/Speed_up_Syntax_Highlighting
+  autocmd BufEnter * :syntax sync maxlines=200
 
   autocmd BufEnter * call MyLastWindow()
   function! MyLastWindow()
-    " if the window is quickfix/locationlist go on
-    if &buftype ==# 'quickfix' || &buftype ==# 'locationlist'
+    " if the window is quickfix/locationlist
+    let l:blacklist = ['quickfix', 'locationlist']
+    if index(l:blacklist, &buftype) >= 0
       " if this window is last on screen quit without warning
       if winbufnr(2) == -1
         quit!
@@ -37,7 +38,15 @@ augroup spacevimBasic
   endfunction
   " http://stackoverflow.com/questions/5933568/disable-blinking-at-the-first-last-line-of-the-file
   autocmd GUIEnter * set t_vb=
-  if !spacevim#funcs#LayerLoaded('chinese')
+
+  if g:spacevim_gui
+    let g:screen_size_restore_pos = get(g:, 'screen_size_restore_pos', 1)
+    let g:screen_size_by_vim_instance = get(g:, 'screen_size_by_vim_instance', 1)
+    autocmd VimEnter * if g:screen_size_restore_pos == 1 | call spacevim#gui#ScreenRestore() | endif
+    autocmd VimLeavePre * if g:screen_size_restore_pos == 1 | call spacevim#gui#ScreenSave() | endif
+  endif
+
+  if !spacevim#LayerLoaded('chinese')
     silent! set $LANG = 'en_US'
     silent! let langmenu=en_US
     source $VIMRUNTIME/delmenu.vim

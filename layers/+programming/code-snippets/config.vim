@@ -6,6 +6,7 @@ scriptencoding utf-8
   exe 'set rtp+=' . expand(g:spacevim_dir . '/private/UltiSnips')
 "  let g:UltiSnipsSnippetsDir = [g:spacevim_dir.'/private/UltiSnips', g:spacevim_plug_home.'vim-snippets/UltiSnips/']
   let g:UltiSnipsSnippetsDir = g:spacevim_dir.'/private/UltiSnips'
+  let g:UltiSnipsSnippetsDir = '~/.vim/UltiSnips'
 
 " let g:UltiSnipsListSnippets = '<C-l>'
 "  let g:UltiSnipsJumpForwardTrigger = '<C-j>'

@@ -5,7 +5,9 @@ scriptencoding utf-8
   let g:NERDTreeMinimalUI=1
   let g:NERDTreeWinSize=25
   let g:NERDTreeAutoDeleteBuffer=1
-  let g:NERDTreeDirArrowExpandable = '►'
+  if !g:spacevim_gui
+    let g:NERDTreeDirArrowExpandable = '►'
+  endif
   let g:NERDTreeDirArrowCollapsible = '▼'
   let g:NERDTreeIgnore=[
               \ '\.py[cd]$', '\~$', '\.swo$', '\.swp$', '\.DS_Store$',

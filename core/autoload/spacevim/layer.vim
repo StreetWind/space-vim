@@ -33,6 +33,8 @@ function! spacevim#layer#status()
 
   let [l:cnt, l:total] = [0, len(g:layers_loaded)]
 
+  let g:layers_sum = len(g:spacevim)
+
   call append(0, ['Enabled layers: ' . '(' . len(g:layers_loaded) . '/' . g:layers_sum . ')'])
   call setline(2, '[' . repeat('=', len(g:layers_loaded)) . ']')
   let l:inx = 3
@@ -61,12 +63,12 @@ function! s:syntax()
   syn match LayerMessage /\(^- \)\@<=.*/
   syn match LayerName /\(^- \)\@<=[^ ]*:/
   syn match LayerInstall /\(^+ \)\@<=[^:]*/
-  syn match LayerUpdate /\(^* \)\@<=[^:]*/
+  syn match LayerCache /\(^* \)\@<=[^:]*/
   syn match LayerNotLoaded /(not loaded)$/
   syn match LayerError /^x.*/
   syn region LayerDeleted start=/^\~ .*/ end=/^\ze\S/
   syn match LayerH2 /^.*:\n-\+$/
-  syn keyword Function LayerInstall LayerStatus LayerUpdate LayerClean
+  syn keyword Function LayerInstall LayerStatus LayerCache LayerClean
   hi def link Layer1       Title
   hi def link Layer2       Repeat
   hi def link LayerH2      Type
@@ -81,58 +83,10 @@ function! s:syntax()
   hi def link LayerMessage Function
   hi def link LayerName    Label
   hi def link LayerInstall Function
-  hi def link LayerUpdate  Type
+  hi def link LayerCache   Type
 
   hi def link LayerError   Error
   hi def link LayerDeleted Ignore
 
   hi def link LayerNotLoaded Comment
-endfunction
-
-" get the whole available layers number s:layers_sum, number
-" get the topics s:topics, list
-" get the pair topic to layers s:topic2layers, dict
-function! spacevim#layer#update(py_exe) abort
-
-execute a:py_exe "<< EOF"
-import os
-import vim
-
-spacevim_dir = vim.eval('g:spacevim_dir')
-topic_base = spacevim_dir + vim.eval('g:spacevim_layers_dir')
-private_base = spacevim_dir + vim.eval('g:spacevim_private_layers_dir')
-
-topics = [f for f in os.listdir(topic_base) if os.path.isdir(os.path.join(topic_base,f))]
-private_layers = [f for f in os.listdir(private_base) if os.path.isdir(os.path.join(private_base,f))]
-
-layer_path = {}
-topic2layers = {}
-layers_sum = len(private_layers)
-
-for t in topics:
-    topic_path = topic_base + '/' + t
-    layers = [f for f in os.listdir(topic_path) if os.path.isdir(os.path.join(topic_path,f))]
-    layers_sum += len(layers)
-    topic2layers[t] = layers
-    for l in layers:
-        layer_path[l] = topic_path + '/' + l
-
-vim.command("let g:layers_sum = %d" % layers_sum)
-vim.command("let g:topics = %s" % topics)
-vim.command("let g:topic2layers = %s" % topic2layers)
-vim.command("let g:layer_path = %s" % layer_path)
-if len(private_layers):
-    vim.command("let g:private_layers = %s" % private_layers)
-
-f = open(vim.eval('g:spacevim_info_path'), 'w')
-f.write("let g:layers_sum = %d\n" % layers_sum)
-f.write("let g:topics = %s\n" % topics)
-f.write("let g:topic2layers = %s\n" % topic2layers)
-f.write("let g:layer_path = %s\n" % layer_path)
-if len(private_layers):
-    f.write("let g:private_layers = %s\n" % private_layers)
-f.close()
-
-EOF
-
 endfunction

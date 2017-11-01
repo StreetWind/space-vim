@@ -1,4 +1,4 @@
-if g:spacevim_gui
+if g:spacevim_gui && !has('terminal')
   " LeaderF {
   nnoremap <Leader>ff :LeaderfFile ~<CR>
   nnoremap <Leader>f? :LeaderfFile<CR>
@@ -11,18 +11,18 @@ else
   let $LANG = 'en_US'
   " Customize fzf colors to match your color scheme
   let g:fzf_colors = {
-              \ 'fg':      ['fg', 'Normal'],
+              \ 'fg':      ['fg', 'StatusLineNC'],
               \ 'bg':      ['bg', 'Normal'],
-              \ 'hl':      ['fg', 'Function'],
-              \ 'fg+':     ['fg', 'String', 'CursorColumn', 'Normal'],
-              \ 'bg+':     ['bg', 'Statusline', 'CursorColumn'],
-              \ 'hl+':     ['fg', 'Type'],
-              \ 'info':    ['fg', 'PreProc'],
-              \ 'prompt':  ['fg', 'Conditional'],
+              \ 'hl':      ['fg', 'String'],
+              \ 'fg+':     ['fg', 'Number', 'Normal'],
+              \ 'bg+':     ['bg', 'StatusLine', 'Normal'],
+              \ 'hl+':     ['fg', 'Exception'],
+              \ 'info':    ['fg', 'Special'],
+              \ 'prompt':  ['fg', 'Function'],
               \ 'pointer': ['fg', 'Error'],
-              \ 'marker':  ['fg', 'String'],
-              \ 'spinner': ['fg', 'Label'],
-              \ 'header':  ['fg', 'Comment'],
+              \ 'marker':  ['fg', 'Error'],
+              \ 'spinner': ['fg', 'Statement'],
+              \ 'header':  ['fg', 'Number'],
               \   }
   nmap <Leader>? <plug>(fzf-maps-n)
   xmap <Leader>? <plug>(fzf-maps-x)
