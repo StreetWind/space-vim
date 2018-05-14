@@ -1,4 +1,14 @@
 #!/usr/bin/env bash
+#
+#                                        _
+#    ___ _ __   __ _  ___ ___     __   _(_)_ __ ___
+#   / __| -_ \ / _- |/ __/ _ \____\ \ / / | -_ - _ \
+#   \__ \ |_) | (_| | (_|  __/_____\ V /| | | | | | |
+#   |___/ .__/ \__._|\___\___|      \_/ |_|_| |_| |_|
+#       |_|
+#
+
+set -eo pipefail
 
 #   This setup file is based on spf13-vim's bootstrap.sh.
 #   Thanks for spf13-vim.

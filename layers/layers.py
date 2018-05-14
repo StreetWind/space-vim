@@ -1,8 +1,17 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+
+$ ./layers.py
+
+update LAYERS.md
+
+"""
+
 import os
 import re
+import time
 
 topic_base = os.path.expanduser('./')
 topics = [
@@ -13,16 +22,25 @@ topics = [
 f = open(os.path.expandvars('./LAYERS.md'), 'w')
 f.write('Layer Manifest\n')
 f.write('==============\n\n')
+f.write(
+    'Last updated: ' + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+f.write("\n\n")
+f.write(
+    "Default layers: `fzf`, `unite`, `better-defaults` and `which-key`."
+)
+f.write("\n\n")
+
 f.write("%-20s | %s | %s\n" % ('Topic', 'Layer', 'Plugins'))
 f.write("%-20s | %s | %s\n" % (':----:', ':----:', ':----'))
 
 url_prefix = 'https://github.com/liuchengxu/space-vim/tree/master/layers'
+plugs = []
 
 for t in topics:
     topic_path = topic_base + '/' + t
     layers = [
-        f for f in os.listdir(topic_path)
-        if os.path.isdir(os.path.join(topic_path, f))
+        l for l in os.listdir(topic_path)
+        if os.path.isdir(os.path.join(topic_path, l))
     ]
     for l in layers:
         plugins = "<ul>"
@@ -30,12 +48,13 @@ for t in topics:
             for line in fp:
                 if line.lstrip(' \t\n\r').startswith('MP'):
                     res = re.split(r"'*/*'", line)
-                    plugins += "<li>[" + res[1] + "]"
-                    plugins += "(https://github.com/" + res[1] + ")</li>"
+                    if not plugs.count(res[1]):
+                        plugs.append(res[1])
+                        plugins += "<li>[" + res[1] + "]"
+                        plugins += "(https://github.com/" + res[1] + ")</li>"
         plugins += "</ul>"
         f.write("%-20s | [%s](%s/%s/%s) | %s\n" % (t, l, url_prefix, t, l,
                                                    plugins))
-
 f.close()
 
 print('LAYERS.md has been updated (created) successfully.')

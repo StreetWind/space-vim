@@ -16,10 +16,17 @@
 
 ```
 
+<!-- Post the output of `:echo g:layers_loaded` if you don't know which layer should be blamed -->
+
 #### Problem Description
 
-<!-- English please. 请尽量使用英文. -->
+<!-- English please. -->
 
-<!-- Error messages and describe your problem or suggestion. -->
+<!-- Error messages. -->
+
+<!-- Describe your problem or suggestion. -->
 
 <!-- Screenshots if neccessary. -->
+
+<!-- Love space-vim? Please consider supporting our collective:
+👉  https://opencollective.com/space-vim/donate -->

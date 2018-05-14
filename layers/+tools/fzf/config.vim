@@ -10,25 +10,12 @@ else
   " fzf.vim {
   let $LANG = 'en_US'
   " Customize fzf colors to match your color scheme
-  let g:fzf_colors = {
-              \ 'fg':      ['fg', 'StatusLineNC'],
-              \ 'bg':      ['bg', 'Normal'],
-              \ 'hl':      ['fg', 'String'],
-              \ 'fg+':     ['fg', 'Number', 'Normal'],
-              \ 'bg+':     ['bg', 'StatusLine', 'Normal'],
-              \ 'hl+':     ['fg', 'Exception'],
-              \ 'info':    ['fg', 'Special'],
-              \ 'prompt':  ['fg', 'Function'],
-              \ 'pointer': ['fg', 'Error'],
-              \ 'marker':  ['fg', 'Error'],
-              \ 'spinner': ['fg', 'Statement'],
-              \ 'header':  ['fg', 'Number'],
-              \   }
+  let g:fzf_colors = g:spacevim#plug#fzf#colors
   nmap <Leader>? <plug>(fzf-maps-n)
   xmap <Leader>? <plug>(fzf-maps-x)
   omap <Leader>? <plug>(fzf-maps-o)
 
-  nnoremap <Leader>ag :Ag<CR>
+  nnoremap <Leader>ag :Ag!<CR>
   nnoremap <Leader>bb :Buffers<CR>
 
   nnoremap <Leader>b? :Buffers<CR>
@@ -36,9 +23,7 @@ else
   nnoremap <Leader>f? :Files<CR>
 
   nnoremap <Leader>ff :Files ~<CR>
-  " }
-
-  " fzf-filemru {
-  nnoremap <Leader>pr :ProjectMru --tiebreak=end<cr>
+  nnoremap <silent> <Leader>sf :call spacevim#plug#fzf#Session()<CR>
+  nnoremap <leader>rg :Rg!<cr>
   " }
 endif

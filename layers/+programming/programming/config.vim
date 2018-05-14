@@ -4,7 +4,6 @@ augroup spacevimNewFile
   autocmd!
   " Add title automatically when new files and move cursor to the end of file
   autocmd BufNewFile *.py,*.rb,*.cpp,*.c,*.sh,*.java,*.pl,*.md  call spacevim#auto#AddTitle()
-  autocmd BufNewFile * normal GA
 augroup END
 
 " vim-move {
@@ -18,32 +17,17 @@ augroup END
   vmap <F21> <Plug>MoveBlockUp
   nmap <F20> <Plug>MoveLineDown
   nmap <F21> <Plug>MoveLineUp
+  if g:spacevim_nvim
+    vmap <M-j> <Plug>MoveBlockDown
+    vmap <M-k> <Plug>MoveBlockUp
+    nmap <M-j> <Plug>MoveLineDown
+    nmap <M-k> <Plug>MoveLineUp
+  endif
 " }
 
 " rainbow {
   let g:rainbow_active = 1
-  let g:rainbow_conf = {
-              \   'guifgs': ['#4F97D7', '#D75F87', '#D697E6', '#40AF81', '#DA61AE', '#70AF67'],
-              \   'ctermfgs': ['68', '168', '176', '104', '73', '212'],
-              \   'operators': '_,_',
-              \   'parentheses': ['start=/(/ end=/)/ fold', 'start=/\[/ end=/\]/ fold', 'start=/{/ end=/}/ fold'],
-              \   'separately': {
-              \       '*': {},
-              \       'tex': {
-              \           'parentheses': ['start=/(/ end=/)/', 'start=/\[/ end=/\]/'],
-              \       },
-              \       'lisp': {
-              \           'guifgs': ['royalblue3', 'darkorange3', 'seagreen3', '#FF69B4', '#DDA0DD', '#F08080', '#FF8C00', '#20B2AA'],
-              \       },
-              \       'vim': {
-              \           'parentheses': ['start=/(/ end=/)/', 'start=/\[/ end=/\]/', 'start=/{/ end=/}/ fold', 'start=/(/ end=/)/ containedin=vimFuncBody', 'start=/\[/ end=/\]/ containedin=vimFuncBody', 'start=/{/ end=/}/ fold containedin=vimFuncBody'],
-              \       },
-              \       'html': {
-              \           'parentheses': ['start=/\v\<((area|base|br|col|embed|hr|img|input|keygen|link|menuitem|meta|param|source|track|wbr)[ >])@!\z([-_:a-zA-Z0-9]+)(\s+[-_:a-zA-Z0-9]+(\=("[^"]*"|'."'".'[^'."'".']*'."'".'|[^ '."'".'"><=`]*))?)*\>/ end=#</\z1># fold'],
-              \       },
-              \       'css': 0,
-              \   }
-              \}
+  let g:rainbow_conf = g:spacevim#plug#rainbow#conf
 " }
 
 " rainbow_parentheses.vim {
@@ -62,10 +46,10 @@ augroup END
 " }
 
 " asyncrun.vim {
-  nnoremap <F5> :call spacevim#util#CompileAndRun()<CR>
+  nnoremap <F5> :call spacevim#plug#asyncrun#CompileAndRun()<CR>
   augroup spacevimAsyncRun
     autocmd!
-    autocmd User AsyncRunStart call spacevim#auto#AsyncRunStart()
+    autocmd User AsyncRunStart call spacevim#vim#auto#AsyncRunStart()
   augroup END
 " }
 
@@ -89,4 +73,9 @@ augroup END
 " vim-polyglot {
   " Reset errorformat to its default value for cooperating with asyncrun.vim
   autocmd BufEnter * set errorformat&
+" }
+
+" vim-rooter {
+  " To stop vim-rooter echoing the project directory
+  let g:rooter_silent_chdir = 1
 " }

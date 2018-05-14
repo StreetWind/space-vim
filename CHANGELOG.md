@@ -3,13 +3,41 @@ CHANGELOG
 
 ## [unreleased]
 
+### Added
+
+- `core/autoload/spacevim/plug/youcompleteme.vim`: keep the config.vim of `ycmd` layer as concise as possible.
+- defer loading `YouCompleteMe` via `timer` if possible.
+- cscope layer. Fix #130.
+
+### Changed
+
+- If the related layers are not enabled, finish loading the files under `core/ftplugin`.
+
+## [0.7.0] - 2018.01.11
+
 ### Changed
 
 - rename `LayerUpdate` to `LayerCache`
+- utilize autoload mechanism to *simplify vimrc*, even though this may gain unnoticeable(or little) performance improvement. Specifically, *plug* and *vim* module are introduced and some complex settings are moved to these modules, e.g.,
+
+  ```vim
+  let g:fzf_colors = g:spacevim#plug#fzf#colors
+  ```
+
+  At the very beginning, I hope to keep space-vim as simple as possible. However, it's unevitable to make space-vim more like a vim plugin than an intuitive vim configuration over time with more and more functionalities added.
 
 ### Added
 
 - move language specific settings to `ftplugin`
+- quick installer for windows
+- optimize the startup time for Vim8 and NeoVim via `timer_start()`
+- clojure layer
+- which-key layer
+- introduce `g:spacevim_layers` to take the place of `Layer` list.
+
+### Removed
+
+- `Layers()` function. As a matter of fact, `Layers()` and `UserInit()` function are not necessary. I just want to explicitly differentate `Layer` from `Plug` at the beginning. But now I have realized that there is no need to bring in another lengthy command list, we already have one :). Furthermore, most people never use the option of `Layer` command.
 
 ## [0.6.0] - 2017.06.09
 

@@ -1,3 +1,8 @@
+if exists('b:did_spacevim_md_ftplugin') || !spacevim#load('markdown')
+  finish
+endif
+let b:did_spacevim_md_ftplugin = 1
+
 setlocal wrap
 
 nnoremap <buffer> <LocalLeader>1 m`yypVr=``
@@ -14,7 +19,24 @@ nnoremap <buffer> <LocalLeader>ct :silent GenTocGFM<cr>
 nnoremap <buffer> <LocalLeader>cs :Toc<cr>
 
 " Markdown headings
-if spacevim#LayerLoaded('text-align')
+if spacevim#load('text-align')
   " Makrdown table align
   nnoremap <buffer> <LocalLeader>ta :Tabularize /<Bar><CR>
+endif
+
+let g:tagbar_type_markdown = {
+      \ 'ctagstype' : 'markdown',
+      \ 'kinds' : [
+        \ 'h:H1',
+        \ 'i:H2',
+        \ 'k:H3'
+        \ ]
+      \ }
+
+if g:spacevim_timer
+  call timer_start(1300, 'spacevim#defer#markdown')
+endif
+
+if exists('*emoji#complete')
+  setlocal completefunc=emoji#complete
 endif

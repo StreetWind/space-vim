@@ -13,12 +13,16 @@ function! spacevim#util#warn(cmd, msg)
   echohl None
 endfunction
 
+function! spacevim#util#info(msg)
+  echom '[space-vim] '.a:msg
+endfunction
+
 " argument plugin is the vim plugin's name
 function! spacevim#util#IsDir(plugin) abort
   return isdirectory(expand(g:my_plug_home.a:plugin)) ? 1 : 0
 endfunction
 
-function! spacevim#util#LayerLoaded(layer) abort
+function! spacevim#util#load(layer) abort
     return index(g:layers_loaded, a:layer) > -1 ? 1 : 0
 endfunction
 
@@ -38,26 +42,6 @@ function! spacevim#util#ToggleColorColumn()
     setlocal colorcolumn=
   else
     setlocal colorcolumn=80
-  endif
-endfunction
-
-function! spacevim#util#CompileAndRun()
-  let l:cmd = {
-        \ 'c'      : "gcc % -o %<; time ./%<",
-        \ 'sh'     : "time bash %",
-        \ 'go'     : "go run %",
-        \ 'cpp'    : "g++ -std=c++11 % -o %<; time ./%<",
-        \ 'ruby'   : "time ruby %",
-        \ 'java'   : "javac %; time java %<",
-        \ 'rust'   : "rustc % -o %<; time ./%<",
-        \ 'python' : "time python %",
-        \}
-  let l:ft = &filetype
-  if has_key(l:cmd, l:ft)
-    exec 'w'
-    exec "AsyncRun! ".l:cmd[l:ft]
-  else
-    call spacevim#util#err("spacevim#util#CompileAndRun not supported in current filetype!")
   endif
 endfunction
 
@@ -94,29 +78,54 @@ function! spacevim#util#GotoJump()
   endif
 endfunction
 
-" [DEPRECATED] ALE statusline integration
-function! spacevim#util#ALEGetError()
-  let l:res = ale#statusline#Status()
-  if l:res ==# 'OK'
-    return ''
+" https://www.reddit.com/r/vim/comments/79q6aq/vim_tip_keybinding_for_opening_plugin_homepage/
+" visiting the GitHub page of the plugin defined on the current line
+function! spacevim#util#OpenPluginHomepage() abort
+  let line = getline(".")
+  let $BROWSER = 'open'
+
+  " Matches for instance Plug 'tpope/surround' -> tpope/surround
+  " Non-greedy match in order to not capture trailing comments
+  let plugin_name = '\w\+ \([''"]\)\(.\{-}\)\1'
+  let repository = matchlist(line, plugin_name)[2]
+
+  " Open the corresponding GitHub homepage with $BROWSER
+  " You need to set the BROWSER environment variable in order for this to work
+  " For MacOS, you can set the following for opening it in your default
+  " browser: 'export BROWSER=open'
+  silent exec "!$BROWSER https://github.com/".repository
+endfunction
+
+let s:hidden_all = 0
+function! spacevim#util#ToggleHiddleAll()
+  if s:hidden_all == 0
+    let s:hidden_all = 1
+    setlocal noshowmode noruler noshowcmd laststatus=0 cmdheight=1
   else
-    let l:e_w = split(l:res)
-    if len(l:e_w) == 2 || match(l:e_w, 'E') > -1
-      return ' •' . matchstr(l:e_w[0], '\d\+') .' '
-    endif
+    let s:hidden_all = 0
+    setlocal showmode ruler showcmd laststatus=2 cmdheight=1
   endif
 endfunction
 
-function! spacevim#util#ALEGetWarning()
-  let l:res = ale#statusline#Status()
-  if l:res ==# 'OK'
-    return ''
+function! spacevim#util#RootDirectory()
+  if exists('*FindRootDirectory')
+    let root_dir = FindRootDirectory()
   else
-    let l:e_w = split(l:res)
-    if len(l:e_w) == 2
-      return ' •' . matchstr(l:e_w[1], '\d\+')
-    elseif match(l:e_w, 'W') > -1
-      return ' •' . matchstr(l:e_w[0], '\d\+')
+    let git_dir = system('git rev-parse --git-dir')
+    if !v:shell_error
+      let root_dir = substitute(fnamemodify(git_dir, ':p:h'), ' ', '\\ ', 'g')
+    else
+      let root_dir = ''
     endif
   endif
+  return root_dir == '' ? getcwd() : root_dir
+endfunction
+
+function! spacevim#util#ExpandSnippetOrCarriageReturn()
+  if exists("*UltiSnips#ExpandSnippet")
+    if get(g:, 'ulti_expand_res', 0) > 0
+      return UltiSnips#ExpandSnippet()
+    endif
+  endif
+  return "\<c-y>\<cr>"
 endfunction

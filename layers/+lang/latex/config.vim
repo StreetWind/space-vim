@@ -1,10 +1,9 @@
 " vim-latex-live-preview {
-  autocmd Filetype tex setlocal updatetime=1
+  let g:livepreview_previewer = g:spacevim#plug#latex#Previewer
+" }
 
-  if g:MAC
-    " You need to run: defaults write TeXShop BringPdfFrontOnAutomaticUpdate NO
-    let g:livepreview_previewer = 'open -a texshop'
-  elseif g:LINUX
-    let g:livepreview_previewer = 'evince'
-  endif
+" vim-markdown {
+" Disable math conceal with LaTeX math syntax enabled
+let g:tex_conceal = ''
+let g:vim_markdown_math = 1
 " }

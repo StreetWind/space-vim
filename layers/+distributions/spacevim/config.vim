@@ -25,28 +25,36 @@ augroup spacevimBasic
   " http://vim.wikia.com/wiki/Speed_up_Syntax_Highlighting
   autocmd BufEnter * :syntax sync maxlines=200
 
+  " Close vim if the last edit buffer is closed, i.e., close NERDTree,
+  " undotree, quickfix etc automatically.
+  " autocmd BufEnter * if 0 == len(filter(range(1, winnr('$')), 'empty(getbufvar(winbufnr(v:val), "&bt"))')) | qa! | endif
+  " Bug here. See #269.
+  " =====================================
   autocmd BufEnter * call MyLastWindow()
   function! MyLastWindow()
     " if the window is quickfix/locationlist
-    let l:blacklist = ['quickfix', 'locationlist']
-    if index(l:blacklist, &buftype) >= 0
+    let l:bt_blacklist = ['quickfix', 'locationlist']
+    let l:ft_blocklist = ['quickmenu']
+    if index(l:bt_blacklist, &buftype) >= 0 || index(l:ft_blocklist, &filetype) >= 0
       " if this window is last on screen quit without warning
-      if winbufnr(2) == -1
+      if winnr('$') == 1
         quit!
       endif
     endif
+    if (winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree()) | q! | endif
   endfunction
+
   " http://stackoverflow.com/questions/5933568/disable-blinking-at-the-first-last-line-of-the-file
   autocmd GUIEnter * set t_vb=
 
   if g:spacevim_gui
     let g:screen_size_restore_pos = get(g:, 'screen_size_restore_pos', 1)
     let g:screen_size_by_vim_instance = get(g:, 'screen_size_by_vim_instance', 1)
-    autocmd VimEnter * if g:screen_size_restore_pos == 1 | call spacevim#gui#ScreenRestore() | endif
-    autocmd VimLeavePre * if g:screen_size_restore_pos == 1 | call spacevim#gui#ScreenSave() | endif
+    autocmd VimEnter * if g:screen_size_restore_pos == 1 | call spacevim#vim#gui#ScreenRestore() | endif
+    autocmd VimLeavePre * if g:screen_size_restore_pos == 1 | call spacevim#vim#gui#ScreenSave() | endif
   endif
 
-  if !spacevim#LayerLoaded('chinese')
+  if !spacevim#load('chinese')
     silent! set $LANG = 'en_US'
     silent! let langmenu=en_US
     source $VIMRUNTIME/delmenu.vim
@@ -66,41 +74,5 @@ match ExtraWhitespace /\s\+$/
 if g:spacevim_gui
   set guioptions-=e
 endif
-function! MyTabLine()
-  let l:s = ''
-  let l:t = tabpagenr()
-  let l:i = 1
-  while l:i <= tabpagenr('$')
-    let l:buflist = tabpagebuflist(l:i)
-    let l:winnr = tabpagewinnr(l:i)
-    let l:s .= '%' . l:i . 'T'
-    let l:s .= (l:i == l:t ? '%1*' : '%2*')
-    let l:s .= ' '
-    " Remove the complicated information
-    " let l:s .= 'T-' . l:i . ':'
-    " let l:s .= l:winnr . '/' . tabpagewinnr(l:i,'$') .'W'
-    let l:s .= l:i
-    let l:s .= ' %*'
-    let l:s .= (l:i == l:t ? '%#TabLineSel#' : '%#TabLine#')
-    let l:bufnr = l:buflist[l:winnr - 1]
-    let l:file = bufname(l:bufnr)
-    let l:buftype = getbufvar(l:bufnr, 'buftype')
-    if l:buftype ==# 'nofile'
-      if l:file =~# '\/.'
-        let l:file = substitute(l:file, '.*\/\ze.', '', '')
-      endif
-    else
-      let l:file = fnamemodify(l:file, ':p:t')
-    endif
-    if l:file ==# ''
-      let l:file = '[No Name]'
-    endif
-    let l:s .= ' '.l:file.' '
-    let l:i = l:i + 1
-  endwhile
-  let l:s .= '%T%#TabLineFill#%='
-  let l:s .= (tabpagenr('$') > 1 ? '%999XX' : 'X')
-  return l:s
-endfunction
 silent! set showtabline=1
-silent! set tabline=%!MyTabLine()
+silent! set tabline=%!spacevim#vim#tab#TabLine()
