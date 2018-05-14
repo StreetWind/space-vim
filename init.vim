@@ -13,7 +13,7 @@
 "   Author: Liu-Cheng Xu <xuliuchengxlc@gmail.com>
 "   URL: https://github.com/liuchengxu/space-vim
 "   License: MIT
-
+runtime! archlinux.vim
 scriptencoding utf-8
 
 " Identify platform {
