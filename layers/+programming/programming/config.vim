@@ -3,7 +3,7 @@ scriptencoding utf-8
 augroup spacevimNewFile
   autocmd!
   " Add title automatically when new files and move cursor to the end of file
-  autocmd BufNewFile *.py,*.rb,*.cpp,*.c,*.sh,*.java,*.pl,*.md  call spacevim#auto#AddTitle()
+  autocmd BufNewFile *.py,*.cpp,*.c,*.sh,*.java,*.pl call spacevim#vim#auto#AddTitle()
 augroup END
 
 " vim-move {
