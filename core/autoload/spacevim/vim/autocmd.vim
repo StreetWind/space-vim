@@ -1,4 +1,4 @@
-function! spacevim#vim#auto#AddTitle()
+function! spacevim#vim#autocmd#AddTitle() abort
   let l:template = {
         \ 'c': [
           \ '#include <stdio.h>'
@@ -24,10 +24,10 @@ function! spacevim#vim#auto#AddTitle()
   let l:ft = &filetype
   if has_key(l:template, l:ft)
     call setline(1, l:template[l:ft])
-    execute "normal! G"
+    normal! G
     call append(line("."), "")
     call append(line("."), "")
-    execute "normal! G"
+    normal! G
     startinsert
   else
     call spacevim#util#err('spacevim#auto#AddTitle not supported in current filetype!')
@@ -35,7 +35,7 @@ function! spacevim#vim#auto#AddTitle()
 endfunction
 
 " Deprecated, use g:asyncrun_open
-function! spacevim#vim#auto#AsyncRunStart()
+function! spacevim#vim#autocmd#AsyncRunStart()
     let l:qf_height = float2nr(round(winheight('%') * 0.3))
     if !exists('*asyncrun#quickfix_toggle')
       call plug#load('asyncrun.vim')

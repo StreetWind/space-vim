@@ -17,14 +17,14 @@ function! spacevim#defer#airline(timer) abort
 endfunction
 
 " 300
-function! spacevim#defer#gitgutter(timer) abort
-  call s:lod('vim-gitgutter')
-  silent! GitGutterEnable
+function! spacevim#defer#git(timer) abort
+  call s:lod('vim-signify')
 endfunction
 
 " 400
 function! spacevim#defer#programming(timer) abort
-  call s:lod('rainbow', 'vim-rooter', 'vim-polyglot')
+  call s:lod('rainbow', 'vim-rooter', 'vim-polyglot', 'editorconfig-vim')
+  EditorConfigReload
 endfunction
 
 " 500
@@ -72,5 +72,5 @@ function! spacevim#defer#go(timer) abort
 endfunction
 
 function! spacevim#defer#python(timer) abort
-  call s:lod('python-mode', 'SimpylFold')
+  call s:lod('python-mode')
 endfunction

@@ -1,5 +1,3 @@
-let s:loaded = 0
-
 if g:spacevim.os.mac
   let s:path_to_chrome = 'open -a safari'
 elseif g:spacevim.os.windows
@@ -9,9 +7,8 @@ else
 endif
 
 function! spacevim#autocmd#markdown#Init()
-  if !s:loaded
-  " markdown-preview.vim {
-    let g:mkdp_path_to_chrome = s:path_to_chrome
+  " previm {
+    let g:previm_open_cmd = get(g:, 'previm_open_cmd', s:path_to_chrome)
   " }
 
   " vim-markdown {
@@ -24,7 +21,7 @@ function! spacevim#autocmd#markdown#Init()
     let g:vmt_auto_update_on_save = 1
     let g:vmt_dont_insert_fence = 0
     let g:vim_markdown_toc_autofit = 1
+    let g:vmt_fence_text = get(g:, 'g:vmt_fence_text', 'TOC')
+    let g:vmt_fence_closing_text = get(g:, 'g:vmt_fence_closing_text', '/TOC')
   " }
-  endif
-  let s:loaded = 1
 endfunction

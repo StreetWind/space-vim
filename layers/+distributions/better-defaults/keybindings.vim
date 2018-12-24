@@ -2,8 +2,11 @@
 nnoremap <Leader>fR :source $MYVIMRC<CR>
 
 " Use Tab to switch buffer
-nnoremap <Tab> :bn<CR>
+" nnoremap <Tab> :bn<CR>
 nnoremap <S-Tab> :bp<CR>
+" if maparg('<C-I>', 'n') != ''
+  " nunmap <C-I>
+" endif
 
 " Use Ctrl-Tab and Alt-Tab to switch tab
 map    <C-Tab>  :tabnext<CR>
@@ -21,6 +24,17 @@ for s:i in range(1, 9)
 endfor
 unlet s:i
 
+" Picked from https://github.com/tpope/vim-unimpaired
+" Move to core/ftplugin/qf.vim
+
+" Buffers
+nnoremap ]b :bnext<cr>
+nnoremap [b :bprev<cr>
+
+" Tabs
+nnoremap ]t :tabn<cr>
+nnoremap [t :tabp<cr>
+
 " map y <Plug>(operator-flashy)
 " nmap Y <Plug>(operator-flashy)$
 
@@ -34,8 +48,8 @@ nnoremap <Leader>xd :StripWhitespace<CR>
 nmap <Leader>ww <Plug>(choosewin)
 
 " util
-nnoremap <Leader>tc :call spacevim#util#ToggleCursorColumn()<CR>
-nnoremap <Leader>tC :call spacevim#util#ToggleColorColumn()<CR>
+nnoremap <Leader>tc :call spacevim#vim#toggle#CursorColumn()<CR>
+nnoremap <Leader>tC :call spacevim#vim#toggle#ColorColumn()<CR>
 
 command! -bar -nargs=0 Rtp :call spacevim#util#Runtimepath()
 command! -nargs=? Grep :call spacevim#vim#grep#Grep(<q-args>)
