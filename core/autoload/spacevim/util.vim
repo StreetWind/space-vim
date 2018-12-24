@@ -3,18 +3,18 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""
 function! spacevim#util#err(msg)
   echohl ErrorMsg
-  echom '[space-vim] '.a:msg
+  call spacevim#vim#cursor#TruncatedEcho('[space-vim] '.a:msg)
   echohl None
 endfunction
 
 function! spacevim#util#warn(msg)
   echohl WarningMsg
-  echom '[space-vim] '.a:msg
+  call spacevim#vim#cursor#TruncatedEcho('[space-vim] '.a:msg)
   echohl None
 endfunction
 
 function! spacevim#util#info(msg)
-  echom '[space-vim] '.a:msg
+  call spacevim#vim#cursor#TruncatedEcho('[space-vim] '.a:msg)
 endfunction
 
 " argument plugin is the vim plugin's name
@@ -25,22 +25,6 @@ endfunction
 """""""""""""""""""""""""""""""""""""""""""""""""""
 "    Utilities
 """""""""""""""""""""""""""""""""""""""""""""""""""
-function! spacevim#util#ToggleCursorColumn()
-  if &cursorcolumn
-    setlocal nocursorcolumn
-  else
-    setlocal cursorcolumn
-  endif
-endfunction
-
-function! spacevim#util#ToggleColorColumn()
-  if &colorcolumn
-    setlocal colorcolumn=
-  else
-    setlocal colorcolumn=80
-  endif
-endfunction
-
 function! spacevim#util#Runtimepath()
   for path in split(&runtimepath, ',')
     echo path
@@ -92,38 +76,24 @@ function! spacevim#util#OpenPluginHomepage() abort
   silent exec "!$BROWSER https://github.com/".repository
 endfunction
 
-let s:hidden_all = 0
-function! spacevim#util#ToggleHiddleAll()
-  if s:hidden_all == 0
-    let s:hidden_all = 1
-    setlocal noshowmode noruler noshowcmd laststatus=0 cmdheight=1
-  else
-    let s:hidden_all = 0
-    setlocal showmode ruler showcmd laststatus=2 cmdheight=1
-  endif
+function! s:is_in_git_repo() abort
+  let git_dir = system('git rev-parse --git-dir')
+  return v:shell_error ? '' : substitute(fnamemodify(git_dir, ':p:h'), ' ', '\\ ', 'g')
 endfunction
 
 function! spacevim#util#RootDirectory()
+  " Dirty hack.
+  " Don't know why, this detection does not work for neovim.
+  lcd %:p:h
+
+  let root_dir = s:is_in_git_repo()
+  if root_dir != ''
+    return root_dir
+  endif
   if exists('*FindRootDirectory')
     let root_dir = FindRootDirectory()
-  else
-    let git_dir = system('git rev-parse --git-dir')
-    if !v:shell_error
-      let root_dir = substitute(fnamemodify(git_dir, ':p:h'), ' ', '\\ ', 'g')
-    else
-      let root_dir = ''
-    endif
   endif
   return root_dir == '' ? getcwd() : root_dir
-endfunction
-
-function! spacevim#util#ExpandSnippetOrCarriageReturn()
-  if exists("*UltiSnips#ExpandSnippet")
-    if get(g:, 'ulti_expand_res', 0) > 0
-      return UltiSnips#ExpandSnippet()
-    endif
-  endif
-  return "\<c-y>\<cr>"
 endfunction
 
 function! spacevim#util#VisualSelection()
@@ -137,4 +107,18 @@ function! spacevim#util#VisualSelection()
     let lines[-1] = lines[-1][: column_end - (&selection == 'inclusive' ? 1 : 2)]
     let lines[0] = lines[0][column_start - 1:]
     return join(lines, "\n")
+endfunction
+
+" Get all lines in the buffer as a a list. Snippet from vim-go
+function! spacevim#util#GetLines()
+  let buf = getline(1, '$')
+  if &encoding != 'utf-8'
+    let buf = map(buf, 'iconv(v:val, &encoding, "utf-8")')
+  endif
+  if &l:fileformat == 'dos'
+    " XXX: line2byte() depend on 'fileformat' option.
+    " so if fileformat is 'dos', 'buf' must include '\r'.
+    let buf = map(buf, 'v:val."\r"')
+  endif
+  return buf
 endfunction

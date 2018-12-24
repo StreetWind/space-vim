@@ -9,18 +9,25 @@ let g:spacevim.timer = exists('*timer_start')
 let g:spacevim.gui = has('gui_running')
 let g:spacevim.tmux = !empty($TMUX)
 
-let g:spacevim.loaded = []
+let g:spacevim.loaded = ['spacevim'] " Enable spacevim layer by default
 let g:spacevim.excluded = []
 let g:spacevim.plugins = []
 
 let s:plug_options = {}
 let s:dot_spacevim = $HOME.'/.spacevim'
+let s:private_config = g:spacevim.base.'/private/config.vim'
+let s:private_packages = g:spacevim.base.'/private/packages.vim'
 let s:TYPE = {
 \ 'string':  type(''),
 \ 'list':    type([]),
 \ 'dict':    type({}),
 \ 'funcref': type(function('call'))
 \ }
+
+function! spacevim#bootstrap() abort
+  call spacevim#begin()
+  call spacevim#end()
+endfunction
 
 function! spacevim#begin() abort
   " Download vim-plug if unavailable
@@ -32,14 +39,12 @@ function! spacevim#begin() abort
   call s:check_dot_spacevim()
 endfunction
 
-function! s:check_vim_plug()
+function! s:check_vim_plug() abort
   let l:plug_path = g:spacevim.nvim ? '~/.local/share/nvim/site/autoload/plug.vim' : '~/.vim/autoload/plug.vim'
-  if empty(glob(l:plug_path))
-    call spacevim#vim#plug#download(l:plug_path)
-  endif
+  if empty(glob(l:plug_path)) | call spacevim#vim#plug#download(l:plug_path) | endif
 endfunction
 
-function! s:define_command()
+function! s:define_command() abort
   " MP means MyPlugin
   command! -nargs=+ -bar MP          call s:my_plugin(<args>)
   command! -nargs=+ -bar Layer       call s:layer(<args>)
@@ -47,17 +52,14 @@ function! s:define_command()
   command! -nargs=0 -bar LayerStatus call spacevim#layer#status()
 endfunction
 
-function! s:check_dot_spacevim()
+function! s:check_dot_spacevim() abort
   if filereadable(expand(s:dot_spacevim))
     call s:Source(s:dot_spacevim)
-    if exists('g:spacevim_layers')
-      let g:spacevim.loaded = g:spacevim.loaded + g:spacevim_layers
-    endif
+    call extend(g:spacevim.loaded, get(g:, 'spacevim_layers', []))
     let g:mapleader = get(g:, 'spacevim_leader', "\<Space>")
     let g:maplocalleader = get(g:, 'spacevim_localleader', ',')
   else
     call spacevim#util#err('.spacevim does not exist! Exiting...')
-    finish
   endif
 endfunction
 
@@ -81,7 +83,7 @@ function! s:layer(name, ...)
   endif
 endfunction
 
-function! s:to_a(v)
+function! s:to_a(v) abort
   return type(a:v) == s:TYPE.list ? a:v : [a:v]
 endfunction
 
@@ -89,9 +91,7 @@ function! s:parse_options(arg)
   let l:type = type(a:arg)
   if l:type == s:TYPE.dict
     if has_key(a:arg, 'exclude')
-      for l:excl in s:to_a(a:arg['exclude'])
-        call add(g:spacevim.excluded, l:excl)
-      endfor
+      call extend(g:spacevim.excluded, s:to_a(a:arg['exclude']))
     else
       throw 'Invalid option (expected: exclude)'
     endif
@@ -100,67 +100,72 @@ function! s:parse_options(arg)
   endif
 endfunction
 
-function! s:my_plugin(plugin, ...)
+" This is an only one possible extra argument: plug option, dict
+function! s:my_plugin(plugin, ...) abort
   if index(g:spacevim.plugins, a:plugin) < 0
     call add(g:spacevim.plugins, a:plugin)
   endif
   if a:0 == 1
     let s:plug_options[a:plugin] = a:1
+    if has_key(a:1, 'on_event')
+      let l:group = 'load/'.a:plugin
+      let l:name = split(a:plugin, '/')[1]
+      let l:events = join(s:to_a(a:1.on_event), ',')
+      let l:load = printf("call plug#load('%s')", l:name)
+      execute "augroup" l:group
+      autocmd!
+      execute 'autocmd' l:events '*' l:load '|' 'autocmd!' l:group
+      execute 'augroup END'
+    endif
   endif
 endfunction
 
-function! s:Source(file)
+function! s:Source(file) abort
   try
     execute 'source ' . fnameescape(a:file)
   catch
+    echom v:exception
     call spacevim#cache#init()
   endtry
 endfunction
 
-function! s:path(path)
+function! s:path(path) abort
   return substitute(a:path, '/', '\', 'g')
 endfunction
 
 function! spacevim#end() abort
-
   " Backward compatibility
-  if exists('*Layers')
-    call Layers()
-  endif
+  if exists('*Layers') | call Layers() | endif
 
   call s:register_plugin()
-
   " Make vim-better-default settings can be overrided
   silent! runtime! plugin/default.vim
 
   call s:config()
-  if exists('*UserConfig')
-    call UserConfig()
-  endif
-  call s:post_user_config()
+  if exists('*UserConfig') | call UserConfig() | endif
+
+  call s:check_missing_plugins()
+  silent doautocmd <nomodeline> User SpacevimAfterUserConfig
 endfunction
 
-function! s:register_plugin()
-  if !exists('g:spacevim_plug_home')
-    " https://github.com/junegunn/vim-plug/issues/559
-    let g:spacevim_plug_home = g:spacevim.nvim ? '~/.local/share/nvim/plugged' : '~/.vim/plugged/'
-  endif
-
-  call plug#begin(g:spacevim_plug_home)
-
+" Initialize vim-plug system
+function! s:register_plugin() abort
+  " https://github.com/junegunn/vim-plug/issues/559
+  call plug#begin(get(g:, 'spacevim_plug_home',
+        \ g:spacevim.nvim ? '~/.local/share/nvim/plugged' : '~/.vim/plugged/'))
   call s:packages()
-
-  call s:filter_plugins()
-  call s:invoke_plug()
-
-  if exists('*UserInit')
-    call UserInit()
-  endif
-
+  " Register non-excluded plugins
+  function! s:filter_and_register(val) abort
+    if index(g:spacevim.excluded, a:val) < 0
+      call plug#(a:val, get(s:plug_options, a:val, ""))
+    endif
+  endfunction
+  call map(copy(g:spacevim.plugins), 's:filter_and_register(v:val)')
+  if exists('*UserInit') | call UserInit() | endif
   call plug#end()
 endfunction
 
-function! s:packages()
+function! s:packages() abort
   " Load Layer packages
   for l:layer in g:spacevim.loaded
     try
@@ -173,76 +178,38 @@ function! s:packages()
 
   " Try private Layer packages
   if exists('g:spacevim.private')
-    for l:private_layer in g:spacevim.private
-      let l:private_layer_packages = g:spacevim.base . '/private/' . l:private_layer . '/packages.vim'
-      if filereadable(expand(l:private_layer_packages))
-        execute 'source ' . fnameescape(l:private_layer_packages)
-      endif
-    endfor
+    call map(copy(g:spacevim.private), 's:Source(g:spacevim.base ."/private/".v:val."/packages.vim")')
   endif
 
   " Load private packages
-  let l:private_packages = g:spacevim.base . '/private/packages.vim'
-  if filereadable(expand(l:private_packages))
-    execute 'source ' . fnameescape(l:private_packages)
-  endif
+  if filereadable(expand(s:private_packages)) | call s:Source(s:private_packages) | endif
 endfunction
 
-function! s:filter_plugins()
-  call filter(g:spacevim.plugins, 'index(g:spacevim.excluded, v:val) < 0')
-endfunction
-
-function! s:invoke_plug()
-  for l:plugin in g:spacevim.plugins
-    call plug#(l:plugin, get(s:plug_options, l:plugin, ''))
-  endfor
-endfunction
-
-function! s:config()
+function! s:config() abort
   " Load Layer config
-  for l:layer in g:spacevim.loaded
-    call s:Source(g:spacevim.manifest[l:layer].dir . '/config.vim')
-  endfor
+  cal map(copy(g:spacevim.loaded), 's:Source(g:spacevim.manifest[v:val].dir . "/config.vim")')
 
   " Try private Layer config
   if exists('g:spacevim.private')
-    for l:private_layer in g:spacevim.private
-      let l:private_layer_config = g:spacevim.base . '/private/' . l:private_layer . '/config.vim'
-      if filereadable(expand(l:private_layer_config))
-        execute 'source ' . fnameescape(l:private_layer_config)
-      endif
-    endfor
+    call map(copy(g:spacevim.private), 's:Source(g:spacevim.base ."/private/".v:val."/config.vim")')
   endif
 
   " Load private config
-  let l:private_config = g:spacevim.base . '/private/config.vim'
-  if filereadable(expand(l:private_config))
-    execute 'source ' . fnameescape(l:private_config)
-  endif
+  if filereadable(expand(s:private_config)) | call s:Source(s:private_config) | endif
 endfunction
 
-function! s:post_user_config()
-  " airline {
-  if !exists('g:airline_powerline_fonts')
-    let g:airline_left_sep=''
-    let g:airline_right_sep=''
-    if !g:spacevim.os.windows
-      let g:airline_synbols = g:spacevim#plug#airline#symbols
-    endif
+function! s:check_missing_plugins() abort
+  if g:spacevim.timer
+      call timer_start(1500, 'spacevim#vim#plug#check')
+  else
+    augroup checkPlug
+      autocmd!
+      autocmd VimEnter * call spacevim#vim#plug#check()
+    augroup END
   endif
-  " }
-  " https://github.com/junegunn/vim-plug/wiki/extra#automatically-install-missing-plugins-on-startup
-  augroup checkPlug
-    autocmd!
-    autocmd VimEnter *
-      \  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
-      \|   echom '[space-vim] Some layers need to install the missing plugins first!'
-      \|   PlugInstall --sync | q
-      \| endif
-  augroup END
 endfunction
 
 " Util for config.vim and packages.vim
 function! spacevim#load(layer) abort
-    return index(g:spacevim.loaded, a:layer) > -1 ? 1 : 0
+  return index(g:spacevim.loaded, a:layer) > -1 ? 1 : 0
 endfunction
