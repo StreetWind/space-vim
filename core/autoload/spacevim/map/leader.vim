@@ -20,6 +20,7 @@ let g:spacevim#map#leader#desc[' '] = {
       \ '7' : 'tab-7'  ,
       \ '8' : 'tab-8'  ,
       \ '9' : 'tab-9'  ,
+      \ 'c' : ['tabclose', 'close-current-tab'],
       \ }
 
 let g:spacevim#map#leader#desc['a'] = {
@@ -142,6 +143,10 @@ let g:spacevim#map#leader#desc['p'] = {
       \ 'f' : ['spacevim#plug#fzf#FindFileInProject()' , 'find-file-in-project']  ,
       \ 's' : ['Rag'                                        , 'search-in-project']     ,
       \ 'w' : ['spacevim#plug#fzf#SearchCword()'       , 'find-cword-in-project'] ,
+      \ }
+
+let g:spacevim#map#leader#desc['r'] = {
+      \ 'c' : 'replace-current-word-in-current-file',
       \ }
 
 let g:spacevim#map#leader#desc['q'] = [ 'q', 'quit' ]

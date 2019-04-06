@@ -144,6 +144,12 @@ function! spacevim#end() abort
   call s:config()
   if exists('*UserConfig') | call UserConfig() | endif
 
+  try
+    helptags $HOME/work/vimconfig/core/doc
+  catch
+    echom v:exception
+  endtry
+
   call s:check_missing_plugins()
   silent doautocmd <nomodeline> User SpacevimAfterUserConfig
 endfunction
@@ -212,4 +218,14 @@ endfunction
 " Util for config.vim and packages.vim
 function! spacevim#load(layer) abort
   return index(g:spacevim.loaded, a:layer) > -1 ? 1 : 0
+endfunction
+
+" Return true if any layer in layers is loaded.
+function! spacevim#load_any(...) abort
+  for layer in a:000
+    if index(g:spacevim.loaded, layer) >= 0
+      return 1
+    endif
+  endfor
+  return 0
 endfunction

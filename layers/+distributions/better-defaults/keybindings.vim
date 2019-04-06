@@ -1,6 +1,9 @@
 " Reload .vimrc
 nnoremap <Leader>fR :source $MYVIMRC<CR>
 
+" Replace the word under cursor in current file
+nnoremap <leader>rc :%s/\<<C-r><C-w>\>/
+
 " Use Tab to switch buffer
 " nnoremap <Tab> :bn<CR>
 nnoremap <S-Tab> :bp<CR>
@@ -16,11 +19,13 @@ imap   <M-Tab>  <C-O>:tabprev<CR>
 
 for s:i in range(1, 9)
   " <Leader>[1-9] move to window [1-9]
-  execute 'nnoremap <Leader>' . s:i . ' :' . s:i . 'wincmd w<CR>'
+  execute 'nnoremap <Leader>'.s:i ' :'.s:i.'wincmd w<CR>'
+
   " <Leader><leader>[1-9] move to tab [1-9]
-  execute 'nnoremap <Leader><Leader>' . s:i . ' ' . s:i . 'gt'
+  execute 'nnoremap <Leader><Leader>'.s:i s:i.'gt'
+
   " <Leader>b[1-9] move to buffer [1-9]
-  execute 'nnoremap <Leader>b' . s:i . ' :b' . s:i . '<CR>'
+  execute 'nnoremap <Leader>b'.s:i ':b'.s:i.'<CR>'
 endfor
 unlet s:i
 
@@ -53,8 +58,3 @@ nnoremap <Leader>tC :call spacevim#vim#toggle#ColorColumn()<CR>
 
 command! -bar -nargs=0 Rtp :call spacevim#util#Runtimepath()
 command! -nargs=? Grep :call spacevim#vim#grep#Grep(<q-args>)
-
-augroup spacevimGUI
-  autocmd!
-  autocmd GUIEnter * nnoremap <Leader>wm :call spacevim#vim#gui#ToggleFullScreen()<CR>
-augroup END

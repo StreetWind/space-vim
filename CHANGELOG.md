@@ -5,6 +5,24 @@ CHANGELOG
 
 ### Added
 
+- a command line mapping to mimic `<C-R>` in bash via `:History:`.
+- more file extensions highlight for nerdtree.
+- add `g:spacevim_lsp_engine` to specify which LSP plugin to use: `coc`, `lcn` or `vim_lsp`.
+- add `g:spacevim_disable_nerdtree_arrow_icons` to disable nerdtree arrow icons.
+- add `g:spacevim_nerd_fonts` to use more pretty icons in nerdtree when using nerd fonts.
+
+### Changed
+
+- try to wrap fzf and unite.
+
+### Removed
+
+- `g:spacevim_lsp_prefer_coc`. Use `g:spacevim_lsp_engine` instead.
+
+## [0.9.0] - 2018.12.28
+
+### Added
+
 - a smooth prompt for missing plugins.
 - infer the executable from the shebang, e.g., `#!/usr/bin/env python3`.
 - visual ag and rg search based on fzf.
@@ -13,6 +31,7 @@ CHANGELOG
 - introduce `on_event` to simplify lazy loading based on events.(#351)
 - `haskell` layer
 - `g:spacevim_lsp_prefer_coc`, add [coc.nvim](https://github.com/neoclide/coc.nvim) support for lsp layer.
+- `spacevim#vim#term#Run()` could be used for running programms asynchronously.
 
 ### Changed
 
@@ -21,6 +40,7 @@ CHANGELOG
 - optimize `core/autoload/spacevim.vim`.(#336)
 - load `editorconfig-vim` via timer instead of on-demand loading.
 - replace `vim-leaderGuide` with `vim-which-key`.
+- replace `wannesm/wmgraphviz.vim` with `liuchengxu/graphviz.vim`.
 
 ### Removed
 
