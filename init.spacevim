@@ -11,9 +11,9 @@ let g:spacevim_plug_home = '~/.vim/plugged'
 " Enable the existing layers in space-vim.
 " Refer to https://github.com/liuchengxu/space-vim/blob/master/layers/LAYERS.md for all available layers.
 let g:spacevim_layers = [
-      \ 'fzf', 'better-defaults',
+      \ 'fzf', 'better-defaults', 
       \ 'which-key', 'git', 'github', 'syntax-checking', 'editing', 'programming', 'file-manager', 'code-snippets','formatting',
-      \ 'ycmd', 'python', 'markdown' , 'go'
+      \ 'ycmd', 'python', 'markdown','go' 
       \ ]
 
 " Uncomment the following line if your terminal(-emulator) supports true colors.
