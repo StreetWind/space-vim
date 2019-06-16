@@ -2,6 +2,9 @@
 " fzf or leaderf
 " ----------------------------------------------
 function! s:dispatch(...) abort
+  if !exists('g:loaded_fzf')
+    call plug#load('fzf', 'fzf.vim')
+  endif
   if a:0 == 2
     " FIXME better configurable
     let prefer_fzf = 1
@@ -17,7 +20,8 @@ function! spacevim#wrap#fzf#File() abort
 endfunction
 
 function! spacevim#wrap#fzf#Buffers() abort
-  call s:dispatch('Buffers', 'LeaderfBuffer')
+  " Use custom Buffers
+  call s:dispatch('call spacevim#plug#fzf_base#buffers()', 'LeaderfBuffer')
 endfunction
 
 function! spacevim#wrap#fzf#BLines() abort

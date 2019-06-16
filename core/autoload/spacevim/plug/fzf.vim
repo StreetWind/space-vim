@@ -1,4 +1,35 @@
+let s:has_floating_win = exists('*nvim_open_win')
 let g:fzf_layout = get(g:, 'fzf_layout', {'down': '~40%'})
+
+function! spacevim#plug#fzf#FloatingWin()
+  let height = &lines - 3
+  let width = float2nr(&columns - (&columns * 2 / 10))
+  let col = float2nr((&columns - width) / 2)
+
+  let col_offset = &columns / 6
+
+  let opts = {
+        \ 'relative': 'editor',
+        \ 'row': height * 0.3,
+        \ 'col': col + col_offset,
+        \ 'width': width * 2 / 3,
+        \ 'height': height / 2
+        \ }
+
+  let buf = nvim_create_buf(v:false, v:true)
+
+  let win = nvim_open_win(buf, v:true, opts)
+
+  call setwinvar(win, '&winhl', 'Normal:Pmenu')
+
+  setlocal
+        \ buftype=nofile
+        \ nobuflisted
+        \ bufhidden=hide
+        \ nonumber
+        \ norelativenumber
+        \ signcolumn=no
+endfunction
 
 function! s:fzf(name, opts, extra)
   call spacevim#plug#fzf_base#Run(a:name, a:opts, a:extra)
@@ -24,12 +55,15 @@ function! spacevim#plug#fzf#Open(...)
         \ '~/.zshrc',
         \ '~/.tmux.conf'
         \ ]
-  return s:fzf('open', {
+  let opts = {
         \ 'source': l:open,
         \ 'sink': 'e',
         \ 'options': '+m --prompt="Open> "',
-        \ 'window': len(l:open)+2.'new'},
-        \ a:000)
+        \ }
+  if !s:has_floating_win
+    let opts.window = len(l:open)+2.'new'
+  endif
+  return s:fzf('open', opts, a:000)
 endfunction
 
 " ------------------------------------------------------------------
@@ -38,11 +72,14 @@ endfunction
 function! spacevim#plug#fzf#Rtp()
   let l:rtps = split(&runtimepath, ',')
   let l:size = len(l:rtps)>20 ? 20 : len(l:rtps)
-  return s:fzf('runtimepaths', {
+  let opts = {
         \ 'source': l:rtps,
         \ 'options': '+m --prompt="Rtp> "',
-        \ 'window': l:size.'new'},
-        \ a:000)
+        \ }
+  if !s:has_floating_win
+    let opts.window = l:size.'new'
+  endif
+  return s:fzf('runtimepaths', opts, a:000)
 endfunction
 
 " ------------------------------------------------------------------
@@ -54,12 +91,15 @@ function! spacevim#plug#fzf#Oldfiles()
   redir END
   let l:olds = split(out, "\n")
   let l:size = len(l:olds)>20 ? 20 : len(l:olds)
-  return s:fzf('oldfiles', {
+  let opts = {
         \ 'source': l:olds,
         \ 'sink': 'e',
         \ 'options': '+m --prompt="Oldfiles> "',
-        \ 'window': l:size.'new'},
-        \ a:000)
+        \ }
+  if !s:has_floating_win
+    let opts.window = l:size.'new'
+  endif
+  return s:fzf('oldfiles', opts, a:000)
 endfunction
 
 let s:nbs = nr2char(0x2007)
@@ -188,7 +228,7 @@ function! spacevim#plug#fzf#Vsearch()
   call s:ag(spacevim#util#VisualSelection())
 endfunction
 
-function! spacevim#plug#fzf#Rg(query, bang)
+function! spacevim#plug#fzf#Rg(query, bang) abort
   if !executable('rg')
     return spacevim#util#warn('rg is not found')
   endif
@@ -201,26 +241,34 @@ function! spacevim#plug#fzf#Rg(query, bang)
         \ )
 endfunction
 
-function! spacevim#plug#fzf#RgVisual()
-  let l:query = spacevim#util#VisualSelection()
+function! s:rg(query) abort
   call fzf#vim#grep(
-        \ 'rg --column --line-number --no-heading --color=always --smart-case '.l:query, 1,
+        \ 'rg --column --line-number --no-heading --color=always --smart-case '.a:query, 1,
         \ )
 endfunction
 
+function! spacevim#plug#fzf#RgVisual() abort
+  let l:query = spacevim#util#VisualSelection()
+  call s:rg(l:query)
+endfunction
+
+function! spacevim#plug#fzf#RgCursorWord() abort
+  call s:rg(expand('<cword>'))
+endfunction
+
 " Search word under cursor in current buffer
-function! spacevim#plug#fzf#SearchBcword()
+function! spacevim#plug#fzf#SearchBcword() abort
   call fzf#vim#buffer_lines(expand('<cword>'),{'options': '--prompt "?'.expand('<cword>').'> "'})
 endfunction
 
 " ------------------------------------------------------------------
 " Jumps incompleted, sink is wrong
 " ------------------------------------------------------------------
-function! s:format_jump(line)
+function! s:format_jump(line) abort
   return substitute(a:line, '\S', '\=s:yellow(submatch(0))', '')
 endfunction
 
-function! s:jump_sink(lines)
+function! s:jump_sink(lines) abort
   if len(a:lines) < 2
     return
   endif

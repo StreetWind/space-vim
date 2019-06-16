@@ -1,7 +1,7 @@
-nnoremap <Leader>ff :<c-u>call spacevim#wrap#fzf#Files()<CR>
-nnoremap <Leader>bb :<c-u>call spacevim#wrap#fzf#Buffers()<CR>
-nnoremap <Leader>fl :<c-u>call spacevim#wrap#fzf#BLines()<CR>
-nnoremap <Leader>fL :<c-u>call spacevim#wrap#fzf#BLinesAll()<CR>
+nnoremap <silent><Leader>ff :<c-u>call spacevim#wrap#fzf#Files()<CR>
+nnoremap <silent><Leader>bb :<c-u>call spacevim#wrap#fzf#Buffers()<CR>
+nnoremap <silent><Leader>fl :<c-u>call spacevim#wrap#fzf#BLines()<CR>
+nnoremap <silent><Leader>fL :<c-u>call spacevim#wrap#fzf#BLinesAll()<CR>
 
 if g:spacevim.gui && !has('terminal')
   " LeaderF {
@@ -13,22 +13,31 @@ else
   " fzf.vim {
   " Refer to https://github.com/liuchengxu/space-vim/issues/364
   let $LANG = 'en_US.UTF-8'
-  " Customize fzf colors to match your color scheme
-  " Only suitable for space-vim-dark theme, other themes are not guaranteed.
-  let g:fzf_colors = {
-              \ 'fg':      ['fg', 'StatusLineNC'],
-              \ 'bg':      ['bg', 'Normal'],
-              \ 'hl':      ['fg', 'String'],
-              \ 'fg+':     ['fg', 'Number', 'Normal'],
-              \ 'bg+':     ['bg', 'StatusLine', 'Normal'],
-              \ 'hl+':     ['fg', 'Exception'],
-              \ 'info':    ['fg', 'Special'],
-              \ 'prompt':  ['fg', 'Function'],
-              \ 'pointer': ['fg', 'Error'],
-              \ 'marker':  ['fg', 'Error'],
-              \ 'spinner': ['fg', 'Statement'],
-              \ 'header':  ['fg', 'Number'],
-              \   }
+
+  if exists('*nvim_open_win')
+    let $FZF_DEFAULT_OPTS = '--layout=reverse'
+    let g:fzf_layout = { 'window': 'call spacevim#plug#fzf#FloatingWin()' }
+  else
+    " g:fzf_colors would reset the highlight even you have set the highlight
+    " of floating window explicitly.
+    "
+    " Customize fzf colors to match your color scheme
+    " Only suitable for space-vim-dark theme, other themes are not guaranteed.
+    let g:fzf_colors = {
+                \ 'fg':      ['fg', 'StatusLineNC'],
+                \ 'bg':      ['bg', 'Normal'],
+                \ 'hl':      ['fg', 'String'],
+                \ 'fg+':     ['fg', 'Number', 'Normal'],
+                \ 'bg+':     ['bg', 'StatusLine', 'Normal'],
+                \ 'hl+':     ['fg', 'Exception'],
+                \ 'info':    ['fg', 'Special'],
+                \ 'prompt':  ['fg', 'Function'],
+                \ 'pointer': ['fg', 'Error'],
+                \ 'marker':  ['fg', 'Error'],
+                \ 'spinner': ['fg', 'Statement'],
+                \ 'header':  ['fg', 'Number'],
+                \   }
+  endif
 
   " fzf.vim doesn't enable preview feature by default.
   command! -bang -nargs=* Ag

@@ -87,6 +87,11 @@ endfunction
 " goto
 " ---------------------------------------------
 function! spacevim#lang#util#Definition() abort
+  if &filetype ==# 'vim'
+    call spacevim#lang#vim#Goto()
+    return
+  endif
+
   if s:engine == 'coc'
     call CocAction('jumpDefinition')
     return
