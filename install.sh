@@ -14,8 +14,8 @@ set -eo pipefail
 #   Thanks for spf13-vim.
 
 app_name='space-vim'
-dot_spacevim="$HOME/.spacevim"
-[ -z "$APP_PATH" ] && APP_PATH="$HOME/.space-vim"
+dot_spacevim="$HOME/work/vimconfig"
+[ -z "$APP_PATH" ] && APP_PATH="$HOME/work/vimconfig"
 [ -z "$REPO_URI" ] && REPO_URI='https://github.com/StreetWind/space-vim.git'
 [ -z "$REPO_BRANCH" ] && REPO_BRANCH='master'
 debug_mode='0'
@@ -26,7 +26,7 @@ debug_mode='0'
 app_name="space-vim"
 repo_uri="https://github.com/StreetWind/space-vim.git"
 repo_name="space-vim"
-repo_path="$HOME/.space-vim"
+repo_path="$HOME/work/vimconfig"
 repo_branch="master"
 _all=
 _vim=
@@ -112,8 +112,8 @@ install_plugins() {
 }
 
 generate_dot_spacevim() {
-  if [ ! -f "$HOME/.spacevim" ]; then
-    cp "$HOME/.space-vim/init.spacevim" "$HOME/.spacevim"
+  if [ ! -f "$HOME/work/vimconfig" ]; then
+    cp "$HOME/work/vimconfig/init.spacevim" "$HOME/.spacevim"
 
     ret="$?"
     success "Successfully generated .spacevim in your home directory"
@@ -140,7 +140,7 @@ install_for_vim() {
   ret="$?"
   success "Successfully downloaded vim-plug"
 
-  ln -sf "$HOME/.space-vim/init.vim" "$HOME/.vimrc"
+  ln -sf "$HOME/work/vimconfig/init.vim" "$HOME/.vimrc"
   generate_dot_spacevim
 
   install_plugins "vim"
